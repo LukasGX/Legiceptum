@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://lexora.local/schemas/summary.schema.json",
-	"title": "Lexora Legal Summary",
+	"$id": "https://legiceptum.local/schemas/summary.schema.json",
+	"title": "Legiceptum Legal Summary",
 	"description": "Structured summary of a German legal provision with traceable references to the original legal text.",
 	"type": "object",
 	"additionalProperties": false,

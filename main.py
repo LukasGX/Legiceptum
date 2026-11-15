@@ -59,7 +59,7 @@ app = FastAPI(lifespan=lifespan)
 app.add_middleware(
     SessionMiddleware,
     secret_key=os.environ["SECRET_KEY"],
-    session_cookie="lexora_session",
+    session_cookie="legiceptum_session",
     max_age=60 * 60 * 24 * 7,
     same_site="lax",
     https_only=True,
@@ -73,7 +73,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 LAWS_BASE_DIR = Path("./laws")
 GLOBAL_TITLE_INDEX: list[dict] = []
-SESSION_COOKIE = "lexora_session"
+SESSION_COOKIE = "legiceptum_session"
 
 @app.get("/")
 async def index(request: Request):

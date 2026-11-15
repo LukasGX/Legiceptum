@@ -3,7 +3,7 @@ from pathlib import Path
 from contextlib import contextmanager
 
 DATABASE_DIR = Path(__file__).resolve().parent
-DATABASE_PATH = DATABASE_DIR / "lexora.db"
+DATABASE_PATH = DATABASE_DIR / "legiceptum.db"
 
 
 def initialize_database():

@@ -1,10 +1,10 @@
 from fastapi import Request, HTTPException, status
 from auth import get_session_user
 
-SESSION_COOKIE = "lexora_session"
+SESSION_COOKIE = "legiceptum_session"
 
 def get_user(request: Request):
-    token = request.cookies.get("lexora_session")
+    token = request.cookies.get("legiceptum_session")
 
     if not token:
         return None
