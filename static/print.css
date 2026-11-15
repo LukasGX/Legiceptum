@@ -1,0 +1,51 @@
+@media print {
+	aside.nav {
+		display: none !important;
+	}
+
+	.head {
+		background: white !important;
+		border: none !important;
+		padding: 0 !important;
+		box-shadow: none !important;
+	}
+
+	.head p {
+		margin-left: 2rem;
+	}
+
+	#bookmark-icon {
+		display: none !important;
+	}
+
+	html,
+	body {
+		height: auto !important;
+		overflow: visible !important;
+	}
+
+	main {
+		display: block !important;
+		height: auto !important;
+		overflow: visible !important;
+	}
+
+	main > * {
+		height: auto !important;
+		max-height: none !important;
+		overflow: visible !important;
+	}
+
+	html,
+	body {
+		background: white !important;
+	}
+
+	#content {
+		background: white !important;
+	}
+
+	@page {
+		margin: 20mm;
+	}
+}
