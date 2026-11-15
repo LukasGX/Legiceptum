@@ -24371,12 +24371,12 @@
                     }
                 },
                 {
-                    "text": "§ 31 Absatz 4a Satz 1",
+                    "text": "§ 31 Absatz 4a Satz 1 des Geldwäschegesetzes",
                     "start": 738,
-                    "end": 759,
+                    "end": 782,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00031"
+                        "book": "gwg",
+                        "law": "gwg-00031"
                     },
                     "fragment": {
                         "paragraph": "4a",

@@ -12929,12 +12929,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 2",
+                    "text": "§ 2 des Geldwäschegesetzes",
                     "start": 65,
-                    "end": 68,
+                    "end": 91,
                     "target": {
-                        "book": "stgb",
-                        "law": "stgb-00002"
+                        "book": "gwg",
+                        "law": "gwg-00002"
                     },
                     "fragment": null
                 }
