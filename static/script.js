@@ -56,3 +56,19 @@ toggle.addEventListener("click", () => {
 
 	toggle.setAttribute("aria-expanded", open);
 });
+
+// bookmark icon
+const bookmarkIcon = document.getElementById("bookmark-icon");
+
+if (bookmarkIcon) {
+	bookmarkIcon.addEventListener("click", async () => {
+		const response = await fetch(`/bookmark/${LAW_ID}`, {
+			method: "POST"
+		});
+
+		const data = await response.json();
+
+		bookmarkIcon.classList.toggle("fa-solid", data.bookmarked);
+		bookmarkIcon.classList.toggle("fa-regular", !data.bookmarked);
+	});
+}

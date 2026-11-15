@@ -73,7 +73,11 @@
 							<span class="paragraph-name">{{ p.name }}</span>
 							{% endif %}
 						</div>
-						<i class="fa-solid fa-chevron-right"></i>
+						<div class="icon-group">
+							<i
+								class="{% if p.bookmarked %}fa-solid{% else %}fa-regular{% endif %} fa-bookmark"></i>
+							<i class="fa-solid fa-chevron-right"></i>
+						</div>
 					</button>
 					{% endfor %}
 				</section>

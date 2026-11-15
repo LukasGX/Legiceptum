@@ -18,6 +18,15 @@
 	<span>Benutzerkonto</span>
 </button>
 
+<button
+	class="law-book {% if active_book == 'bookmarks' %}active{% endif %}"
+	data-id="bookmarks"
+	title="Lesezeichen"
+	onclick="window.location.href='/bookmarks'">
+	<i class="fa-solid fa-bookmark"></i>
+	<span>Lesezeichen</span>
+</button>
+
 <div class="spacer"></div>
 
 {% for law in laws %}

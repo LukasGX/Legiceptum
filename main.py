@@ -4,7 +4,7 @@ import json
 import os
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Form
+from fastapi import Depends, FastAPI, Form
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -15,8 +15,8 @@ from starlette.middleware.sessions import SessionMiddleware
 from pathlib import Path
 
 from auth import authenticate_user, create_session, register_user, revoke_session
-from database.db import initialize_database
-from dependencies import get_current_user, get_user
+from database.db import get_db, initialize_database
+from dependencies import get_current_user, get_optional_user, get_user
 
 load_dotenv()
 
@@ -88,7 +88,11 @@ async def index(request: Request):
     )
 
 @app.get("/book/{book}")
-async def book(request: Request, book: str):
+async def book(
+    request: Request,
+    book: str,
+    user = Depends(get_optional_user)
+):
     file = Path(LAWS_BASE_DIR, book + ".json")
 
     if not file.is_file():
@@ -99,6 +103,25 @@ async def book(request: Request, book: str):
 
     date = datetime.strptime(bc["updated"], "%Y-%m-%d")
     formatted = date.strftime("%d.%m.%Y")
+
+    if user is not None:
+        with get_db() as db:
+            bookmarks = {
+                row["law_id"]
+                for row in db.execute(
+                    """
+                    SELECT law_id FROM bookmarks
+                    WHERE user_id = ?
+                    """,
+                    (user["id"],)
+                ).fetchall()
+            }
+
+        for law in bc["laws"]:
+            law["bookmarked"] = law["id"] in bookmarks
+    else:
+        for law in bc["laws"]:
+            law["bookmarked"] = False
 
     return templates.TemplateResponse(
         request=request,
@@ -113,7 +136,12 @@ async def book(request: Request, book: str):
     )
 
 @app.get("/law/{id}")
-async def get_law(request: Request, id: str, highlight: str | None = None):
+async def get_law(
+    request: Request,
+    id: str,
+    highlight: str | None = None,
+    user = Depends(get_optional_user)
+):
     splitted = id.split("-", 2)
     book = splitted[0]
 
@@ -150,6 +178,24 @@ async def get_law(request: Request, id: str, highlight: str | None = None):
             if link["source"] == id
         ]
 
+    # bookmark
+    if user is not None:
+        with get_db() as db:
+            user_id = user["id"]
+
+            bookmark = db.execute(
+                """
+                SELECT 1 FROM bookmarks
+                WHERE user_id = ? AND law_id = ?
+                """,
+                (user_id, law["id"])
+            ).fetchone()
+
+            if bookmark: bookmarked = True
+            else: bookmarked = False
+    else:
+        bookmarked = False
+
     return templates.TemplateResponse(
         request=request,
         name="law.html",
@@ -157,6 +203,7 @@ async def get_law(request: Request, id: str, highlight: str | None = None):
             "user": get_user(request),
             "laws": all_books(),
             "active_book": content["id"],
+            "bookmarked": bookmarked,
             "law": law,
             "highlight": highlight,
             "law_links": law_links,
@@ -365,3 +412,89 @@ async def logout_post(request: Request):
     )
 
     return response
+
+@app.post("/bookmark/{law_id}")
+def toggle_bookmark(
+    law_id: str,
+    user: dict = Depends(get_current_user)
+):
+    with get_db() as db:
+        user_id = user["id"]
+
+        # Prüfen, ob das Bookmark bereits existiert
+        bookmark = db.execute(
+            """
+            SELECT 1 FROM bookmarks
+            WHERE user_id = ? AND law_id = ?
+            """,
+            (user_id, law_id)
+        ).fetchone()
+
+        if bookmark:
+            db.execute(
+                """
+                DELETE FROM bookmarks
+                WHERE user_id = ? AND law_id = ?
+                """,
+                (user_id, law_id)
+            )
+            db.commit()
+
+            return {"bookmarked": False}
+
+        db.execute(
+            """
+            INSERT INTO bookmarks (user_id, law_id)
+            VALUES (?, ?)
+            """,
+            (user_id, law_id)
+        )
+        db.commit()
+
+        return {"bookmarked": True}
+
+@app.get("/bookmarks")
+async def bookmarks(
+    request: Request,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        rows = db.execute(
+            """
+            SELECT law_id FROM bookmarks
+            WHERE user_id = ?
+            ORDER BY created_at DESC
+            """,
+            (user["id"],)
+        ).fetchall()
+
+    bookmarked_ids = {row["law_id"] for row in rows}
+
+    results = []
+
+    for book in all_books():
+        for law in book["laws"]:
+            if law["id"] not in bookmarked_ids:
+                continue
+
+            results.append({
+                "id": law["id"],
+                "nr": law["nr"],
+                "name": law.get("name", ""),
+                "prefix": book.get("prefix", ""),
+                "no_prefix": law.get("no_prefix", False),
+                "book_abbr": book["abbr"],
+                "book_name": book["name"],
+                "url": f"/law/{law['id']}"
+            })
+
+    return templates.TemplateResponse(
+        request=request,
+        name="bookmarks.html",
+        context={
+            "user": user,
+            "laws": all_books(),
+            "active_book": "bookmarks",
+            "bookmarks": results
+        }
+    )

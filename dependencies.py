@@ -1,4 +1,4 @@
-from fastapi import Request, HTTPException, status
+from fastapi import Depends, Request, HTTPException, status
 from auth import get_session_user
 
 SESSION_COOKIE = "legiceptum_session"
@@ -22,3 +22,11 @@ async def get_current_user(request: Request):
         )
 
     return user
+
+async def get_optional_user(request: Request):
+    token = request.cookies.get(SESSION_COOKIE)
+
+    if not token:
+        return None
+
+    return get_session_user(token)

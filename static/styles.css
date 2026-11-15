@@ -246,6 +246,25 @@ aside.nav .spacer {
 }
 
 /* Heading */
+.law-heading .h1-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.law-heading .h1-group i {
+	font-size: 1.5rem;
+}
+
+#bookmark-icon {
+	cursor: pointer;
+	transition: 225ms ease;
+}
+
+#bookmark-icon:hover {
+	color: var(--text-muted);
+}
+
 .law-heading h1 {
 	margin: 0;
 	font-size: 2rem;
@@ -304,9 +323,26 @@ aside.nav .spacer {
 	color: var(--text);
 }
 
-.paragraph > i {
+.paragraph i {
 	color: var(--text-muted);
 	font-size: 0.8rem;
+}
+
+.paragraph .icon-group {
+	display: flex;
+	gap: 1rem;
+}
+
+.paragraph-ind .sub {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.paragraph-ind .paragraph-book {
+	display: block;
+	color: var(--text-muted);
+	font-size: 0.85rem;
 }
 
 /* Law elements */
@@ -742,6 +778,153 @@ main > div::-webkit-scrollbar-thumb {
 	justify-content: center;
 }
 
+/* Bookmark page */
+.bookmark-page {
+	width: min(100%, 1000px);
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+.page-header h1 {
+	margin: 0;
+	font-size: 2rem;
+	color: var(--text);
+}
+
+.page-header p {
+	color: var(--text-muted);
+	margin: 0.5rem 0 0;
+}
+
+.bookmark-count {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	white-space: nowrap;
+	padding: 0.65rem 1rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	color: var(--text-muted);
+	font-size: 0.9rem;
+}
+
+.bookmark-count i {
+	color: var(--primary-dark);
+}
+
+.bookmark-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.65rem;
+}
+
+.bookmark-item {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem 1.2rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	text-decoration: none;
+	color: inherit;
+	transition:
+		background 0.15s,
+		border-color 0.15s,
+		transform 0.15s;
+}
+
+.bookmark-item:hover {
+	background: var(--surface-hover);
+	border-color: var(--primary-dark);
+	transform: translateY(-1px);
+}
+
+.bookmark-icon {
+	display: grid;
+	place-items: center;
+	width: 2.6rem;
+	height: 2.6rem;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: var(--bg);
+	color: var(--text);
+	font-size: 1.05rem;
+}
+
+.bookmark-info {
+	flex: 1;
+	min-width: 0;
+}
+
+.bookmark-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	color: var(--text-muted);
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+.meta-separator {
+	opacity: 0.5;
+}
+
+.bookmark-info h3 {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--text);
+}
+
+.bookmark-arrow {
+	color: var(--text-muted);
+	font-size: 0.85rem;
+}
+
+.bookmark-empty {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 5rem 2rem;
+	background: var(--surface);
+	border: 1px dashed var(--border);
+	border-radius: var(--radius);
+}
+
+.empty-icon {
+	display: grid;
+	place-items: center;
+	width: 4rem;
+	height: 4rem;
+	background: var(--bg);
+	border-radius: 50%;
+	font-size: 1.5rem;
+	margin-bottom: 1.2rem;
+}
+
+.bookmark-empty h2 {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+.bookmark-empty p {
+	max-width: 380px;
+	color: var(--text-muted);
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
 /* Responsive Design */
 .nav-toggle {
 	display: none;
@@ -824,5 +1007,20 @@ main > div::-webkit-scrollbar-thumb {
 	.account-button {
 		width: 100%;
 		box-sizing: border-box;
+	}
+}
+
+@media (max-width: 650px) {
+	.bookmark-page {
+		padding: 1.2rem;
+	}
+
+	.page-header {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.bookmark-item {
+		padding: 0.85rem;
 	}
 }

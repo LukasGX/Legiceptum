@@ -41,10 +41,15 @@
 					</nav>
 
 					<div class="law-heading">
-						<h1>
-							{{ book_prefix if not law.no_prefix }} {{ law.nr }}
-							{% if law.name %} {{ law.name }} {% endif %}
-						</h1>
+						<div class="h1-group">
+							<h1>
+								{{ book_prefix if not law.no_prefix }} {{ law.nr
+								}} {% if law.name %} {{ law.name }} {% endif %}
+							</h1>
+							<i
+								class="{% if bookmarked %}fa-solid{% else %}fa-regular{% endif %} fa-bookmark"
+								id="bookmark-icon"></i>
+						</div>
 
 						<p class="law-description">{{ book_name }}</p>
 					</div>
@@ -59,7 +64,7 @@
 		</main>
 
 		<script>
-			const activeBook = "{{ book_id }}";
+			const LAW_ID = "{{ law.id }}";
 		</script>
 		<script src="/static/script.js"></script>
 	</body>
