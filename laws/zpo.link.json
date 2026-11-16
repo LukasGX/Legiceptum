@@ -3677,12 +3677,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 611 Absatz 1 Satz 1",
+                    "text": "§ 611 Absatz 1 Satz 1 des Handelsgesetzbuchs",
                     "start": 147,
-                    "end": 168,
+                    "end": 191,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00611"
+                        "book": "hgb",
+                        "law": "hgb-00611"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -9475,12 +9475,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 611 Absatz 1 Satz 1",
+                    "text": "§ 611 Absatz 1 Satz 1 des Handelsgesetzbuchs",
                     "start": 61,
-                    "end": 82,
+                    "end": 105,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00611"
+                        "book": "hgb",
+                        "law": "hgb-00611"
                     },
                     "fragment": {
                         "paragraph": "1",

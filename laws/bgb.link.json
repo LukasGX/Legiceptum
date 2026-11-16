@@ -2487,12 +2487,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 267 Absatz 5",
+                    "text": "§ 267 Absatz 5 des Handelsgesetzbuchs",
                     "start": 34,
-                    "end": 48,
+                    "end": 71,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00267"
+                        "book": "hgb",
+                        "law": "hgb-00267"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -2513,12 +2513,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 267 Absatz 4a",
+                    "text": "§ 267 Absatz 4a des Handelsgesetzbuchs",
                     "start": 23,
-                    "end": 38,
+                    "end": 61,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00267"
+                        "book": "hgb",
+                        "law": "hgb-00267"
                     },
                     "fragment": {
                         "paragraph": "4a"
@@ -4757,12 +4757,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 377",
+                    "text": "§ 377 des Handelsgesetzbuchs",
                     "start": 0,
-                    "end": 5,
+                    "end": 28,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00377"
+                        "book": "hgb",
+                        "law": "hgb-00377"
                     },
                     "fragment": null
                 }
@@ -6217,12 +6217,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 377",
+                    "text": "§ 377 des Handelsgesetzbuchs",
                     "start": 0,
-                    "end": 5,
+                    "end": 28,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00377"
+                        "book": "hgb",
+                        "law": "hgb-00377"
                     },
                     "fragment": null
                 }
@@ -17120,12 +17120,22 @@
             ],
             "references": [
                 {
-                    "text": "§ 106 Absatz 1",
-                    "start": 306,
-                    "end": 320,
+                    "text": "§ 15 des Handelsgesetzbuchs",
+                    "start": 29,
+                    "end": 56,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00106"
+                        "book": "hgb",
+                        "law": "hgb-00015"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 106 Absatz 1 des Handelsgesetzbuchs",
+                    "start": 306,
+                    "end": 343,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00106"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -17299,12 +17309,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 107 Absatz 1",
+                    "text": "§ 107 Absatz 1 des Handelsgesetzbuchs",
                     "start": 126,
-                    "end": 140,
+                    "end": 163,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00107"
+                        "book": "hgb",
+                        "law": "hgb-00107"
                     },
                     "fragment": {
                         "paragraph": "1"

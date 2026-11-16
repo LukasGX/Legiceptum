@@ -920,6 +920,18 @@
                     }
                 },
                 {
+                    "text": "§ 290 Absatz 2 bis 4 des Handelsgesetzbuchs",
+                    "start": 425,
+                    "end": 468,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00290"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
                     "text": "§ 43 Absatz 1",
                     "start": 562,
                     "end": 575,
@@ -13663,6 +13675,30 @@
                             "9"
                         ]
                     }
+                }
+            ]
+        },
+        {
+            "source": "gwg-00056",
+            "element_path": [
+                4,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 340 des Handelsgesetzbuchs",
+                    "start": 104,
+                    "end": 132,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00340"
+                    },
+                    "fragment": null
                 }
             ]
         },
