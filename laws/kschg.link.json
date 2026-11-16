@@ -1,0 +1,1009 @@
+{
+    "version": 1,
+    "book": "kschg",
+    "links": [
+        {
+            "source": "kschg-00001",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 95 des Betriebsverfassungsgesetzes",
+                    "start": 41,
+                    "end": 77,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00095"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00001",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 102 Abs. 2 Satz 1 des Betriebsverfassungsgesetzes",
+                    "start": 182,
+                    "end": 233,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00102"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00001",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 95 des Betriebsverfassungsgesetzes",
+                    "start": 62,
+                    "end": 98,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00095"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00001",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 111 des Betriebsverfassungsgesetzes",
+                    "start": 63,
+                    "end": 100,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00111"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 17 Abs. 3 Satz 2",
+                    "start": 657,
+                    "end": 675,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-1a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 2 Satz 1",
+                    "start": 74,
+                    "end": 91,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 4 Satz 1",
+                    "start": 149,
+                    "end": 159,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00004"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-1a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10 Abs. 3",
+                    "start": 107,
+                    "end": 118,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00010"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00002",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 2 Satz 1 bis 3",
+                    "start": 334,
+                    "end": 357,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00004",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2",
+                    "start": 338,
+                    "end": 341,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00002"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 3",
+                    "start": 554,
+                    "end": 557,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00005",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Satz 1",
+                    "start": 410,
+                    "end": 420,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00004"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00007",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Satz 1",
+                    "start": 80,
+                    "end": 90,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00004"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 2",
+                    "start": 186,
+                    "end": 189,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00002"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00008",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2",
+                    "start": 32,
+                    "end": 35,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00002"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00010",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 2",
+                    "start": 451,
+                    "end": 461,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00010",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 2",
+                    "start": 150,
+                    "end": 160,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00012",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11",
+                    "start": 691,
+                    "end": 695,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00011"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00013",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Satz 1",
+                    "start": 233,
+                    "end": 243,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00004"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00013",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1 Satz 1",
+                    "start": 79,
+                    "end": 96,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00013",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 2 und 3",
+                    "start": 136,
+                    "end": 152,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00014",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 224,
+                    "end": 227,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00003"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9 Abs. 1 Satz 2",
+                    "start": 239,
+                    "end": 256,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00015",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 103 des Betriebsverfassungsgesetzes",
+                    "start": 318,
+                    "end": 355,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00103"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00015",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 103 des Betriebsverfassungsgesetzes",
+                    "start": 397,
+                    "end": 434,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00103"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00015",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 3",
+                    "start": 91,
+                    "end": 102,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 115 Abs. 2 Nr. 8 Satz 1 des Betriebsverfassungsgesetzes",
+                    "start": 124,
+                    "end": 181,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "8"
+                        ],
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 1",
+                    "start": 235,
+                    "end": 253,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 17 Abs. 4",
+                    "start": 255,
+                    "end": 266,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 116 Abs. 2 Nr. 7 Satz 5 des Betriebsverfassungsgesetzes",
+                    "start": 325,
+                    "end": 382,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00116"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "7"
+                        ],
+                        "sentences": [
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00015",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Absatz 3",
+                    "start": 697,
+                    "end": 710,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 115 Absatz 2 Nummer 8 Satz 1 des Betriebsverfassungsgesetzes",
+                    "start": 735,
+                    "end": 797,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "8"
+                        ],
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00016",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Absatz 1 bis 3b",
+                    "start": 64,
+                    "end": 84,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 11",
+                    "start": 380,
+                    "end": 384,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00011"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 12 Satz 2 bis 4",
+                    "start": 393,
+                    "end": 410,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00012"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00018",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17",
+                    "start": 23,
+                    "end": 27,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00018",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 1",
+                    "start": 186,
+                    "end": 197,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00019",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 und 2",
+                    "start": 70,
+                    "end": 87,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00020",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 und 2",
+                    "start": 47,
+                    "end": 64,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00021",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 20 Abs. 1",
+                    "start": 210,
+                    "end": 221,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00020"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 18 Abs. 1 und 2",
+                    "start": 314,
+                    "end": 331,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 17",
+                    "start": 450,
+                    "end": 454,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00017"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 20 Abs. 1 bis 3",
+                    "start": 551,
+                    "end": 568,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00020"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00023",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 24",
+                    "start": 165,
+                    "end": 169,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00024"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 13 Abs. 1 Satz 1 und 2",
+                    "start": 322,
+                    "end": 346,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 1 Satz 1 und 2",
+                    "start": 755,
+                    "end": 779,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00024",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Absatz 1",
+                    "start": 162,
+                    "end": 174,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-00024",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4",
+                    "start": 15,
+                    "end": 18,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00004"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 2 Nummer 11 oder 12",
+                    "start": 511,
+                    "end": 532,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00002"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "11",
+                            "12"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 5 Absatz 1",
+                    "start": 933,
+                    "end": 945,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 6",
+                    "start": 950,
+                    "end": 953,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00006"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "kschg-00024",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 114 Absatz 4 Satz 1 des Betriebsverfassungsgesetzes",
+                    "start": 145,
+                    "end": 198,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00114"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "kschg-25a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1",
+                    "start": 36,
+                    "end": 47,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 14",
+                    "start": 196,
+                    "end": 200,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        }
+    ]
+}

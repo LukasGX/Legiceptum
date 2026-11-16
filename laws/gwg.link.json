@@ -4922,12 +4922,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 20 Absatz 6",
+                    "text": "§ 20 Absatz 6 des Aktiengesetzes",
                     "start": 54,
-                    "end": 67,
+                    "end": 86,
                     "target": {
-                        "book": "gwg",
-                        "law": "gwg-00020"
+                        "book": "aktg",
+                        "law": "aktg-00020"
                     },
                     "fragment": {
                         "paragraph": "6"

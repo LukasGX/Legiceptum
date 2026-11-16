@@ -147,6 +147,30 @@
                 "elements",
                 1,
                 "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127a des Aktiengesetzes",
+                    "start": 52,
+                    "end": 77,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-127a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "hgb-8b",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
                 9,
                 "elements",
                 0
@@ -177,12 +201,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 9",
+                    "text": "§ 9 der Insolvenzordnung",
                     "start": 44,
-                    "end": 47,
+                    "end": 68,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00009"
+                        "book": "inso",
+                        "law": "inso-00009"
                     },
                     "fragment": null
                 }
@@ -621,6 +645,39 @@
         {
             "source": "hgb-9c",
             "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 76 Absatz 3 Satz 2 Nummer 2 und 3 des Aktiengesetzes",
+                    "start": 58,
+                    "end": 112,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "hgb-9c",
+            "element_path": [
                 3,
                 "elements",
                 1,
@@ -644,6 +701,43 @@
                     },
                     "fragment": {
                         "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "hgb-9c",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 76 Absatz 3 Satz 2 Nummer 2 und 3 des Aktiengesetzes",
+                    "start": 6,
+                    "end": 60,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
                         "sentences": [
                             "2"
                         ],
@@ -699,6 +793,25 @@
                     },
                     "fragment": {
                         "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 76 Absatz 3 Satz 2 Nummer 2 und 3 des Aktiengesetzes",
+                    "start": 278,
+                    "end": 332,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
                         "sentences": [
                             "2"
                         ],
@@ -1088,6 +1201,22 @@
             ],
             "references": [
                 {
+                    "text": "§ 76 Absatz 3 Satz 2 bis 4 des Aktiengesetzes",
+                    "start": 458,
+                    "end": 503,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                },
+                {
                     "text": "§ 6 Absatz 2 Satz 2 bis 4",
                     "start": 510,
                     "end": 535,
@@ -1134,36 +1263,36 @@
             ],
             "references": [
                 {
-                    "text": "§ 37 Abs. 2 und 3",
+                    "text": "§ 37 Abs. 2 und 3 des Aktiengesetzes",
                     "start": 215,
-                    "end": 232,
+                    "end": 251,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00037"
+                        "book": "aktg",
+                        "law": "aktg-00037"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 37 Absatz 2",
+                    "text": "§ 37 Absatz 2 des Aktiengesetzes",
                     "start": 270,
-                    "end": 283,
+                    "end": 302,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00037"
+                        "book": "aktg",
+                        "law": "aktg-00037"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 23 Abs. 3 und 4",
+                    "text": "§ 23 Abs. 3 und 4 des Aktiengesetzes",
                     "start": 603,
-                    "end": 620,
+                    "end": 639,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00023"
+                        "book": "aktg",
+                        "law": "aktg-00023"
                     },
                     "fragment": {
                         "paragraph": "3"
@@ -1180,6 +1309,16 @@
             ],
             "references": [
                 {
+                    "text": "§ 39 des Aktiengesetzes",
+                    "start": 79,
+                    "end": 102,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00039"
+                    },
+                    "fragment": null
+                },
+                {
                     "text": "§ 13e Abs. 2 Satz 3 bis 5",
                     "start": 126,
                     "end": 151,
@@ -1193,6 +1332,28 @@
                             "3",
                             "5"
                         ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "hgb-13f",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 181 Abs. 1 und 2 des Aktiengesetzes",
+                    "start": 174,
+                    "end": 211,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00181"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
                     }
                 }
             ]
@@ -1215,6 +1376,33 @@
                     },
                     "fragment": {
                         "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 273 Abs. 1 Satz 1 des Aktiengesetzes",
+                    "start": 78,
+                    "end": 116,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00273"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 81 Absatz 3 des Aktiengesetzes",
+                    "start": 190,
+                    "end": 222,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
                     }
                 }
             ]
@@ -2504,6 +2692,26 @@
         {
             "source": "hgb-00125",
             "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 80 des Aktiengesetzes",
+                    "start": 593,
+                    "end": 616,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00080"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "hgb-00125",
+            "element_path": [
                 1,
                 "elements",
                 0
@@ -3740,6 +3948,35 @@
         {
             "source": "hgb-00264",
             "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 160 Absatz 3 Satz 2 des Aktiengesetzes",
+                    "start": 41,
+                    "end": 81,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00160"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "hgb-00264",
+            "element_path": [
                 2,
                 "elements",
                 0
@@ -4431,12 +4668,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 16 Abs. 2 und 4",
+                    "text": "§ 16 Abs. 2 und 4 des Aktiengesetzes",
                     "start": 551,
-                    "end": 568,
+                    "end": 587,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00016"
+                        "book": "aktg",
+                        "law": "aktg-00016"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -4898,12 +5135,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 125 Abs. 1 Satz 5",
+                    "text": "§ 125 Abs. 1 Satz 5 des Aktiengesetzes",
                     "start": 361,
-                    "end": 380,
+                    "end": 399,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00125"
+                        "book": "aktg",
+                        "law": "aktg-00125"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -4979,12 +5216,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 161",
+                    "text": "§ 161 des Aktiengesetzes",
                     "start": 14,
-                    "end": 19,
+                    "end": 38,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00161"
+                        "book": "aktg",
+                        "law": "aktg-00161"
                     },
                     "fragment": null
                 }
@@ -5661,6 +5898,31 @@
         {
             "source": "hgb-00289",
             "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 160 Absatz 1 Nummer 2 des Aktiengesetzes",
+                    "start": 28,
+                    "end": 70,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00160"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "hgb-00289",
+            "element_path": [
                 2,
                 "elements",
                 0
@@ -5944,12 +6206,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 161",
+                    "text": "§ 161 des Aktiengesetzes",
                     "start": 20,
-                    "end": 25,
+                    "end": 44,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00161"
+                        "book": "aktg",
+                        "law": "aktg-00161"
                     },
                     "fragment": null
                 }
@@ -5968,22 +6230,22 @@
             ],
             "references": [
                 {
-                    "text": "§ 162",
+                    "text": "§ 162 des Aktiengesetzes",
                     "start": 159,
-                    "end": 164,
+                    "end": 183,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00162"
+                        "book": "aktg",
+                        "law": "aktg-00162"
                     },
                     "fragment": null
                 },
                 {
-                    "text": "§ 87a Absatz 1 und 2 Satz 1",
+                    "text": "§ 87a Absatz 1 und 2 Satz 1 des Aktiengesetzes",
                     "start": 221,
-                    "end": 248,
+                    "end": 267,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-87a"
+                        "book": "aktg",
+                        "law": "aktg-87a"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -5993,12 +6255,12 @@
                     }
                 },
                 {
-                    "text": "§ 113 Absatz 3",
+                    "text": "§ 113 Absatz 3 des Aktiengesetzes",
                     "start": 309,
-                    "end": 323,
+                    "end": 342,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00113"
+                        "book": "aktg",
+                        "law": "aktg-00113"
                     },
                     "fragment": {
                         "paragraph": "3"
@@ -6019,12 +6281,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 77,
-                    "end": 91,
+                    "end": 110,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -6045,24 +6307,24 @@
             ],
             "references": [
                 {
-                    "text": "§ 96 Absatz 2 und 3",
+                    "text": "§ 96 Absatz 2 und 3 des Aktiengesetzes",
                     "start": 51,
-                    "end": 70,
+                    "end": 89,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00096"
+                        "book": "aktg",
+                        "law": "aktg-00096"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 96 Absatz 2 und 3",
+                    "text": "§ 96 Absatz 2 und 3 des Aktiengesetzes",
                     "start": 398,
-                    "end": 417,
+                    "end": 436,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00096"
+                        "book": "aktg",
+                        "law": "aktg-00096"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -6106,6 +6368,30 @@
                 0
             ],
             "references": [
+                {
+                    "text": "§ 76 Absatz 3a des Aktiengesetzes",
+                    "start": 51,
+                    "end": 84,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3a"
+                    }
+                },
+                {
+                    "text": "§ 76 Absatz 3a des Aktiengesetzes",
+                    "start": 371,
+                    "end": 404,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "3a"
+                    }
+                },
                 {
                     "text": "§ 16 Absatz 2",
                     "start": 405,
@@ -6158,12 +6444,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 237,
-                    "end": 251,
+                    "end": 270,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -7238,12 +7524,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 161",
+                    "text": "§ 161 des Aktiengesetzes",
                     "start": 88,
-                    "end": 93,
+                    "end": 112,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00161"
+                        "book": "aktg",
+                        "law": "aktg-00161"
                     },
                     "fragment": null
                 }
@@ -7583,6 +7869,31 @@
                         "law": "hgb-327a"
                     },
                     "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "hgb-00315",
+            "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 160 Absatz 1 Nummer 2 des Aktiengesetzes",
+                    "start": 93,
+                    "end": 135,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00160"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
                 }
             ]
         },
@@ -8393,12 +8704,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 91 Abs. 2",
+                    "text": "§ 91 Abs. 2 des Aktiengesetzes",
                     "start": 124,
-                    "end": 135,
+                    "end": 154,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00091"
+                        "book": "aktg",
+                        "law": "aktg-00091"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -9001,24 +9312,24 @@
                     }
                 },
                 {
-                    "text": "§ 100 Absatz 5",
+                    "text": "§ 100 Absatz 5 des Aktiengesetzes",
                     "start": 164,
-                    "end": 178,
+                    "end": 197,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00100"
+                        "book": "aktg",
+                        "law": "aktg-00100"
                     },
                     "fragment": {
                         "paragraph": "5"
                     }
                 },
                 {
-                    "text": "§ 107 Absatz 3 Satz 2 und 3",
+                    "text": "§ 107 Absatz 3 Satz 2 und 3 des Aktiengesetzes",
                     "start": 317,
-                    "end": 344,
+                    "end": 363,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00107"
+                        "book": "aktg",
+                        "law": "aktg-00107"
                     },
                     "fragment": {
                         "paragraph": "3",
@@ -9144,12 +9455,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 100 Absatz 5",
+                    "text": "§ 100 Absatz 5 des Aktiengesetzes",
                     "start": 171,
-                    "end": 185,
+                    "end": 204,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00100"
+                        "book": "aktg",
+                        "law": "aktg-00100"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -9186,12 +9497,12 @@
                     }
                 },
                 {
-                    "text": "§ 171 Abs. 1 Satz 2 und 3",
+                    "text": "§ 171 Abs. 1 Satz 2 und 3 des Aktiengesetzes",
                     "start": 367,
-                    "end": 392,
+                    "end": 411,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00171"
+                        "book": "aktg",
+                        "law": "aktg-00171"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -9370,12 +9681,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 161",
+                    "text": "§ 161 des Aktiengesetzes",
                     "start": 43,
-                    "end": 48,
+                    "end": 67,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00161"
+                        "book": "aktg",
+                        "law": "aktg-00161"
                     },
                     "fragment": null
                 }
@@ -11849,12 +12160,12 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 271,
-                    "end": 285,
+                    "end": 304,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -11898,12 +12209,12 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 677,
-                    "end": 691,
+                    "end": 710,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -14815,12 +15126,12 @@
                     }
                 },
                 {
-                    "text": "§ 100 Absatz 5",
+                    "text": "§ 100 Absatz 5 des Aktiengesetzes",
                     "start": 177,
-                    "end": 191,
+                    "end": 210,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00100"
+                        "book": "aktg",
+                        "law": "aktg-00100"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -16664,12 +16975,12 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 271,
-                    "end": 285,
+                    "end": 304,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -16725,12 +17036,12 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 731,
-                    "end": 745,
+                    "end": 764,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -17758,12 +18069,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 175 Abs. 1 Satz 2",
+                    "text": "§ 175 Abs. 1 Satz 2 des Aktiengesetzes",
                     "start": 493,
-                    "end": 512,
+                    "end": 531,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00175"
+                        "book": "aktg",
+                        "law": "aktg-00175"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -18035,12 +18346,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 175 Abs. 1 Satz 1",
+                    "text": "§ 175 Abs. 1 Satz 1 des Aktiengesetzes",
                     "start": 67,
-                    "end": 86,
+                    "end": 105,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00175"
+                        "book": "aktg",
+                        "law": "aktg-00175"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -18150,12 +18461,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 170 Abs. 1 und 3",
+                    "text": "§ 170 Abs. 1 und 3 des Aktiengesetzes",
                     "start": 129,
-                    "end": 147,
+                    "end": 166,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00170"
+                        "book": "aktg",
+                        "law": "aktg-00170"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -18431,12 +18742,12 @@
                     }
                 },
                 {
-                    "text": "§ 100 Absatz 5",
+                    "text": "§ 100 Absatz 5 des Aktiengesetzes",
                     "start": 186,
-                    "end": 200,
+                    "end": 219,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00100"
+                        "book": "aktg",
+                        "law": "aktg-00100"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -19639,12 +19950,24 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
-                    "start": 370,
-                    "end": 384,
+                    "text": "§ 76 Absatz 4 des Aktiengesetzes",
+                    "start": 245,
+                    "end": 277,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
+                    "start": 370,
+                    "end": 403,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -19676,12 +19999,12 @@
                     }
                 },
                 {
-                    "text": "§ 111 Absatz 5",
+                    "text": "§ 111 Absatz 5 des Aktiengesetzes",
                     "start": 756,
-                    "end": 770,
+                    "end": 789,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00111"
+                        "book": "aktg",
+                        "law": "aktg-00111"
                     },
                     "fragment": {
                         "paragraph": "5"

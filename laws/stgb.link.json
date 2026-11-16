@@ -4129,12 +4129,12 @@
                     }
                 },
                 {
-                    "text": "§ 91",
+                    "text": "§ 91 der Insolvenzordnung",
                     "start": 72,
-                    "end": 76,
+                    "end": 97,
                     "target": {
-                        "book": "stgb",
-                        "law": "stgb-00091"
+                        "book": "inso",
+                        "law": "inso-00091"
                     },
                     "fragment": null
                 }

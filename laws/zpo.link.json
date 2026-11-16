@@ -508,12 +508,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 15",
+                    "text": "§ 15 des Aktiengesetzes",
                     "start": 69,
-                    "end": 73,
+                    "end": 92,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00015"
+                        "book": "aktg",
+                        "law": "aktg-00015"
                     },
                     "fragment": null
                 }
@@ -10423,12 +10423,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 138",
+                    "text": "§ 138 der Insolvenzordnung",
                     "start": 76,
-                    "end": 81,
+                    "end": 102,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00138"
+                        "book": "inso",
+                        "law": "inso-00138"
                     },
                     "fragment": null
                 },
@@ -12855,6 +12855,16 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                },
+                {
+                    "text": "§ 303a der Insolvenzordnung",
+                    "start": 78,
+                    "end": 105,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-303a"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -12921,12 +12931,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 26 Absatz 1 Satz 1",
+                    "text": "§ 26 Absatz 1 Satz 1 der Insolvenzordnung",
                     "start": 198,
-                    "end": 218,
+                    "end": 239,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00026"
+                        "book": "inso",
+                        "law": "inso-00026"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12934,6 +12944,16 @@
                             "1"
                         ]
                     }
+                },
+                {
+                    "text": "§ 303a der Insolvenzordnung",
+                    "start": 290,
+                    "end": 317,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-303a"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -14133,12 +14153,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 305 Absatz 1 Nummer 1",
+                    "text": "§ 305 Absatz 1 Nummer 1 der Insolvenzordnung",
                     "start": 49,
-                    "end": 72,
+                    "end": 93,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00305"
+                        "book": "inso",
+                        "law": "inso-00305"
                     },
                     "fragment": {
                         "paragraph": "1",

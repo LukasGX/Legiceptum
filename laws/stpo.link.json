@@ -8603,12 +8603,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 80 Absatz 2 Satz 2",
+                    "text": "§ 80 Absatz 2 Satz 2 der Insolvenzordnung",
                     "start": 230,
-                    "end": 250,
+                    "end": 271,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00080"
+                        "book": "inso",
+                        "law": "inso-00080"
                     },
                     "fragment": {
                         "paragraph": "2",

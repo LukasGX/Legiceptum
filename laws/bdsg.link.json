@@ -825,6 +825,30 @@
             ]
         },
         {
+            "source": "bdsg-00031",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 178 der Insolvenzordnung",
+                    "start": 9,
+                    "end": 35,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-00178"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
             "source": "bdsg-00033",
             "element_path": [
                 0,
@@ -1079,12 +1103,12 @@
                     }
                 },
                 {
-                    "text": "§ 3 Absatz 3 und 4",
+                    "text": "§ 3 Absatz 3 und 4 des Verwaltungsverfahrensgesetzes",
                     "start": 442,
-                    "end": 460,
+                    "end": 494,
                     "target": {
-                        "book": "bdsg",
-                        "law": "bdsg-00003"
+                        "book": "vwvfg",
+                        "law": "vwvfg-00003"
                     },
                     "fragment": {
                         "paragraph": "3"

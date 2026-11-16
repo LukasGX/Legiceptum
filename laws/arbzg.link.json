@@ -1,0 +1,1574 @@
+{
+    "version": 1,
+    "book": "arbzg",
+    "links": [
+        {
+            "source": "arbzg-00006",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 166,
+                    "end": 169,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 2 Abs. 5 Nr. 2",
+                    "start": 359,
+                    "end": 375,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 3 Satz 2",
+                    "start": 426,
+                    "end": 436,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 15,
+                    "end": 18,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Satz 2",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00004"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Abs. 3",
+                    "start": 50,
+                    "end": 60,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 38,
+                    "end": 48,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 41,
+                    "end": 51,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 41,
+                    "end": 51,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00007",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 143,
+                    "end": 153,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00008",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 283,
+                    "end": 286,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 6",
+                    "start": 439,
+                    "end": 442,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00006"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 7",
+                    "start": 491,
+                    "end": 494,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00010",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 125,
+                    "end": 128,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00010",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                9,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30 Abs. 3 Nr. 2 der Straßenverkehrsordnung",
+                    "start": 105,
+                    "end": 149,
+                    "target": {
+                        "book": "stvo",
+                        "law": "stvo-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00010",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 15,
+                    "end": 18,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00010",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 15,
+                    "end": 18,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00010",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1",
+                    "start": 216,
+                    "end": 226,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00011",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 33,
+                    "end": 36,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 5",
+                    "start": 147,
+                    "end": 150,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00005"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00012",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 1",
+                    "start": 15,
+                    "end": 26,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 10 Abs. 1 Nr. 2, 3, 4 und 10",
+                    "start": 97,
+                    "end": 127,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00010"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2",
+                            "3",
+                            "4",
+                            "10"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00012",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 3",
+                    "start": 15,
+                    "end": 26,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00012",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 1 bis 3",
+                    "start": 15,
+                    "end": 32,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00012",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 2",
+                    "start": 15,
+                    "end": 26,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00012",
+            "element_path": [
+                1,
+                "elements",
+                1
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 3 bis 6",
+                    "start": 0,
+                    "end": 16,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 55,
+                    "end": 59,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 24,
+                    "end": 28,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00010"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9",
+                    "start": 69,
+                    "end": 72,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 40,
+                    "end": 44,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 15,
+                    "end": 18,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 41,
+                    "end": 44,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00013",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 40,
+                    "end": 43,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00014",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 12",
+                    "start": 56,
+                    "end": 60,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00012"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00015",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 2",
+                    "start": 32,
+                    "end": 43,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00015",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 2",
+                    "start": 32,
+                    "end": 43,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00016",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Absatz 1 bis 3",
+                    "start": 250,
+                    "end": 268,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00016",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Satz 1",
+                    "start": 76,
+                    "end": 86,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 7 Abs. 7",
+                    "start": 239,
+                    "end": 249,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00017",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Abs. 1 und 2",
+                    "start": 319,
+                    "end": 336,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00017",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 1 bis 3",
+                    "start": 323,
+                    "end": 339,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00017",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 13 des Grundgesetzes",
+                    "start": 520,
+                    "end": 548,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00017",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 383 Abs. 1 Nr. 1 bis 3 der Zivilprozeßordnung",
+                    "start": 127,
+                    "end": 174,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00383"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00018",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3 des Betriebsverfassungsgesetzes",
+                    "start": 34,
+                    "end": 76,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00018",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 102,
+                    "end": 105,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00021",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1",
+                    "start": 659,
+                    "end": 662,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00001"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-21a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Abs. 1",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-21a",
+            "element_path": [
+                5,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 1 Nr. 2",
+                    "start": 0,
+                    "end": 16,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 7 Abs. 3",
+                    "start": 41,
+                    "end": 51,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21a Abs. 4",
+                    "start": 29,
+                    "end": 41,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-21a"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 11 Abs. 2",
+                    "start": 74,
+                    "end": 85,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4",
+                    "start": 9,
+                    "end": 12,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00004"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 9,
+                    "end": 19,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 5 Abs. 2",
+                    "start": 68,
+                    "end": 78,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Satz 1",
+                    "start": 28,
+                    "end": 38,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00008"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 1 oder 2",
+                    "start": 40,
+                    "end": 58,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 15 Absatz 2a Nummer 2",
+                    "start": 60,
+                    "end": 83,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2a",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 21 Absatz 1",
+                    "start": 85,
+                    "end": 98,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 24",
+                    "start": 104,
+                    "end": 108,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00024"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1",
+                    "start": 9,
+                    "end": 19,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 1",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 11 Abs. 3",
+                    "start": 85,
+                    "end": 96,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 3 Nr. 2",
+                    "start": 35,
+                    "end": 52,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 2",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 21a Abs. 7",
+                    "start": 26,
+                    "end": 38,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-21a"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                9,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 4",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 17 Abs. 5 Satz 2",
+                    "start": 171,
+                    "end": 189,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00023",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 22 Abs. 1 Nr. 1 bis 3, 5 bis 7",
+                    "start": 16,
+                    "end": 48,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00022"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "3",
+                            "5",
+                            "7"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbzg-00025",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 1 oder 2",
+                    "start": 102,
+                    "end": 119,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 12 Satz 1",
+                    "start": 125,
+                    "end": 136,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00012"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 7 Abs. 4",
+                    "start": 403,
+                    "end": 413,
+                    "target": {
+                        "book": "arbzg",
+                        "law": "arbzg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        }
+    ]
+}

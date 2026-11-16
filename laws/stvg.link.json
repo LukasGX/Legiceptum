@@ -5919,6 +5919,35 @@
                 "elements",
                 1,
                 "elements",
+                19,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 98 Absatz 1a Satz 1 der Insolvenzordnung",
+                    "start": 11,
+                    "end": 53,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-00098"
+                    },
+                    "fragment": {
+                        "paragraph": "1a",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "stvg-00035",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
                 21,
                 "elements",
                 0

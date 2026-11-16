@@ -1,0 +1,5120 @@
+{
+    "version": 1,
+    "book": "betrvg",
+    "links": [
+        {
+            "source": "betrvg-",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21a",
+                    "start": 0,
+                    "end": 5,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-21a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 75",
+                    "start": 333,
+                    "end": 337,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00075"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00004",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 1 Satz 1",
+                    "start": 81,
+                    "end": 98,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00004",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 3 Satz 2",
+                    "start": 186,
+                    "end": 203,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00004",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 1 Satz 1",
+                    "start": 38,
+                    "end": 55,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00005",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18",
+                    "start": 149,
+                    "end": 153,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00018"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00008",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 des Aktiengesetzes",
+                    "start": 380,
+                    "end": 410,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00009",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 145,
+                    "end": 148,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00013",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 155,
+                    "end": 165,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00014",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a",
+                    "start": 216,
+                    "end": 221,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-14a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17a Nr. 3",
+                    "start": 196,
+                    "end": 207,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-17a"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-14a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17a Nr. 3",
+                    "start": 87,
+                    "end": 98,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-17a"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Abs. 4",
+                    "start": 156,
+                    "end": 167,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-14a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17a Nr. 1",
+                    "start": 100,
+                    "end": 111,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-17a"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16",
+                    "start": 130,
+                    "end": 134,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 17a Nr. 4",
+                    "start": 204,
+                    "end": 215,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-17a"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Abs. 4",
+                    "start": 480,
+                    "end": 491,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00015",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15",
+                    "start": 145,
+                    "end": 149,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00015"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00017",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 1 Satz 1",
+                    "start": 54,
+                    "end": 71,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 1",
+                    "start": 215,
+                    "end": 226,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00017",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1",
+                    "start": 173,
+                    "end": 184,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00017",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 2",
+                    "start": 256,
+                    "end": 267,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-17a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a",
+                    "start": 12,
+                    "end": 17,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-17a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1 Satz 1",
+                    "start": 14,
+                    "end": 32,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 1",
+                    "start": 66,
+                    "end": 84,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-17a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1 Satz 2 und 3",
+                    "start": 0,
+                    "end": 24,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-17a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 2",
+                    "start": 18,
+                    "end": 29,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 17 Abs. 3",
+                    "start": 177,
+                    "end": 188,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-17a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 4",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00018",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 2",
+                    "start": 328,
+                    "end": 339,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-18a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1",
+                    "start": 21,
+                    "end": 32,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 42,
+                    "end": 52,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-18a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1 oder 2",
+                    "start": 23,
+                    "end": 41,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 5 Abs. 1 oder 2",
+                    "start": 419,
+                    "end": 436,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00020",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18a",
+                    "start": 170,
+                    "end": 175,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-18a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00021",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1",
+                    "start": 281,
+                    "end": 292,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 3 Satz 2",
+                    "start": 358,
+                    "end": 376,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 2 Nr. 1 und 2",
+                    "start": 490,
+                    "end": 513,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-21a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1 Abs. 1 Satz 1",
+                    "start": 178,
+                    "end": 195,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00001"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00022",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 2 Nr. 1 bis 3",
+                    "start": 18,
+                    "end": 41,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00023",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 2",
+                    "start": 113,
+                    "end": 124,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00024",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 19 Abs. 2",
+                    "start": 88,
+                    "end": 99,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00025",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Abs. 2",
+                    "start": 55,
+                    "end": 66,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 15 Abs. 2",
+                    "start": 568,
+                    "end": 579,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00028",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Abs. 1 Satz 3 bis 5",
+                    "start": 181,
+                    "end": 205,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3",
+                            "5"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 27 Abs. 2 Satz 2 bis 4",
+                    "start": 343,
+                    "end": 367,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-28a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 77",
+                    "start": 182,
+                    "end": 186,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00077"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00029",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26 Abs. 1",
+                    "start": 105,
+                    "end": 116,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00026"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00038",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Abs. 1 Satz 5",
+                    "start": 1111,
+                    "end": 1129,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00038",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 4",
+                    "start": 44,
+                    "end": 55,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 37 Abs. 5",
+                    "start": 118,
+                    "end": 129,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00039",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 202,
+                    "end": 213,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00043",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Abs. 2 Satz 1",
+                    "start": 174,
+                    "end": 192,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 42 Abs. 2 Satz 1",
+                    "start": 523,
+                    "end": 541,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00045",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74 Abs. 2",
+                    "start": 463,
+                    "end": 474,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00074"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00047",
+            "element_path": [
+                8,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 47 Abs. 2",
+                    "start": 145,
+                    "end": 156,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00047"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00050",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Abs. 2 Satz 3 und 4",
+                    "start": 215,
+                    "end": 239,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00051",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25 Abs. 1",
+                    "start": 33,
+                    "end": 44,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 28 Abs. 1 Satz 1 und 3",
+                    "start": 74,
+                    "end": 98,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00028"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 27 Abs. 1",
+                    "start": 188,
+                    "end": 199,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00051",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29 Abs. 2 bis 4",
+                    "start": 486,
+                    "end": 503,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00051",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 3",
+                    "start": 569,
+                    "end": 580,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00051",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 1 und 2",
+                    "start": 106,
+                    "end": 123,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00053",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Abs. 1 Satz 1",
+                    "start": 116,
+                    "end": 134,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 43 Abs. 2 Satz 1 und 2",
+                    "start": 164,
+                    "end": 188,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00054",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 des Aktiengesetzes",
+                    "start": 19,
+                    "end": 49,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00055",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 47 Abs. 5 bis 9",
+                    "start": 141,
+                    "end": 158,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00047"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00058",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Abs. 2 Satz 3 und 4",
+                    "start": 228,
+                    "end": 252,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00059",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25 Abs. 1",
+                    "start": 34,
+                    "end": 45,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 28 Abs. 1 Satz 1 und 3",
+                    "start": 75,
+                    "end": 99,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00028"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00059",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29 Abs. 2 bis 4",
+                    "start": 517,
+                    "end": 534,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00061",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 28,
+                    "end": 39,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00061",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 1 Satz 3",
+                    "start": 148,
+                    "end": 165,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00062",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 95,
+                    "end": 106,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 165,
+                    "end": 176,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 237,
+                    "end": 248,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 310,
+                    "end": 321,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 383,
+                    "end": 394,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 456,
+                    "end": 467,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 532,
+                    "end": 543,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 609,
+                    "end": 620,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00062",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 162,
+                    "end": 173,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00062",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 33,
+                    "end": 44,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00063",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 2 bis 5",
+                    "start": 215,
+                    "end": 232,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 1 Satz 4 bis 6",
+                    "start": 234,
+                    "end": 258,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "4",
+                            "6"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 18 Abs. 1 Satz 1",
+                    "start": 260,
+                    "end": 278,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00063",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 Satz 1",
+                    "start": 202,
+                    "end": 220,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 1 und 2",
+                    "start": 243,
+                    "end": 267,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 18 Abs. 1 Satz 2",
+                    "start": 287,
+                    "end": 305,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00063",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 50,
+                    "end": 61,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 14a",
+                    "start": 95,
+                    "end": 100,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00063",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 49,
+                    "end": 60,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 5",
+                    "start": 89,
+                    "end": 101,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00064",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 2 Nr. 2 bis 6",
+                    "start": 220,
+                    "end": 243,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2",
+                            "6"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00064",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 3 Satz 2",
+                    "start": 404,
+                    "end": 422,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 2 Nr. 2",
+                    "start": 564,
+                    "end": 581,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00065",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Abs. 1",
+                    "start": 52,
+                    "end": 63,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00065",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29",
+                    "start": 102,
+                    "end": 106,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00029"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00066",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 160,
+                    "end": 171,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00067",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 159,
+                    "end": 170,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00067",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 129,
+                    "end": 140,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00067",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 113,
+                    "end": 124,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 287,
+                    "end": 298,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00068",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 188,
+                    "end": 199,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00069",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 55,
+                    "end": 66,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 39 Abs. 1 Satz 3 und 4",
+                    "start": 268,
+                    "end": 292,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00039"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00070",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 22,
+                    "end": 33,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00070",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 67,
+                    "end": 78,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 80 Abs. 1 Nr. 2a und 2b",
+                    "start": 115,
+                    "end": 140,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2a",
+                            "2b"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00070",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 45,
+                    "end": 56,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00070",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 18,
+                    "end": 29,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 266,
+                    "end": 277,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00070",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 34,
+                    "end": 45,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00071",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Abs. 2 Satz 1 und 2",
+                    "start": 349,
+                    "end": 373,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 65 Abs. 2 Satz 2",
+                    "start": 396,
+                    "end": 414,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00065"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00072",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 133,
+                    "end": 144,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 385,
+                    "end": 396,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00073",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25 Abs. 1",
+                    "start": 59,
+                    "end": 70,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-73a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18 Abs. 1 des Aktiengesetzes",
+                    "start": 27,
+                    "end": 57,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00018"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 430,
+                    "end": 441,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-73a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 72 Abs. 4 bis 8",
+                    "start": 0,
+                    "end": 17,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00072"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-73b",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25 Abs. 1",
+                    "start": 60,
+                    "end": 71,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-76a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 2 und 3",
+                    "start": 107,
+                    "end": 124,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00077",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 126a Absatz 2 des Bürgerlichen Gesetzbuchs",
+                    "start": 369,
+                    "end": 413,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-126a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00078",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 299,
+                    "end": 309,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 76 Abs. 8",
+                    "start": 410,
+                    "end": 421,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 86",
+                    "start": 465,
+                    "end": 469,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00086"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 80 Absatz 2 Satz 4",
+                    "start": 496,
+                    "end": 516,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-78a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 4 und 5",
+                    "start": 387,
+                    "end": 404,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00079",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 76 Abs. 8",
+                    "start": 678,
+                    "end": 689,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 86",
+                    "start": 734,
+                    "end": 738,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00086"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00079",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 333,
+                    "end": 343,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 76 Abs. 8",
+                    "start": 443,
+                    "end": 454,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 86",
+                    "start": 498,
+                    "end": 502,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00086"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-79a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 38 Absatz 2 des Bundesdatenschutzgesetzes",
+                    "start": 682,
+                    "end": 725,
+                    "target": {
+                        "book": "bdsg",
+                        "law": "bdsg-00038"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00080",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1",
+                    "start": 132,
+                    "end": 143,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00080",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 28",
+                    "start": 575,
+                    "end": 579,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00028"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00080",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79",
+                    "start": 82,
+                    "end": 86,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00079"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00081",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10 Abs. 2 des Arbeitsschutzgesetzes",
+                    "start": 414,
+                    "end": 451,
+                    "target": {
+                        "book": "arbschg",
+                        "law": "arbschg-00010"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00085",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 84 Abs. 2",
+                    "start": 88,
+                    "end": 99,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00084"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00086",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 85 Abs. 2",
+                    "start": 164,
+                    "end": 175,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00085"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00089",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 22 Abs. 2",
+                    "start": 80,
+                    "end": 91,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00022"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00092",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 80 Abs. 1 Nr. 2a und 2b",
+                    "start": 67,
+                    "end": 92,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2a",
+                            "2b"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 80 Absatz 1 Nummer 4",
+                    "start": 283,
+                    "end": 305,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00099",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79 Abs. 1 Satz 2 bis 4",
+                    "start": 991,
+                    "end": 1015,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00079"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00099",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 95",
+                    "start": 51,
+                    "end": 55,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00095"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00099",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93",
+                    "start": 10,
+                    "end": 14,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00099",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 75 Abs. 1",
+                    "start": 222,
+                    "end": 233,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00075"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00100",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 99 Abs. 1 Satz 1",
+                    "start": 119,
+                    "end": 137,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00099"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00101",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 99 Abs. 1 Satz 1",
+                    "start": 60,
+                    "end": 78,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00099"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 100 Abs. 2 Satz 3",
+                    "start": 176,
+                    "end": 195,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00100"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00102",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 99 Abs. 1 Satz 3",
+                    "start": 597,
+                    "end": 615,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00099"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00102",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 95",
+                    "start": 41,
+                    "end": 45,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00095"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00104",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 75 Abs. 1",
+                    "start": 87,
+                    "end": 98,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00075"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00105",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3",
+                    "start": 68,
+                    "end": 78,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00107",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3",
+                    "start": 234,
+                    "end": 244,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00107",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3",
+                    "start": 354,
+                    "end": 364,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 79",
+                    "start": 603,
+                    "end": 607,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00079"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00108",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3",
+                    "start": 170,
+                    "end": 180,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 80 Abs. 3 und 4",
+                    "start": 297,
+                    "end": 314,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00108",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106 Abs. 2",
+                    "start": 71,
+                    "end": 83,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00106"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00109",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106",
+                    "start": 85,
+                    "end": 90,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00106"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 80 Abs. 4",
+                    "start": 507,
+                    "end": 518,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-109a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106 Abs. 3 Nr. 9a",
+                    "start": 76,
+                    "end": 95,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00106"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "numbers": [
+                            "9a"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 106 Abs. 1 und 2",
+                    "start": 125,
+                    "end": 143,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00106"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 109",
+                    "start": 159,
+                    "end": 164,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00109"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00110",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 107 Abs. 3",
+                    "start": 218,
+                    "end": 230,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00107"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00111",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 80 Abs. 4",
+                    "start": 487,
+                    "end": 498,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 80 Abs. 3",
+                    "start": 536,
+                    "end": 547,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00112",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 77 Absatz 2 Satz 3",
+                    "start": 207,
+                    "end": 227,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00077"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 77 Abs. 3",
+                    "start": 496,
+                    "end": 507,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00077"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-112a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 111 Satz 3 Nr. 1",
+                    "start": 52,
+                    "end": 70,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00111"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "3"
+                        ],
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 112 Abs. 4 und 5",
+                    "start": 125,
+                    "end": 143,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00112"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-112a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 112 Abs. 4 und 5",
+                    "start": 0,
+                    "end": 18,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00112"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00113",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10 des Kündigungsschutzgesetzes",
+                    "start": 296,
+                    "end": 329,
+                    "target": {
+                        "book": "kschg",
+                        "law": "kschg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00113",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 111",
+                    "start": 98,
+                    "end": 103,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00111"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00114",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 3",
+                    "start": 248,
+                    "end": 258,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00115",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 1 Satz 3",
+                    "start": 213,
+                    "end": 230,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00115",
+            "element_path": [
+                1,
+                "elements",
+                3,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1 und 3",
+                    "start": 0,
+                    "end": 17,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 13 Abs. 2 Nr. 2 bis 5",
+                    "start": 104,
+                    "end": 127,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2",
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00115",
+            "element_path": [
+                1,
+                "elements",
+                3,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1 Satz 1",
+                    "start": 7,
+                    "end": 25,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 1",
+                    "start": 70,
+                    "end": 88,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00115",
+            "element_path": [
+                1,
+                "elements",
+                3,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 3",
+                    "start": 228,
+                    "end": 239,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00115",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 1 bis 3",
+                    "start": 69,
+                    "end": 86,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 40 Abs. 2",
+                    "start": 124,
+                    "end": 135,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00040"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8",
+                    "start": 44,
+                    "end": 47,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00008"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 115 Abs. 2 Nr. 2",
+                    "start": 158,
+                    "end": 176,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8",
+                    "start": 119,
+                    "end": 122,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00008"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 4 Satz 1",
+                    "start": 50,
+                    "end": 68,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a",
+                    "start": 0,
+                    "end": 5,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Abs. 1 Satz 1",
+                    "start": 7,
+                    "end": 25,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 1",
+                    "start": 70,
+                    "end": 88,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17 Abs. 2 bis 4",
+                    "start": 135,
+                    "end": 152,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 16 Abs. 2 Satz 2 und 3",
+                    "start": 843,
+                    "end": 867,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 19 Abs. 2",
+                    "start": 38,
+                    "end": 49,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 2",
+                    "start": 148,
+                    "end": 159,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 115 Abs. 7 Nr. 5 Satz 1",
+                    "start": 188,
+                    "end": 213,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "7",
+                        "numbers": [
+                            "5"
+                        ],
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                5,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 115 Abs. 7 Nr. 2",
+                    "start": 9,
+                    "end": 27,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "7",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00116",
+            "element_path": [
+                5,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 115 Abs. 7 Nr. 1",
+                    "start": 56,
+                    "end": 74,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "7",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00117",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Absatz 5",
+                    "start": 410,
+                    "end": 422,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00004"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00118",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 5 Abs. 1 Satz 2 des Grundgesetzes",
+                    "start": 61,
+                    "end": 102,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1 Nr. 1 bis 3 oder 5",
+                    "start": 122,
+                    "end": 151,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "3",
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 270,
+                    "end": 280,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 76 Abs. 8",
+                    "start": 353,
+                    "end": 364,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 86",
+                    "start": 417,
+                    "end": 421,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00086"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 293,
+                    "end": 303,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 76 Abs. 8",
+                    "start": 376,
+                    "end": 387,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00076"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 86",
+                    "start": 428,
+                    "end": 432,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00086"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 80 Absatz 2 Satz 4",
+                    "start": 567,
+                    "end": 587,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00119",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 149,
+                    "end": 159,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79 Abs. 2",
+                    "start": 64,
+                    "end": 75,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00079"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 80 Abs. 3",
+                    "start": 43,
+                    "end": 54,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 109 Satz 3",
+                    "start": 102,
+                    "end": 114,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00109"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 111 Satz 2",
+                    "start": 34,
+                    "end": 46,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00111"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 80 Absatz 2 Satz 4",
+                    "start": 42,
+                    "end": 62,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00080"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 107 Abs. 3 Satz 3",
+                    "start": 39,
+                    "end": 58,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00107"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 108 Abs. 2 Satz 2",
+                    "start": 94,
+                    "end": 113,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00108"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79 Abs. 2",
+                    "start": 261,
+                    "end": 272,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00079"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00120",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 77 Abs. 2 des Strafgesetzbuches",
+                    "start": 105,
+                    "end": 138,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00077"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00121",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 90 Abs. 1, 2 Satz 1",
+                    "start": 40,
+                    "end": 61,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00090"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 92 Abs. 1 Satz 1",
+                    "start": 63,
+                    "end": 81,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00092"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 99 Abs. 1",
+                    "start": 115,
+                    "end": 126,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00099"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 106 Abs. 2",
+                    "start": 128,
+                    "end": 140,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00106"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 108 Abs. 5",
+                    "start": 142,
+                    "end": 154,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00108"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 110",
+                    "start": 156,
+                    "end": 161,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00110"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 111",
+                    "start": 167,
+                    "end": 172,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00111"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 1",
+                    "start": 40,
+                    "end": 51,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 64 Abs. 1 Satz 1",
+                    "start": 69,
+                    "end": 87,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00064"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a",
+                    "start": 57,
+                    "end": 62,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a Abs. 1",
+                    "start": 80,
+                    "end": 92,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 2",
+                    "start": 329,
+                    "end": 341,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 0,
+                    "end": 3,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a Abs. 1",
+                    "start": 12,
+                    "end": 24,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 3",
+                    "start": 134,
+                    "end": 150,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 4",
+                    "start": 196,
+                    "end": 212,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 15 Abs. 2",
+                    "start": 279,
+                    "end": 290,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 7",
+                    "start": 355,
+                    "end": 371,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "7"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 10",
+                    "start": 475,
+                    "end": 492,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "10"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 4",
+                    "start": 572,
+                    "end": 584,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a Abs. 3",
+                    "start": 12,
+                    "end": 24,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 3, 4 und 10",
+                    "start": 145,
+                    "end": 171,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "3",
+                            "4",
+                            "10"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 3 Abs. 2 Nr. 7",
+                    "start": 188,
+                    "end": 204,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "7"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 3 Satz 2",
+                    "start": 302,
+                    "end": 321,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Abs. 1",
+                    "start": 24,
+                    "end": 34,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00004"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14a Abs. 1",
+                    "start": 143,
+                    "end": 155,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 3",
+                    "start": 295,
+                    "end": 307,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 14a Abs. 3 Satz 2",
+                    "start": 418,
+                    "end": 437,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 0,
+                    "end": 3,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25 Abs. 5 bis 8",
+                    "start": 0,
+                    "end": 17,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26 Abs. 1",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00026"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00125",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31",
+                    "start": 0,
+                    "end": 4,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00031"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00126",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Abs. 2",
+                    "start": 188,
+                    "end": 199,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 62 Abs. 3",
+                    "start": 204,
+                    "end": 215,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00062"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "betrvg-00128",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 20 Abs. 3 des Betriebsverfassungsgesetzes",
+                    "start": 57,
+                    "end": 100,
+                    "target": {
+                        "book": "betrvg",
+                        "law": "betrvg-00020"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        }
+    ]
+}
