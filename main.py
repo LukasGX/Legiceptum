@@ -196,6 +196,20 @@ async def get_law(
     else:
         bookmarked = False
 
+    # notes
+    if user is not None:
+        with get_db() as db:
+            notes = db.execute("""
+            SELECT *
+            FROM notes
+            WHERE user_id = ? AND law_id = ?
+            """, (user["id"], law["id"])).fetchone()
+
+            if notes: pnotes = notes["content"]
+            else: pnotes = ""
+    else:
+        pnotes = ""
+
     return templates.TemplateResponse(
         request=request,
         name="law.html",
@@ -204,6 +218,7 @@ async def get_law(
             "laws": all_books(),
             "active_book": content["id"],
             "bookmarked": bookmarked,
+            "notes": pnotes,
             "law": law,
             "highlight": highlight,
             "law_links": law_links,
@@ -218,6 +233,17 @@ async def get_law(
 @app.post("/laws/all")
 async def get_all_laws(request: Request):
     return all_books()
+
+@app.post("/statistic/laws")
+async def get_laws_statistic(request: Request):
+    books = all_books()
+
+    laws = 0
+
+    for book in books:
+        laws += len(book["laws"])
+
+    return laws
 
 def all_books():
     books = []
@@ -498,3 +524,44 @@ async def bookmarks(
             "bookmarks": results
         }
     )
+
+class NoteSetRequest(BaseModel):
+    content: str = Field(max_length=5000)
+
+@app.post("/notes/{law_id}")
+async def set_notes(
+    request: Request,
+    law_id: str,
+    data: NoteSetRequest,
+    user = Depends(get_current_user)
+):
+    with get_db() as db:
+        db.execute("""
+        INSERT INTO notes (user_id, law_id, content)
+        VALUES (?, ?, ?)
+        ON CONFLICT(user_id, law_id)
+        DO UPDATE SET content = excluded.content;
+        """, (user["id"], law_id, data.content))
+
+    return {"success": True}
+
+@app.get("/notes/{law_id}")
+async def get_notes(
+    request: Request,
+    law_id: str,
+    user = Depends(get_optional_user)
+):
+    if user is None:
+        return {"notes": None}
+
+    with get_db() as db:
+        notes = db.execute("""
+        SELECT *
+        FROM notes
+        WHERE user_id = ? AND law_id = ?
+        """, (user["id"], law_id)).fetchone()
+
+        if notes is None:
+            return {"notes": None}
+
+    return {"notes": notes["content"]}

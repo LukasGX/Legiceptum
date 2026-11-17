@@ -72,3 +72,41 @@ if (bookmarkIcon) {
 		bookmarkIcon.classList.toggle("fa-regular", !data.bookmarked);
 	});
 }
+
+// notes
+const saveNotesBtn = document.getElementById("save-notes");
+const saveFeedback = document.getElementById("save-feedback");
+const notesEl = document.getElementById("notes");
+const charCounter = document.getElementById("char-counter");
+
+if (saveNotesBtn) {
+	saveNotesBtn.addEventListener("click", async () => {
+		const response = await fetch(`/notes/${LAW_ID}`, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json"
+			},
+			body: JSON.stringify({
+				content: notesEl.value
+			})
+		});
+
+		const data = await response.json();
+
+		if (saveFeedback) {
+			if (response.ok) saveFeedback.textContent = "Notizen gespeichert";
+			else saveFeedback.textContent = "Ein Fehler ist aufgetreten";
+
+			setTimeout(() => {
+				saveFeedback.textContent = "";
+			}, 1500);
+		}
+	});
+}
+
+if (notesEl) {
+	notesEl.addEventListener("input", () => {
+		if (charCounter)
+			charCounter.textContent = `${notesEl.value.length} / 5000`;
+	});
+}

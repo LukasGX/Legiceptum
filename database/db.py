@@ -30,6 +30,18 @@ def initialize_database():
                     ON DELETE CASCADE
             );
 
+            CREATE TABLE IF NOT EXISTS notes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                law_id TEXT NOT NULL,
+                content TEXT NOT NULL,
+                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+                FOREIGN KEY (user_id)
+                    REFERENCES users(id)
+                    ON DELETE CASCADE
+            );
+
             CREATE TABLE IF NOT EXISTS sessions (
                 token_hash TEXT PRIMARY KEY,
                 user_id INTEGER NOT NULL,
@@ -46,6 +58,9 @@ def initialize_database():
 
             CREATE INDEX IF NOT EXISTS idx_sessions_expires_at
             ON sessions(expires_at);
+
+            CREATE UNIQUE INDEX IF NOT EXISTS idx_notes_user_law
+            ON notes (user_id, law_id);
         """)
 
 

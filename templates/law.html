@@ -55,6 +55,33 @@
 					</div>
 				</div>
 
+				<section class="law-notes">
+					<details>
+						<summary>Persönliche Notizen</summary>
+
+						<textarea
+							id="notes"
+							rows="5"
+							placeholder="Füge hier deine Notizen hinzu"
+							maxlength="5000">
+{{ notes }}</textarea
+						>
+
+						<span id="char-counter"
+							>{{ notes | length }} / 5000</span
+						>
+
+						<button
+							type="button"
+							id="save-notes"
+							class="account-button account-button-primary">
+							<i class="fa-solid fa-floppy-disk"></i>
+							Speichern
+						</button>
+						<span id="save-feedback"></span>
+					</details>
+				</section>
+
 				<section class="law-content">
 					{% from "include/law_element.html" import render_element %}
 					{% for element in law.contents %} {{ render_element(element,
