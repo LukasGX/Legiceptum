@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Legiceptum - Suche</title>
+
+		{% include 'include/imports.html' %}
+		<link rel="stylesheet" href="/static/lander.css" />
+	</head>
+
+	<body>
+		<div class="head">
+			<p>Legiceptum</p>
+
+			<button
+				class="nav-toggle"
+				id="nav-toggle"
+				aria-label="Gesetzbuch-Navigation öffnen"
+				aria-expanded="false">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</div>
+
+		<main>
+			<aside class="nav">
+				<h2>Navigation</h2>
+				<div id="law-books">
+					{% from "include/navigation.html" import law_navigation %}
+					{{ law_navigation(laws, active_book, user) }}
+				</div>
+			</aside>
+
+			<div id="content">
+				<h1>Globale Suche</h1>
+				<p class="text-muted">
+					Durchsuche Gesetzbücher und Einzelnormen in Legiceptum.
+				</p>
+
+				<form id="global-search-form">
+					<div class="search-input-group">
+						<input
+							type="search"
+							id="global-search-input"
+							name="q"
+							placeholder="Suchbegriff eingeben ..."
+							autocomplete="off"
+							required />
+						<button type="submit" aria-label="Suchen">
+							<i class="fa-solid fa-search"></i>
+						</button>
+					</div>
+
+					<div class="search-filters">
+						<fieldset>
+							<legend>
+								<i class="fa-solid fa-book-open"></i>
+								Gesetzbücher
+							</legend>
+
+							<label>
+								<input
+									type="checkbox"
+									name="scope"
+									value="book_name"
+									checked />
+								Namen
+							</label>
+
+							<label>
+								<input
+									type="checkbox"
+									name="scope"
+									value="book_abbreviation"
+									checked />
+								Abkürzungen
+							</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>
+								<i class="fa-solid fa-file-lines"></i>
+								Einzelnormen
+							</legend>
+
+							<label>
+								<input
+									type="checkbox"
+									name="scope"
+									value="law_number"
+									checked />
+								Nummern
+							</label>
+
+							<label>
+								<input
+									type="checkbox"
+									name="scope"
+									value="law_name"
+									checked />
+								Namen
+							</label>
+
+							<label>
+								<input
+									type="checkbox"
+									name="scope"
+									value="law_content"
+									checked />
+								Volltext
+							</label>
+						</fieldset>
+					</div>
+				</form>
+
+				<section id="search-results" aria-live="polite">
+					<!-- Suchergebnisse werden hier eingefügt -->
+				</section>
+			</div>
+		</main>
+
+		<script src="/static/script.js"></script>
+	</body>
+</html>

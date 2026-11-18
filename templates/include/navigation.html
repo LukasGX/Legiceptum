@@ -29,6 +29,15 @@
 </button>
 {% endif %}
 
+<button
+	class="law-book {% if active_book == 'search' %}active{% endif %}"
+	data-id="search"
+	title="Suche"
+	onclick="window.location.href='/search'">
+	<i class="fa-solid fa-magnifying-glass"></i>
+	<span>Suche</span>
+</button>
+
 <div class="spacer"></div>
 
 {% for law in laws %}

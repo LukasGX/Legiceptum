@@ -61,12 +61,13 @@
 
 				<section class="law-paragraphs" id="law-paragraphs">
 					{% for p in book.laws %}
-					<div class="paragraph-split">
+					<div
+						class="paragraph-split"
+						data-search="{{ (p.nr ~ ' ' ~ (p.name or ''))|lower }}">
 						<a
 							href="/law/{{ p.id }}"
 							class="paragraph"
-							data-id="{{ p.id }}"
-							data-search="{{ (p.nr ~ ' ' ~ (p.name or ''))|lower }}">
+							data-id="{{ p.id }}">
 							<div class="paragraph-title">
 								<span class="paragraph-number"
 									>{{ book.prefix if not p.no_prefix }} {{

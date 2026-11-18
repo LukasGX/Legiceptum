@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 import json
 import os
+from typing import Literal
 
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, Form
@@ -20,37 +21,73 @@ from dependencies import get_current_user, get_optional_user, get_user
 
 load_dotenv()
 
-def build_global_title_index():
-    GLOBAL_TITLE_INDEX.clear()
+GLOBAL_BOOK_INDEX = []
+GLOBAL_LAW_INDEX = []
+
+def extract_text(elements: list[dict]) -> str:
+    parts = []
+
+    for element in elements:
+        if element.get("type") == "text":
+            parts.append(element.get("content", ""))
+
+        nested_elements = element.get("elements")
+        if isinstance(nested_elements, list):
+            parts.append(extract_text(nested_elements))
+
+    return " ".join(parts)
+
+
+def get_law_fulltext(law: dict) -> str:
+    paragraphs = law.get("contents", [])
+
+    return " ".join(
+        extract_text(paragraph.get("elements", []))
+        for paragraph in paragraphs
+    )
+
+def build_global_search_index():
+    GLOBAL_BOOK_INDEX.clear()
+    GLOBAL_LAW_INDEX.clear()
 
     for file in LAWS_BASE_DIR.rglob("*.json"):
+        if file.name.endswith(".link.json"):
+            continue
+
         with open(file, "r", encoding="utf-8") as f:
             content = json.load(f)
 
         book = {
             "id": content.get("id"),
-            "abbr": content.get("abbr"),
-            "name": content.get("name"),
-            "scope": content.get("scope")
+            "abbr": content.get("abbr", ""),
+            "name": content.get("name", ""),
+            "scope": content.get("scope", ""),
+            "prefix": content.get("prefix", ""),
         }
+
+        GLOBAL_BOOK_INDEX.append({
+            **book,
+            "_search": f"{book['name']} {book['abbr']}".casefold()
+        })
 
         for law in content.get("laws", []):
             nr = str(law.get("nr", ""))
             name = str(law.get("name") or "")
 
-            GLOBAL_TITLE_INDEX.append({
+            GLOBAL_LAW_INDEX.append({
                 "id": law["id"],
                 "nr": nr,
                 "name": name,
-                "prefix": content.get("prefix", ""),
+                "prefix": book["prefix"],
                 "no_prefix": law.get("no_prefix", False),
                 "book": book,
-                "_search": f"{nr} {name}".lower()
+                "fulltext": get_law_fulltext(law),
+                "_search": f"{nr} {name}".casefold(),
             })
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    build_global_title_index()
+    build_global_search_index()
     yield
     GLOBAL_TITLE_INDEX.clear()
 
@@ -263,9 +300,10 @@ class GlobalTitleSearchRequest(BaseModel):
     page: int = Field(default=1, ge=1)
     limit: int = Field(default=150, ge=1, le=150)
 
+
 @app.post("/laws/search/global/title")
 async def search_all_titles(data: GlobalTitleSearchRequest):
-    query = data.query.strip().lower()
+    query = data.query.strip().casefold()
 
     if not query:
         return {
@@ -288,9 +326,12 @@ async def search_all_titles(data: GlobalTitleSearchRequest):
 
     results = [
         {
-            key: value
-            for key, value in entry.items()
-            if key != "_search"
+            "id": entry["id"],
+            "nr": entry["nr"],
+            "name": entry["name"],
+            "prefix": entry["prefix"],
+            "no_prefix": entry["no_prefix"],
+            "book": entry["book"]
         }
         for entry in matches[start:end]
     ]
@@ -419,6 +460,214 @@ async def account(request: Request):
             "active_book": "account"
         }
     )
+
+@app.get("/search")
+async def search_page(request: Request):
+    return templates.TemplateResponse(
+        request=request,
+        name="search.html",
+        context={
+            "user": get_user(request),
+            "laws": all_books(),
+            "active_book": "search"
+        }
+    )
+
+class GlobalSearchRequest(BaseModel):
+    query: str
+    scope: list[Literal[
+        "book_name",
+        "book_abbreviation",
+        "law_number",
+        "law_name",
+        "law_content"
+    ]] = Field(min_length=1)
+
+    page: int = Field(default=1, ge=1)
+    limit: int = Field(default=150, ge=1, le=150)
+
+def get_search_snippet(text: str, query: str, context: int = 100) -> str:
+    index = text.casefold().find(query.casefold())
+
+    if index == -1:
+        return ""
+
+    start = max(0, index - context)
+    end = min(len(text), index + len(query) + context)
+
+    snippet = text[start:end]
+
+    if start > 0:
+        snippet = "…" + snippet
+
+    if end < len(text):
+        snippet += "…"
+
+    return snippet
+
+@app.post("/search")
+async def global_search(data: GlobalSearchRequest):
+    query = data.query.strip().casefold()
+    scopes = set(data.scope)
+
+    if not query:
+        return {
+            "query": query,
+            "scope": data.scope,
+            "page": data.page,
+            "limit": data.limit,
+            "total": 0,
+            "has_more": False,
+            "results": {
+                "books": [],
+                "laws": []
+            }
+        }
+
+    matches = []
+
+    # Gesetzbücher durchsuchen
+    if "book_name" in scopes or "book_abbreviation" in scopes:
+        for book in GLOBAL_BOOK_INDEX:
+            matched_scopes = []
+            score = 0
+
+            abbr = book["abbr"].casefold()
+            name = book["name"].casefold()
+
+            if "book_name" in scopes and query in name:
+                matched_scopes.append("book_name")
+
+                if name == query:
+                    score = max(score, 80)
+                elif name.startswith(query):
+                    score = max(score, 65)
+                else:
+                    score = max(score, 35)
+
+            if "book_abbreviation" in scopes and query in abbr:
+                matched_scopes.append("book_abbreviation")
+
+                if abbr == query:
+                    score = max(score, 85)
+                elif abbr.startswith(query):
+                    score = max(score, 70)
+                else:
+                    score = max(score, 45)
+
+            if matched_scopes:
+                score += (len(matched_scopes) - 1) * 15
+
+                matches.append({
+                    "type": "book",
+                    "matched_scopes": matched_scopes,
+                    "_score": score,
+                    "result": {
+                        "id": book["id"],
+                        "abbr": book["abbr"],
+                        "name": book["name"],
+                        "scope": book["scope"]
+                    }
+                })
+
+    # Einzelnormen durchsuchen
+    for law in GLOBAL_LAW_INDEX:
+        matched_scopes = []
+        snippet = None
+        score = 0
+
+        nr = law["nr"].casefold()
+        name = law["name"].casefold()
+        fulltext = law["fulltext"].casefold()
+
+        if "law_number" in scopes and query in nr:
+            matched_scopes.append("law_number")
+
+            if nr == query:
+                score = max(score, 100)
+            elif nr.startswith(query):
+                score = max(score, 70)
+            else:
+                score = max(score, 40)
+
+        if "law_name" in scopes and query in name:
+            matched_scopes.append("law_name")
+
+            if name == query:
+                score = max(score, 90)
+            elif name.startswith(query):
+                score = max(score, 75)
+            else:
+                score = max(score, 40)
+
+        if "law_content" in scopes and query in fulltext:
+            matched_scopes.append("law_content")
+            snippet = get_search_snippet(law["fulltext"], query)
+            score = max(score, 10)
+
+        if matched_scopes:
+            # Bonus für mehrere übereinstimmende Suchbereiche
+            score += (len(matched_scopes) - 1) * 15
+
+            matches.append({
+                "type": "law",
+                "matched_scopes": matched_scopes,
+                "_score": score,
+                "result": {
+                    "id": law["id"],
+                    "nr": law["nr"],
+                    "name": law["name"],
+                    "prefix": law["prefix"],
+                    "no_prefix": law["no_prefix"],
+                    "book": law["book"],
+                    "snippet": snippet
+                }
+            })
+
+    # Gemeinsame Relevanzsortierung
+    matches.sort(
+        key=lambda entry: entry["_score"],
+        reverse=True
+    )
+
+    # Gemeinsame Pagination
+    total = len(matches)
+    start = (data.page - 1) * data.limit
+    end = start + data.limit
+
+    paginated = matches[start:end]
+
+    # Ergebnisse gruppieren
+    books = [
+        {
+            **entry["result"],
+            "matched_scopes": entry["matched_scopes"]
+        }
+        for entry in paginated
+        if entry["type"] == "book"
+    ]
+
+    laws = [
+        {
+            **entry["result"],
+            "matched_scopes": entry["matched_scopes"]
+        }
+        for entry in paginated
+        if entry["type"] == "law"
+    ]
+
+    return {
+        "query": query,
+        "scope": data.scope,
+        "page": data.page,
+        "limit": data.limit,
+        "total": total,
+        "has_more": end < total,
+        "results": {
+            "books": books,
+            "laws": laws
+        }
+    }
 
 @app.get("/logout")
 @app.post("/logout")
