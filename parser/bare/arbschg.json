@@ -4,6 +4,7 @@
 	"name": "Arbeitsschutzgesetz",
 	"desc": "Das zentrale Gesetz für die Sicherheit und den Gesundheitsschutz bei der Arbeit in Deutschland.",
 	"scope": "bund",
+	"field": "Arbeitsrecht",
 	"icon": "helmet-safety",
 	"updated": "",
 	"prefix": "§"

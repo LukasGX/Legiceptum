@@ -4,6 +4,7 @@
     "name": "Kündigungsschutzgesetz",
     "desc": "Das zentrale Gesetz für den Schutz von Arbeitnehmern vor sozial ungerechtfertigten Kündigungen in Deutschland.",
     "scope": "bund",
+    "field": "Arbeitsrecht",
     "icon": "user-shield",
     "updated": "2026-11-18",
     "prefix": "§",

@@ -4,6 +4,7 @@
 	"name": "Aufenthaltsgesetz",
 	"desc": "Das zentrale Gesetz für die Einreise, den Aufenthalt und die Niederlassung von Ausländern in Deutschland.",
 	"scope": "bund",
+	"field": "Ausländerrecht",
 	"icon": "passport",
 	"updated": "",
 	"prefix": "§"

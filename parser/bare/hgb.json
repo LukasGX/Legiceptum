@@ -4,6 +4,7 @@
 	"name": "Handelsgesetzbuch",
 	"desc": "Das zentrale Gesetz für den Handelsverkehr und Kaufleute in Deutschland.",
 	"scope": "bund",
+	"field": "Handelsrecht",
 	"icon": "building",
 	"updated": "",
 	"prefix": "§"

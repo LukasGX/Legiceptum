@@ -4,6 +4,7 @@
 	"name": "Abgabenordnung",
 	"desc": "Das zentrale Gesetz für die Grundlagen und Verfahren des gesamten Steuerrechts in Deutschland.",
 	"scope": "bund",
+	"field": "Steuerrecht",
 	"icon": "file-invoice-dollar",
 	"updated": "",
 	"prefix": "§"

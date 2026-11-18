@@ -4,6 +4,7 @@
 	"name": "Gesetz über den Verkehr mit Betäubungsmitteln",
 	"desc": "Das Gesetz zur Kontrolle und zum Verbot von Drogen und Betäubungsmitteln in Deutschland.",
 	"scope": "bund",
+	"field": "Strafrecht",
 	"icon": "prescription-bottle-medical",
 	"updated": "2026-11-18",
 	"prefix": "§",

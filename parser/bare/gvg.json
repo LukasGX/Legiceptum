@@ -4,6 +4,7 @@
 	"name": "Gerichtsverfassungsgesetz",
 	"desc": "Das zentrale Gesetz für den Aufbau, die Organisation und die Zuständigkeiten der ordentlichen Gerichte in Deutschland.",
 	"scope": "bund",
+	"field": "Gerichtsverfassungsrecht",
 	"icon": "sitemap",
 	"updated": "",
 	"prefix": "§"

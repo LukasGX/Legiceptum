@@ -4,6 +4,7 @@
 	"name": "Grundgesetz",
 	"desc": "Die Verfassung für die Bundesrepublik Deutschland.",
 	"scope": "bund",
+	"field": "Verfassungsrecht",
 	"icon": "building-columns",
 	"updated": "",
 	"prefix": "Art."

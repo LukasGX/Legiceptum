@@ -4,6 +4,7 @@
     "name": "Strafprozessordnung",
     "desc": "Das Gesetz für den Ablauf von Strafverfahren in Deutschland.",
     "scope": "bund",
+    "field": "Strafprozessrecht",
     "icon": "shield-halved",
     "updated": "2026-11-18",
     "prefix": "§",

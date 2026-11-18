@@ -4,6 +4,7 @@
 	"name": "Insolvenzordnung",
 	"desc": "Das zentrale Gesetz für den Ablauf von Insolvenzverfahren bei Zahlungsunfähigkeit in Deutschland.",
 	"scope": "bund",
+	"field": "Insolvenzrecht",
 	"icon": "scale-unbalanced",
 	"updated": "",
 	"prefix": "§"

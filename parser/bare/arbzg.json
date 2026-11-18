@@ -4,6 +4,7 @@
 	"name": "Arbeitszeitgesetz",
 	"desc": "Das zentrale Gesetz für Arbeitszeiten, Pausen und Ruhezeiten in Deutschland.",
 	"scope": "bund",
+	"field": "Arbeitsrecht",
 	"icon": "user-clock",
 	"updated": "",
 	"prefix": "§"

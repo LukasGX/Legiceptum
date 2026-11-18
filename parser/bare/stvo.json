@@ -4,6 +4,7 @@
 	"name": "Straßenverkehrsordnung",
 	"desc": "Die Verordnung mit den konkreten Verkehrsregeln für alle Verkehrsteilnehmer in Deutschland.",
 	"scope": "bund",
+	"field": "Verkehrsrecht",
 	"icon": "traffic-light",
 	"updated": "",
 	"prefix": "§"

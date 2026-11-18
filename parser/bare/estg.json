@@ -4,6 +4,7 @@
 	"name": "Einkommensteuergesetz",
 	"desc": "Das zentrale Gesetz für die Besteuerung des Einkommens natürlicher Personen in Deutschland.",
 	"scope": "bund",
+	"field": "Steuerrecht",
 	"icon": "percent",
 	"updated": "",
 	"prefix": "§"

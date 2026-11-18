@@ -4,6 +4,7 @@
 	"name": "Aktiengesetz",
 	"desc": "Das zentrale Gesetz für die Gründung, Verfassung und Führung von Aktiengesellschaften in Deutschland.",
 	"scope": "bund",
+	"field": "Gesellschaftsrecht",
 	"icon": "chart-line",
 	"updated": "2026-11-18",
 	"prefix": "§",

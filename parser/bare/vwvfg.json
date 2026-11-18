@@ -4,6 +4,7 @@
 	"name": "Verwaltungsverfahrensgesetz",
 	"desc": "Das zentrale Gesetz für das Handeln und die Verfahren der öffentlichen Verwaltung in Deutschland.",
 	"scope": "bund",
+	"field": "Verwaltungsrecht",
 	"icon": "landmark",
 	"updated": "",
 	"prefix": "§"

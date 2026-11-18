@@ -4,6 +4,7 @@
 	"name": "Strafgesetzbuch",
 	"desc": "Das zentrale Gesetzbuch für Straftaten und Strafen in Deutschland.",
 	"scope": "bund",
+	"field": "Strafrecht",
 	"icon": "gavel",
 	"updated": "",
 	"prefix": "§"

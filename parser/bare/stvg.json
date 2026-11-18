@@ -4,6 +4,7 @@
 	"name": "Straßenverkehrsgesetz",
 	"desc": "Das zentrale Gesetz für den Straßenverkehr in Deutschland.",
 	"scope": "bund",
+	"field": "Verkehrsrecht",
 	"icon": "car",
 	"updated": "",
 	"prefix": "§"

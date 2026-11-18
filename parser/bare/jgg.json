@@ -4,6 +4,7 @@
 	"name": "Jugendgerichtsgesetz",
 	"desc": "Das besondere Strafgesetz für Jugendliche und Heranwachsende in Deutschland.",
 	"scope": "bund",
+	"field": "Strafrecht",
 	"icon": "child",
 	"updated": "",
 	"prefix": "§"

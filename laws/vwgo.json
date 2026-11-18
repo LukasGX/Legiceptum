@@ -4,6 +4,7 @@
 	"name": "Verwaltungsgerichtsordnung",
 	"desc": "Das zentrale Gesetz für die Organisation und Verfahren der Verwaltungsgerichte in Deutschland.",
 	"scope": "bund",
+	"field": "Verwaltungsrecht",
 	"icon": "gavel",
 	"updated": "2026-11-18",
 	"prefix": "§",

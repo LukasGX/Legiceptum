@@ -10,7 +10,7 @@ from itertools import product
 # Configuration
 # --------------------------------------------------
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(__file__).resolve().parents[1]
 LAWS_DIR = BASE_DIR / "laws"
 
 # --------------------------------------------------

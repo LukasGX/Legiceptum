@@ -4,6 +4,7 @@
 	"name": "Gesetz über Ordnungswidrigkeiten",
 	"desc": "Das Gesetz für geringfügige Rechtsverstöße und Bußgelder in Deutschland.",
 	"scope": "bund",
+	"field": "Ordnungswidrigkeitenrecht",
 	"icon": "money-bill-1",
 	"updated": "2026-11-18",
 	"prefix": "§",

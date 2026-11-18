@@ -4,6 +4,7 @@
 	"name": "Geldwäschegesetz",
 	"desc": "Das Gesetz über das Aufspüren von Gewinnen aus schweren Straftaten in Deutschland.",
 	"scope": "bund",
+	"field": "Wirtschaftsrecht",
 	"icon": "magnifying-glass-dollar",
 	"updated": "",
 	"prefix": "§"

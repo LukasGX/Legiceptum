@@ -4,6 +4,7 @@
 	"name": "Bundesdatenschutzgesetz",
 	"desc": "Das Gesetz zum Schutz personenbezogener Daten in Deutschland.",
 	"scope": "bund",
+	"field": "Datenschutzrecht",
 	"icon": "lock",
 	"updated": "",
 	"prefix": "§"

@@ -4,6 +4,7 @@
 	"name": "Bürgerliches Gesetzbuch",
 	"desc": "Das zentrale Gesetzbuch für das Zivilrecht zwischen Privatpersonen in Deutschland.",
 	"scope": "bund",
+	"field": "Zivilrecht",
 	"icon": "scale-balanced",
 	"updated": "",
 	"prefix": "§"

@@ -4,6 +4,7 @@
 	"name": "Zivilprozessordnung",
 	"desc": "Das Gesetz für den Ablauf von Zivilprozessen vor deutschen Gerichten.",
 	"scope": "bund",
+	"field": "Zivilprozessrecht",
 	"icon": "shield-halved",
 	"updated": "2026-11-18",
 	"prefix": "§",
