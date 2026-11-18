@@ -1,0 +1,10 @@
+{
+	"id": "zpo",
+	"abbr": "ZPO",
+	"name": "Zivilprozessordnung",
+	"desc": "Das Gesetz für den Ablauf von Zivilprozessen vor deutschen Gerichten.",
+	"scope": "bund",
+	"icon": "shield-halved",
+	"updated": "",
+	"prefix": "§"
+}

@@ -1,0 +1,10 @@
+{
+	"id": "betrvg",
+	"abbr": "BetrVG",
+	"name": "Betriebsverfassungsgesetz",
+	"desc": "Das zentrale Gesetz für die Mitbestimmung der Arbeitnehmer und die Arbeit des Betriebsrats in Deutschland.",
+	"scope": "bund",
+	"icon": "handshake",
+	"updated": "",
+	"prefix": "§"
+}

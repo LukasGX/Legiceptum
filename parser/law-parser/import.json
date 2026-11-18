@@ -1,0 +1,96 @@
+{
+	"import": [
+		{
+			"slug": "gg",
+			"abbr": "gg"
+		},
+		{
+			"slug": "stgb",
+			"abbr": "stgb"
+		},
+		{
+			"slug": "bgb",
+			"abbr": "bgb"
+		},
+		{
+			"slug": "btmg_1981",
+			"abbr": "btmg"
+		},
+		{
+			"slug": "jgg",
+			"abbr": "jgg"
+		},
+		{
+			"slug": "stpo",
+			"abbr": "stpo"
+		},
+		{
+			"slug": "stvg",
+			"abbr": "stvg"
+		},
+		{
+			"slug": "stvo_2013",
+			"abbr": "stvo"
+		},
+		{
+			"slug": "bdsg_2018",
+			"abbr": "bdsg"
+		},
+		{
+			"slug": "owig_1968",
+			"abbr": "owig"
+		},
+		{
+			"slug": "zpo",
+			"abbr": "zpo"
+		},
+		{
+			"slug": "gwg_2017",
+			"abbr": "gwg"
+		},
+		{
+			"slug": "hgb",
+			"abbr": "hgb"
+		},
+		{
+			"slug": "arbzg",
+			"abbr": "arbzg"
+		},
+		{
+			"slug": "vwvfg",
+			"abbr": "vwvfg"
+		},
+		{
+			"slug": "inso",
+			"abbr": "inso"
+		},
+		{
+			"slug": "aktg",
+			"abbr": "aktg"
+		},
+		{
+			"slug": "arbschg",
+			"abbr": "arbschg"
+		},
+		{
+			"slug": "kschg",
+			"abbr": "kschg"
+		},
+		{
+			"slug": "betrvg",
+			"abbr": "betrvg"
+		}
+	],
+	"override": [
+		{
+			"slug": "gg",
+			"abbr": "gg"
+		}
+	],
+	"no_prefix": [
+		"aktg-eingangsformel",
+		"gg-eingangsformel",
+		"gg-pr-ambel",
+		"gg-anhang-ev"
+	]
+}

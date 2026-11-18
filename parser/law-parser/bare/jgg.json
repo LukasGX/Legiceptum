@@ -1,0 +1,10 @@
+{
+	"id": "jgg",
+	"abbr": "JGG",
+	"name": "Jugendgerichtsgesetz",
+	"desc": "Das besondere Strafgesetz für Jugendliche und Heranwachsende in Deutschland.",
+	"scope": "bund",
+	"icon": "child",
+	"updated": "",
+	"prefix": "§"
+}

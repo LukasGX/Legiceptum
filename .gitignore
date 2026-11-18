@@ -7,3 +7,5 @@ output.json
 .env.*
 test_result.*
 *.db
+imported/
+output/

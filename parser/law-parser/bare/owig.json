@@ -1,0 +1,10 @@
+{
+	"id": "owig",
+	"abbr": "OWiG",
+	"name": "Gesetz über Ordnungswidrigkeiten",
+	"desc": "Das Gesetz für geringfügige Rechtsverstöße und Bußgelder in Deutschland.",
+	"scope": "bund",
+	"icon": "money-bill-1",
+	"updated": "",
+	"prefix": "§"
+}

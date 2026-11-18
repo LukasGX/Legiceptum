@@ -1,0 +1,10 @@
+{
+	"id": "stvg",
+	"abbr": "StVG",
+	"name": "Straßenverkehrsgesetz",
+	"desc": "Das zentrale Gesetz für den Straßenverkehr in Deutschland.",
+	"scope": "bund",
+	"icon": "car",
+	"updated": "",
+	"prefix": "§"
+}

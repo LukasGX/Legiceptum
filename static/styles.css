@@ -344,7 +344,17 @@ aside.nav .spacer {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
-	max-width: 900px;
+	max-width: 65%;
+}
+
+.paragraph-split {
+	display: grid;
+	grid-template-columns: 15fr 1fr;
+	gap: 0.5rem;
+}
+
+.paragraph-link {
+	justify-content: center !important;
 }
 
 .paragraph {
@@ -355,6 +365,7 @@ aside.nav .spacer {
 	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: var(--radius);
+	text-decoration: none;
 	cursor: pointer;
 	transition:
 		background 0.15s,

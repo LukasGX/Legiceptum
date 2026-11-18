@@ -1,0 +1,10 @@
+{
+	"id": "stpo",
+	"abbr": "StPO",
+	"name": "Strafprozessordnung",
+	"desc": "Das Gesetz für den Ablauf von Strafverfahren in Deutschland.",
+	"scope": "bund",
+	"icon": "shield-halved",
+	"updated": "",
+	"prefix": "§"
+}

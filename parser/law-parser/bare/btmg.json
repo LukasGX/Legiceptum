@@ -1,0 +1,10 @@
+{
+	"id": "btmg",
+	"abbr": "BTMG",
+	"name": "Gesetz über den Verkehr mit Betäubungsmitteln",
+	"desc": "Das Gesetz zur Kontrolle und zum Verbot von Drogen und Betäubungsmitteln in Deutschland.",
+	"scope": "bund",
+	"icon": "prescription-bottle-medical",
+	"updated": "",
+	"prefix": "§"
+}

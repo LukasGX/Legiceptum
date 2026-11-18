@@ -5,20 +5,20 @@
 	"desc": "Das zentrale Gesetz für die Gründung, Verfassung und Führung von Aktiengesellschaften in Deutschland.",
 	"scope": "bund",
 	"icon": "chart-line",
-	"updated": "2026-11-16",
+	"updated": "2026-11-18",
 	"prefix": "§",
 	"laws": [
 		{
 			"id": "aktg-eingangsformel",
 			"nr": "Eingangsformel",
 			"name": "",
-			"no_prefix": true,
 			"contents": [
 				{
 					"type": "text",
 					"content": "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"
 				}
-			]
+			],
+			"no_prefix": true
 		},
 		{
 			"id": "aktg-00001",

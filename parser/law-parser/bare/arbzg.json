@@ -1,0 +1,10 @@
+{
+	"id": "arbzg",
+	"abbr": "ArbZG",
+	"name": "Arbeitszeitgesetz",
+	"desc": "Das zentrale Gesetz für Arbeitszeiten, Pausen und Ruhezeiten in Deutschland.",
+	"scope": "bund",
+	"icon": "user-clock",
+	"updated": "",
+	"prefix": "§"
+}

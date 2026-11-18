@@ -1,0 +1,10 @@
+{
+	"id": "stgb",
+	"abbr": "StGB",
+	"name": "Strafgesetzbuch",
+	"desc": "Das zentrale Gesetzbuch für Straftaten und Strafen in Deutschland.",
+	"scope": "bund",
+	"icon": "gavel",
+	"updated": "",
+	"prefix": "§"
+}

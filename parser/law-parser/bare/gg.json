@@ -1,0 +1,10 @@
+{
+	"id": "gg",
+	"abbr": "GG",
+	"name": "Grundgesetz",
+	"desc": "Die Verfassung für die Bundesrepublik Deutschland.",
+	"scope": "bund",
+	"icon": "building-columns",
+	"updated": "",
+	"prefix": "Art."
+}

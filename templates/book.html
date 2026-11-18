@@ -59,26 +59,36 @@
 
 				<section class="law-paragraphs" id="law-paragraphs">
 					{% for p in book.laws %}
-					<button
-						class="paragraph"
-						onclick="window.location.href = '/law/{{ p.id }}'"
-						data-id="{{ p.id }}"
-						data-search="{{ (p.nr ~ ' ' ~ (p.name or ''))|lower }}">
-						<div class="paragraph-title">
-							<span class="paragraph-number"
-								>{{ book.prefix if not p.no_prefix }} {{ p.nr
-								}}</span
-							>
-							{% if p.name %}
-							<span class="paragraph-name">{{ p.name }}</span>
-							{% endif %}
-						</div>
-						<div class="icon-group">
+					<div class="paragraph-split">
+						<a
+							href="/law/{{ p.id }}"
+							class="paragraph"
+							data-id="{{ p.id }}"
+							data-search="{{ (p.nr ~ ' ' ~ (p.name or ''))|lower }}">
+							<div class="paragraph-title">
+								<span class="paragraph-number"
+									>{{ book.prefix if not p.no_prefix }} {{
+									p.nr }}</span
+								>
+								{% if p.name %}
+								<span class="paragraph-name">{{ p.name }}</span>
+								{% endif %}
+							</div>
+							<div class="icon-group">
+								<i
+									class="{% if p.bookmarked %}fa-solid{% else %}fa-regular{% endif %} fa-bookmark"></i>
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</a>
+						<a
+							href="/law/{{ p.id }}"
+							target="_blank"
+							class="paragraph paragraph-link"
+							title="In neuem Tab öffnen">
 							<i
-								class="{% if p.bookmarked %}fa-solid{% else %}fa-regular{% endif %} fa-bookmark"></i>
-							<i class="fa-solid fa-chevron-right"></i>
-						</div>
-					</button>
+								class="fa-solid fa-arrow-up-right-from-square"></i>
+						</a>
+					</div>
 					{% endfor %}
 				</section>
 			</div>

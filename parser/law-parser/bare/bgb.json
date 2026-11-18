@@ -1,0 +1,10 @@
+{
+	"id": "bgb",
+	"abbr": "BGB",
+	"name": "Bürgerliches Gesetzbuch",
+	"desc": "Das zentrale Gesetzbuch für das Zivilrecht zwischen Privatpersonen in Deutschland.",
+	"scope": "bund",
+	"icon": "scale-balanced",
+	"updated": "",
+	"prefix": "§"
+}

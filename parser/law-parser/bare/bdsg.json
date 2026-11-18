@@ -1,0 +1,10 @@
+{
+	"id": "bdsg",
+	"abbr": "BDSG",
+	"name": "Bundesdatenschutzgesetz",
+	"desc": "Das Gesetz zum Schutz personenbezogener Daten in Deutschland.",
+	"scope": "bund",
+	"icon": "lock",
+	"updated": "",
+	"prefix": "§"
+}

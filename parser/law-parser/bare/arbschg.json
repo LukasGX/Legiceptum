@@ -1,0 +1,10 @@
+{
+	"id": "arbschg",
+	"abbr": "ArbSchG",
+	"name": "Arbeitsschutzgesetz",
+	"desc": "Das zentrale Gesetz für die Sicherheit und den Gesundheitsschutz bei der Arbeit in Deutschland.",
+	"scope": "bund",
+	"icon": "helmet-safety",
+	"updated": "",
+	"prefix": "§"
+}

@@ -1,0 +1,10 @@
+{
+	"id": "gwg",
+	"abbr": "GwG",
+	"name": "Geldwäschegesetz",
+	"desc": "Das Gesetz über das Aufspüren von Gewinnen aus schweren Straftaten in Deutschland.",
+	"scope": "bund",
+	"icon": "magnifying-glass-dollar",
+	"updated": "",
+	"prefix": "§"
+}

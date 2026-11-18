@@ -1,0 +1,10 @@
+{
+	"id": "kschg",
+	"abbr": "KSchG",
+	"name": "Kündigungsschutzgesetz",
+	"desc": "Das zentrale Gesetz für den Schutz von Arbeitnehmern vor sozial ungerechtfertigten Kündigungen in Deutschland.",
+	"scope": "bund",
+	"icon": "user-shield",
+	"updated": "",
+	"prefix": "§"
+}

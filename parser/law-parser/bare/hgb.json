@@ -1,0 +1,10 @@
+{
+	"id": "hgb",
+	"abbr": "HGB",
+	"name": "Handelsgesetzbuch",
+	"desc": "Das zentrale Gesetz für den Handelsverkehr und Kaufleute in Deutschland.",
+	"scope": "bund",
+	"icon": "building",
+	"updated": "",
+	"prefix": "§"
+}
