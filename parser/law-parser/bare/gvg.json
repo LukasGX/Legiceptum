@@ -1,0 +1,10 @@
+{
+	"id": "gvg",
+	"abbr": "GVG",
+	"name": "Gerichtsverfassungsgesetz",
+	"desc": "Das zentrale Gesetz für den Aufbau, die Organisation und die Zuständigkeiten der ordentlichen Gerichte in Deutschland.",
+	"scope": "bund",
+	"icon": "sitemap",
+	"updated": "",
+	"prefix": "§"
+}

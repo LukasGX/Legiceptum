@@ -417,6 +417,65 @@
         {
             "source": "arbschg-00023",
             "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4a Absatz 5 Satz 1 des Aufenthaltsgesetzes",
+                    "start": 95,
+                    "end": 139,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-4a"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "arbschg-00023",
+            "element_path": [
+                2,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 71 des Aufenthaltsgesetzes",
+                    "start": 125,
+                    "end": 153,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00071"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 71 des Aufenthaltsgesetzes",
+                    "start": 609,
+                    "end": 637,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00071"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "arbschg-00023",
+            "element_path": [
                 5,
                 "elements",
                 0

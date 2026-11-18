@@ -61,12 +61,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 361,
-                    "end": 374,
+                    "end": 398,
                     "target": {
-                        "book": "vwvfg",
-                        "law": "vwvfg-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -217,12 +217,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 67 Abs. 2 Satz 1 und 2 Nr. 3 bis 7",
+                    "text": "§ 67 Abs. 2 Satz 1 und 2 Nr. 3 bis 7 der Verwaltungsgerichtsordnung",
                     "start": 271,
-                    "end": 307,
+                    "end": 338,
                     "target": {
-                        "book": "vwvfg",
-                        "law": "vwvfg-00067"
+                        "book": "vwgo",
+                        "law": "vwgo-00067"
                     },
                     "fragment": {
                         "paragraph": "2",
@@ -1233,6 +1233,18 @@
                     }
                 },
                 {
+                    "text": "§ 170 Abs. 1 bis 3 der Verwaltungsgerichtsordnung",
+                    "start": 380,
+                    "end": 429,
+                    "target": {
+                        "book": "vwgo",
+                        "law": "vwgo-00170"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
                     "text": "§ 1 Abs. 1 Nr. 2",
                     "start": 581,
                     "end": 597,
@@ -1246,6 +1258,16 @@
                             "2"
                         ]
                     }
+                },
+                {
+                    "text": "§ 172 der Verwaltungsgerichtsordnung",
+                    "start": 606,
+                    "end": 642,
+                    "target": {
+                        "book": "vwgo",
+                        "law": "vwgo-00172"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -2171,12 +2193,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 73 Abs. 2",
+                    "text": "§ 73 Abs. 2 der Verwaltungsgerichtsordnung",
                     "start": 153,
-                    "end": 164,
+                    "end": 195,
                     "target": {
-                        "book": "vwvfg",
-                        "law": "vwvfg-00073"
+                        "book": "vwgo",
+                        "law": "vwgo-00073"
                     },
                     "fragment": {
                         "paragraph": "2"

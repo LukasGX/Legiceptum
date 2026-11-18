@@ -1,0 +1,10 @@
+{
+	"id": "vwgo",
+	"abbr": "VwGO",
+	"name": "Verwaltungsgerichtsordnung",
+	"desc": "Das zentrale Gesetz für die Organisation und Verfahren der Verwaltungsgerichte in Deutschland.",
+	"scope": "bund",
+	"icon": "gavel",
+	"updated": "",
+	"prefix": "§"
+}

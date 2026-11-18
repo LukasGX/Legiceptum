@@ -972,6 +972,44 @@
             ]
         },
         {
+            "source": "owig-00046",
+            "element_path": [
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 191a Absatz 1 Satz 1 bis 4 des Gerichtsverfassungsgesetzes",
+                    "start": 38,
+                    "end": 98,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-191a"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 191a Abs. 2 des Gerichtsverfassungsgesetzes",
+                    "start": 153,
+                    "end": 198,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-191a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
             "source": "owig-49a",
             "element_path": [
                 0,
@@ -1644,6 +1682,26 @@
                     "target": {
                         "book": "owig",
                         "law": "owig-00042"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "owig-00053",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
+                    "start": 98,
+                    "end": 135,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -3864,6 +3922,18 @@
                     }
                 },
                 {
+                    "text": "§ 191a Abs. 1 des Gerichtsverfassungsgesetzes",
+                    "start": 644,
+                    "end": 689,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-191a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
                     "text": "§ 43 Absatz 2 des Jugendgerichtsgesetzes",
                     "start": 771,
                     "end": 811,
@@ -4274,12 +4344,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 679,
-                    "end": 692,
+                    "end": 716,
                     "target": {
-                        "book": "owig",
-                        "law": "owig-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"

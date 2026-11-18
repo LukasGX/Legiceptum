@@ -24170,12 +24170,12 @@
                     }
                 },
                 {
-                    "text": "§ 85a",
+                    "text": "§ 85a des Aufenthaltsgesetzes",
                     "start": 212,
-                    "end": 217,
+                    "end": 241,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-85a"
+                        "book": "aufenthg",
+                        "law": "aufenthg-85a"
                     },
                     "fragment": null
                 }
@@ -24190,12 +24190,22 @@
             ],
             "references": [
                 {
-                    "text": "§ 80 Absatz 5",
-                    "start": 508,
-                    "end": 521,
+                    "text": "§ 85d des Aufenthaltsgesetzes",
+                    "start": 244,
+                    "end": 273,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-00080"
+                        "book": "aufenthg",
+                        "law": "aufenthg-85d"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 80 Absatz 5 der Verwaltungsgerichtsordnung",
+                    "start": 508,
+                    "end": 552,
+                    "target": {
+                        "book": "vwgo",
+                        "law": "vwgo-00080"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -24212,12 +24222,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 85a Absatz 1",
+                    "text": "§ 85a Absatz 1 des Aufenthaltsgesetzes",
                     "start": 56,
-                    "end": 70,
+                    "end": 94,
                     "target": {
-                        "book": "bgb",
-                        "law": "bgb-85a"
+                        "book": "aufenthg",
+                        "law": "aufenthg-85a"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -24245,6 +24255,33 @@
                     },
                     "fragment": {
                         "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 85c Absatz 1 Satz 1 des Aufenthaltsgesetzes",
+                    "start": 465,
+                    "end": 510,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-85c"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 85c Absatz 3 des Aufenthaltsgesetzes",
+                    "start": 553,
+                    "end": 591,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-85c"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
                     }
                 },
                 {

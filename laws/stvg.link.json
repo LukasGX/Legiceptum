@@ -4767,6 +4767,18 @@
                     "fragment": null
                 },
                 {
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
+                    "start": 523,
+                    "end": 560,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
                     "text": "§ 30a Absatz 3",
                     "start": 614,
                     "end": 628,
@@ -5763,6 +5775,30 @@
                 "elements",
                 1,
                 "elements",
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 der Abgabenordnung",
+                    "start": 96,
+                    "end": 119,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "stvg-00035",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
                 9,
                 "elements",
                 0
@@ -6305,6 +6341,34 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                }
+            ]
+        },
+        {
+            "source": "stvg-00035",
+            "element_path": [
+                4,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 der Abgabenordnung",
+                    "start": 88,
+                    "end": 111,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00093"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -6891,6 +6955,54 @@
                             "9"
                         ]
                     }
+                }
+            ]
+        },
+        {
+            "source": "stvg-00036",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 193 der Abgabenordnung",
+                    "start": 52,
+                    "end": 76,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00193"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "stvg-00036",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 249 der Abgabenordnung",
+                    "start": 77,
+                    "end": 101,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00249"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -7987,6 +8099,18 @@
                         "law": "stvg-00012"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
+                    "start": 424,
+                    "end": 461,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
                 },
                 {
                     "text": "§ 35 Absatz 6 Satz 4",
@@ -9427,6 +9551,18 @@
                         "law": "stvg-00012"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
+                    "start": 518,
+                    "end": 555,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
                 },
                 {
                     "text": "§ 53 Absatz 3",

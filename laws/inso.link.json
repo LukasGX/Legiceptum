@@ -3495,6 +3495,26 @@
         {
             "source": "inso-00174",
             "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 374 der Abgabenordnung",
+                    "start": 353,
+                    "end": 377,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00374"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "inso-00174",
+            "element_path": [
                 3,
                 "elements",
                 0
@@ -3542,6 +3562,16 @@
                 0
             ],
             "references": [
+                {
+                    "text": "§ 374 der Abgabenordnung",
+                    "start": 222,
+                    "end": 246,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00374"
+                    },
+                    "fragment": null
+                },
                 {
                     "text": "§ 302",
                     "start": 326,
@@ -6682,6 +6712,16 @@
                 0
             ],
             "references": [
+                {
+                    "text": "§ 374 der Abgabenordnung",
+                    "start": 328,
+                    "end": 352,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00374"
+                    },
+                    "fragment": null
+                },
                 {
                     "text": "§ 174 Absatz 2",
                     "start": 475,

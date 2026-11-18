@@ -1,0 +1,10 @@
+{
+	"id": "ao",
+	"abbr": "AO",
+	"name": "Abgabenordnung",
+	"desc": "Das zentrale Gesetz für die Grundlagen und Verfahren des gesamten Steuerrechts in Deutschland.",
+	"scope": "bund",
+	"icon": "file-invoice-dollar",
+	"updated": "",
+	"prefix": "§"
+}

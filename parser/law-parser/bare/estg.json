@@ -1,0 +1,10 @@
+{
+	"id": "estg",
+	"abbr": "EStG",
+	"name": "Einkommensteuergesetz",
+	"desc": "Das zentrale Gesetz für die Besteuerung des Einkommens natürlicher Personen in Deutschland.",
+	"scope": "bund",
+	"icon": "percent",
+	"updated": "",
+	"prefix": "§"
+}

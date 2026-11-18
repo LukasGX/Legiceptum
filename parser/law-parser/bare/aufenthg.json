@@ -1,0 +1,10 @@
+{
+	"id": "aufenthg",
+	"abbr": "AufenthG",
+	"name": "Aufenthaltsgesetz",
+	"desc": "Das zentrale Gesetz für die Einreise, den Aufenthalt und die Niederlassung von Ausländern in Deutschland.",
+	"scope": "bund",
+	"icon": "passport",
+	"updated": "",
+	"prefix": "§"
+}

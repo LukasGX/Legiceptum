@@ -79,14 +79,29 @@
 		{
 			"slug": "betrvg",
 			"abbr": "betrvg"
-		}
-	],
-	"override": [
+		},
 		{
-			"slug": "gg",
-			"abbr": "gg"
+			"slug": "ao_1977",
+			"abbr": "ao"
+		},
+		{
+			"slug": "vwgo",
+			"abbr": "vwgo"
+		},
+		{
+			"slug": "gvg",
+			"abbr": "gvg"
+		},
+		{
+			"slug": "estg",
+			"abbr": "estg"
+		},
+		{
+			"slug": "aufenthg_2004",
+			"abbr": "aufenthg"
 		}
 	],
+	"override": [],
 	"no_prefix": [
 		"aktg-eingangsformel",
 		"gg-eingangsformel",

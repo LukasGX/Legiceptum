@@ -3423,6 +3423,16 @@
                     "fragment": {
                         "paragraph": "4"
                     }
+                },
+                {
+                    "text": "§ 138 der Abgabenordnung",
+                    "start": 331,
+                    "end": 355,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00138"
+                    },
+                    "fragment": null
                 }
             ]
         },

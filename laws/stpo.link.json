@@ -21,6 +21,16 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                },
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 461,
+                    "end": 498,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -227,12 +237,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 655,
-                    "end": 668,
+                    "end": 692,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -297,6 +307,28 @@
                         "law": "stpo-257c"
                     },
                     "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "stpo-00037",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 187 Absatz 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 35,
+                    "end": 87,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00187"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
                 }
             ]
         },
@@ -406,6 +438,32 @@
                     },
                     "fragment": {
                         "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "stpo-48a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 171b Absatz 1 des Gerichtsverfassungsgesetzes",
+                    "start": 91,
+                    "end": 138,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-171b"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
                     }
                 }
             ]
@@ -757,12 +815,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 176 Absatz 2 Satz 1",
+                    "text": "§ 176 Absatz 2 Satz 1 des Gerichtsverfassungsgesetzes",
                     "start": 639,
-                    "end": 660,
+                    "end": 692,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00176"
+                        "book": "gvg",
+                        "law": "gvg-00176"
                     },
                     "fragment": {
                         "paragraph": "2",
@@ -950,12 +1008,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 151,
-                    "end": 156,
+                    "end": 188,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -1105,12 +1163,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 151,
-                    "end": 156,
+                    "end": 188,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -1235,12 +1293,12 @@
                     }
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 189,
-                    "end": 194,
+                    "end": 226,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -1275,12 +1333,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 179,
-                    "end": 184,
+                    "end": 216,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -1538,12 +1596,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 579,
-                    "end": 584,
+                    "end": 616,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -1897,12 +1955,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 130,
-                    "end": 135,
+                    "end": 167,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -3345,12 +3403,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 244,
-                    "end": 249,
+                    "end": 281,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -4565,6 +4623,28 @@
                         "law": "stpo-100a"
                     },
                     "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "stpo-100e",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74a Absatz 4 des Gerichtsverfassungsgesetzes",
+                    "start": 94,
+                    "end": 140,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74a"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
                 }
             ]
         },
@@ -5952,12 +6032,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 285,
-                    "end": 290,
+                    "end": 322,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -7905,12 +7985,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 130,
-                    "end": 135,
+                    "end": 167,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -8075,12 +8155,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 144,
-                    "end": 149,
+                    "end": 181,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -8194,12 +8274,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 122,
-                    "end": 127,
+                    "end": 159,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -8491,12 +8571,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 324",
+                    "text": "§ 324 der Abgabenordnung",
                     "start": 37,
-                    "end": 42,
+                    "end": 61,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00324"
+                        "book": "ao",
+                        "law": "ao-00324"
                     },
                     "fragment": null
                 }
@@ -8638,12 +8718,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 324",
+                    "text": "§ 324 der Abgabenordnung",
                     "start": 211,
-                    "end": 216,
+                    "end": 235,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00324"
+                        "book": "ao",
+                        "law": "ao-00324"
                     },
                     "fragment": null
                 }
@@ -8692,12 +8772,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 292,
-                    "end": 297,
+                    "end": 329,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -8766,22 +8846,22 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 544,
-                    "end": 549,
+                    "end": 581,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 702,
-                    "end": 707,
+                    "end": 739,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -8820,12 +8900,12 @@
                     }
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 113,
-                    "end": 118,
+                    "end": 150,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -8936,12 +9016,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 204,
-                    "end": 209,
+                    "end": 241,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -9058,12 +9138,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 139,
-                    "end": 144,
+                    "end": 176,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -9088,12 +9168,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 133,
-                    "end": 138,
+                    "end": 170,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -9694,6 +9774,30 @@
                         "law": "stpo-00147"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 187 Absatz 1 bis 3 des Gerichtsverfassungsgesetzes",
+                    "start": 251,
+                    "end": 303,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00187"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 186 Absatz 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 496,
+                    "end": 548,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00186"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
                 }
             ]
         },
@@ -10117,12 +10221,22 @@
             ],
             "references": [
                 {
-                    "text": "§ 120",
-                    "start": 120,
-                    "end": 125,
+                    "text": "§ 74a des Gerichtsverfassungsgesetzes",
+                    "start": 46,
+                    "end": 83,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-74a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 120 des Gerichtsverfassungsgesetzes",
+                    "start": 120,
+                    "end": 157,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": null
                 }
@@ -10610,12 +10724,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 166,
-                    "end": 171,
+                    "end": 203,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10630,12 +10744,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 222,
-                    "end": 227,
+                    "end": 259,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10650,12 +10764,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 497,
-                    "end": 502,
+                    "end": 534,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10739,12 +10853,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 156,
-                    "end": 161,
+                    "end": 193,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -10761,12 +10875,12 @@
                     }
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 372,
-                    "end": 377,
+                    "end": 409,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10781,22 +10895,22 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 224,
-                    "end": 229,
+                    "end": 261,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 450,
-                    "end": 455,
+                    "end": 487,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10833,12 +10947,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 118,
-                    "end": 123,
+                    "end": 155,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -10979,12 +11093,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120 Abs. 1 Nr. 3",
+                    "text": "§ 120 Abs. 1 Nr. 3 des Gerichtsverfassungsgesetzes",
                     "start": 78,
-                    "end": 96,
+                    "end": 128,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12078,12 +12192,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120 Abs. 1 Nr. 2 bis 7",
+                    "text": "§ 120 Abs. 1 Nr. 2 bis 7 des Gerichtsverfassungsgesetzes",
                     "start": 65,
-                    "end": 89,
+                    "end": 121,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12104,12 +12218,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120 Abs. 1 Nr. 2 bis 7",
+                    "text": "§ 120 Abs. 1 Nr. 2 bis 7 des Gerichtsverfassungsgesetzes",
                     "start": 102,
-                    "end": 126,
+                    "end": 158,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12130,12 +12244,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120 Abs. 1 Nr. 2 bis 7",
+                    "text": "§ 120 Abs. 1 Nr. 2 bis 7 des Gerichtsverfassungsgesetzes",
                     "start": 68,
-                    "end": 92,
+                    "end": 124,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12146,12 +12260,12 @@
                     }
                 },
                 {
-                    "text": "§ 120",
+                    "text": "§ 120 des Gerichtsverfassungsgesetzes",
                     "start": 214,
-                    "end": 219,
+                    "end": 251,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": null
                 }
@@ -12166,12 +12280,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120",
+                    "text": "§ 120 des Gerichtsverfassungsgesetzes",
                     "start": 48,
-                    "end": 53,
+                    "end": 85,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": null
                 }
@@ -12653,6 +12767,28 @@
             ]
         },
         {
+            "source": "stpo-161a",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 185 Absatz 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 0,
+                    "end": 52,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00185"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
             "source": "stpo-00163",
             "element_path": [
                 3,
@@ -12829,6 +12965,28 @@
             ]
         },
         {
+            "source": "stpo-00163",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 185 Absatz 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 0,
+                    "end": 52,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00185"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
             "source": "stpo-163a",
             "element_path": [
                 2,
@@ -12892,6 +13050,28 @@
                     },
                     "fragment": {
                         "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "stpo-163a",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 189 Absatz 4 des Gerichtsverfassungsgesetzes",
+                    "start": 40,
+                    "end": 86,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00189"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
                     }
                 }
             ]
@@ -13072,12 +13252,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 158,
-                    "end": 163,
+                    "end": 195,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -13154,12 +13334,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 126,
-                    "end": 131,
+                    "end": 163,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 },
@@ -13190,12 +13370,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 152",
+                    "text": "§ 152 des Gerichtsverfassungsgesetzes",
                     "start": 540,
-                    "end": 545,
+                    "end": 577,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00152"
+                        "book": "gvg",
+                        "law": "gvg-00152"
                     },
                     "fragment": null
                 }
@@ -13653,6 +13833,16 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                },
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 186,
+                    "end": 223,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -13737,6 +13927,20 @@
                     },
                     "fragment": {
                         "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 74b Satz 1 des Gerichtsverfassungsgesetzes",
+                    "start": 44,
+                    "end": 88,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74b"
+                    },
+                    "fragment": {
                         "sentences": [
                             "1"
                         ]
@@ -14148,6 +14352,26 @@
                     "fragment": null
                 },
                 {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 213,
+                    "end": 250,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 375,
+                    "end": 412,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
+                },
+                {
                     "text": "§ 210",
                     "start": 551,
                     "end": 556,
@@ -14254,12 +14478,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 177",
+                    "text": "§ 177 des Gerichtsverfassungsgesetzes",
                     "start": 110,
-                    "end": 115,
+                    "end": 147,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00177"
+                        "book": "gvg",
+                        "law": "gvg-00177"
                     },
                     "fragment": null
                 }
@@ -14841,6 +15065,26 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                }
+            ]
+        },
+        {
+            "source": "stpo-00259",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 186 des Gerichtsverfassungsgesetzes",
+                    "start": 31,
+                    "end": 68,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00186"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -15706,12 +15950,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 120 Abs. 3",
+                    "text": "§ 120 Abs. 3 des Gerichtsverfassungsgesetzes",
                     "start": 54,
-                    "end": 66,
+                    "end": 98,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00120"
+                        "book": "gvg",
+                        "law": "gvg-00120"
                     },
                     "fragment": {
                         "paragraph": "3"
@@ -17934,6 +18178,28 @@
                     },
                     "fragment": {
                         "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "stpo-00397",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 187 Absatz 2 des Gerichtsverfassungsgesetzes",
+                    "start": 95,
+                    "end": 141,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00187"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
                     }
                 }
             ]

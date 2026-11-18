@@ -13272,6 +13272,18 @@
                         "law": "hgb-00012"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
+                    "start": 317,
+                    "end": 354,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
                 }
             ]
         },

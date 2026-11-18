@@ -231,6 +231,28 @@
         {
             "source": "bdsg-00013",
             "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 116 Absatz 1 der Abgabenordnung",
+                    "start": 1052,
+                    "end": 1085,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00116"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "bdsg-00013",
+            "element_path": [
                 4,
                 "elements",
                 2
@@ -305,12 +327,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 30",
+                    "text": "§ 30 der Abgabenordnung",
                     "start": 98,
-                    "end": 102,
+                    "end": 121,
                     "target": {
-                        "book": "bdsg",
-                        "law": "bdsg-00030"
+                        "book": "ao",
+                        "law": "ao-00030"
                     },
                     "fragment": null
                 }
@@ -427,12 +449,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 63 Nummer 3 und 4",
+                    "text": "§ 63 Nummer 3 und 4 der Verwaltungsgerichtsordnung",
                     "start": 0,
-                    "end": 19,
+                    "end": 50,
                     "target": {
-                        "book": "bdsg",
-                        "law": "bdsg-00063"
+                        "book": "vwgo",
+                        "law": "vwgo-00063"
                     },
                     "fragment": {
                         "numbers": [
@@ -452,12 +474,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 80 Absatz 2 Satz 1 Nummer 4",
+                    "text": "§ 80 Absatz 2 Satz 1 Nummer 4 der Verwaltungsgerichtsordnung",
                     "start": 112,
-                    "end": 141,
+                    "end": 172,
                     "target": {
-                        "book": "bdsg",
-                        "law": "bdsg-00080"
+                        "book": "vwgo",
+                        "law": "vwgo-00080"
                     },
                     "fragment": {
                         "paragraph": "2",
@@ -480,12 +502,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 63 Nummer 3 und 4",
+                    "text": "§ 63 Nummer 3 und 4 der Verwaltungsgerichtsordnung",
                     "start": 160,
-                    "end": 179,
+                    "end": 210,
                     "target": {
-                        "book": "bdsg",
-                        "law": "bdsg-00063"
+                        "book": "vwgo",
+                        "law": "vwgo-00063"
                     },
                     "fragment": {
                         "numbers": [

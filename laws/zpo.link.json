@@ -532,12 +532,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 15",
+                    "text": "§ 15 der Abgabenordnung",
                     "start": 32,
-                    "end": 36,
+                    "end": 55,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00015"
+                        "book": "ao",
+                        "law": "ao-00015"
                     },
                     "fragment": null
                 },
@@ -1601,12 +1601,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 700,
-                    "end": 713,
+                    "end": 737,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -1856,12 +1856,12 @@
                     }
                 },
                 {
-                    "text": "§ 185 Absatz 1a",
+                    "text": "§ 185 Absatz 1a des Gerichtsverfassungsgesetzes",
                     "start": 165,
-                    "end": 180,
+                    "end": 212,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00185"
+                        "book": "gvg",
+                        "law": "gvg-00185"
                     },
                     "fragment": {
                         "paragraph": "1a"
@@ -4069,6 +4069,18 @@
                         "law": "zpo-00038"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 184a Absatz 3 des Gerichtsverfassungsgesetzes",
+                    "start": 340,
+                    "end": 387,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-184a"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
                 }
             ]
         },
@@ -4227,6 +4239,32 @@
                 "elements",
                 1,
                 "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 72a Absatz 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 34,
+                    "end": 86,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-72a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "zpo-00348",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
                 1,
                 "elements",
                 5,
@@ -4235,12 +4273,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 95",
+                    "text": "§ 95 des Gerichtsverfassungsgesetzes",
                     "start": 46,
-                    "end": 50,
+                    "end": 82,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00095"
+                        "book": "gvg",
+                        "law": "gvg-00095"
                     },
                     "fragment": null
                 }
@@ -6512,6 +6550,26 @@
             ]
         },
         {
+            "source": "zpo-00606",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 184a Absatz 1 des Gerichtsverfassungsgesetzes",
+                    "start": 36,
+                    "end": 83,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-184a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
             "source": "zpo-00607",
             "element_path": [
                 2,
@@ -6577,6 +6635,56 @@
             ]
         },
         {
+            "source": "zpo-00609",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 184b Absatz 1 Satz 1 Nummer 2 des Gerichtsverfassungsgesetzes",
+                    "start": 79,
+                    "end": 142,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-184b"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "zpo-00610",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 119b Absatz 1 des Gerichtsverfassungsgesetzes",
+                    "start": 65,
+                    "end": 112,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-119b"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
             "source": "zpo-00611",
             "element_path": [
                 1,
@@ -6635,12 +6743,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 189 Absatz 2",
+                    "text": "§ 189 Absatz 2 des Gerichtsverfassungsgesetzes",
                     "start": 350,
-                    "end": 364,
+                    "end": 396,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00189"
+                        "book": "gvg",
+                        "law": "gvg-00189"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -7300,12 +7408,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 902,
-                    "end": 915,
+                    "end": 939,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -10516,12 +10624,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 284",
+                    "text": "§ 284 der Abgabenordnung",
                     "start": 100,
-                    "end": 105,
+                    "end": 124,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": null
                 },
@@ -10853,12 +10961,12 @@
                     }
                 },
                 {
-                    "text": "§ 284 Abs. 7 Satz 4",
+                    "text": "§ 284 Abs. 7 Satz 4 der Abgabenordnung",
                     "start": 47,
-                    "end": 66,
+                    "end": 85,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "7",
@@ -10868,12 +10976,12 @@
                     }
                 },
                 {
-                    "text": "§ 284 Abs. 1 bis 7",
+                    "text": "§ 284 Abs. 1 bis 7 der Abgabenordnung",
                     "start": 412,
-                    "end": 430,
+                    "end": 449,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -10894,12 +11002,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 284",
+                    "text": "§ 284 der Abgabenordnung",
                     "start": 24,
-                    "end": 29,
+                    "end": 48,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": null
                 }
@@ -10950,12 +11058,12 @@
                     }
                 },
                 {
-                    "text": "§ 284 Abs. 7",
+                    "text": "§ 284 Abs. 7 der Abgabenordnung",
                     "start": 265,
-                    "end": 277,
+                    "end": 296,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "7"
@@ -11008,24 +11116,34 @@
             ],
             "references": [
                 {
-                    "text": "§ 93b Absatz 1 und 1a",
+                    "text": "§ 93b Absatz 1 und 1a der Abgabenordnung",
                     "start": 78,
-                    "end": 99,
+                    "end": 118,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-93b"
+                        "book": "ao",
+                        "law": "ao-93b"
                     },
                     "fragment": {
                         "paragraph": "1"
                     }
                 },
                 {
-                    "text": "§ 93 Absatz 8",
-                    "start": 220,
-                    "end": 233,
+                    "text": "§ 139b der Abgabenordnung",
+                    "start": 182,
+                    "end": 207,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00093"
+                        "book": "ao",
+                        "law": "ao-139b"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 93 Absatz 8 der Abgabenordnung",
+                    "start": 220,
+                    "end": 252,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00093"
                     },
                     "fragment": {
                         "paragraph": "8"
@@ -11436,12 +11554,12 @@
                     "fragment": null
                 },
                 {
-                    "text": "§ 78 Absatz 5",
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
                     "start": 374,
-                    "end": 387,
+                    "end": 411,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00078"
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
                     },
                     "fragment": {
                         "paragraph": "5"
@@ -12075,12 +12193,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 32a Absatz 1 Satz 2 Nummer 1",
+                    "text": "§ 32a Absatz 1 Satz 2 Nummer 1 des Einkommensteuergesetzes",
                     "start": 183,
-                    "end": 213,
+                    "end": 241,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-32a"
+                        "book": "estg",
+                        "law": "estg-32a"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12093,12 +12211,12 @@
                     }
                 },
                 {
-                    "text": "§ 32a Absatz 1 Satz 2 Nummer 1",
+                    "text": "§ 32a Absatz 1 Satz 2 Nummer 1 des Einkommensteuergesetzes",
                     "start": 332,
-                    "end": 362,
+                    "end": 390,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-32a"
+                        "book": "estg",
+                        "law": "estg-32a"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -12251,12 +12369,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 76",
+                    "text": "§ 76 des Einkommensteuergesetzes",
                     "start": 475,
-                    "end": 479,
+                    "end": 507,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00076"
+                        "book": "estg",
+                        "law": "estg-00076"
                     },
                     "fragment": null
                 },
@@ -12807,24 +12925,24 @@
             ],
             "references": [
                 {
-                    "text": "§ 284 Abs. 9",
+                    "text": "§ 284 Abs. 9 der Abgabenordnung",
                     "start": 60,
-                    "end": 72,
+                    "end": 91,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "9"
                     }
                 },
                 {
-                    "text": "§ 284 Abs. 9",
+                    "text": "§ 284 Abs. 9 der Abgabenordnung",
                     "start": 140,
-                    "end": 152,
+                    "end": 171,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "9"
@@ -12905,12 +13023,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 284 Abs. 9",
+                    "text": "§ 284 Abs. 9 der Abgabenordnung",
                     "start": 78,
-                    "end": 90,
+                    "end": 109,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "9"
@@ -13511,12 +13629,12 @@
                     }
                 },
                 {
-                    "text": "§ 284 Abs. 10 Satz 2",
+                    "text": "§ 284 Abs. 10 Satz 2 der Abgabenordnung",
                     "start": 287,
-                    "end": 307,
+                    "end": 326,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00284"
+                        "book": "ao",
+                        "law": "ao-00284"
                     },
                     "fragment": {
                         "paragraph": "10",
@@ -15067,24 +15185,24 @@
             ],
             "references": [
                 {
-                    "text": "§ 93b Absatz 1",
+                    "text": "§ 93b Absatz 1 der Abgabenordnung",
                     "start": 201,
-                    "end": 215,
+                    "end": 234,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-93b"
+                        "book": "ao",
+                        "law": "ao-93b"
                     },
                     "fragment": {
                         "paragraph": "1"
                     }
                 },
                 {
-                    "text": "§ 93 Absatz 8",
+                    "text": "§ 93 Absatz 8 der Abgabenordnung",
                     "start": 265,
-                    "end": 278,
+                    "end": 297,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00093"
+                        "book": "ao",
+                        "law": "ao-00093"
                     },
                     "fragment": {
                         "paragraph": "8"
@@ -15101,12 +15219,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 93b Absatz 1",
+                    "text": "§ 93b Absatz 1 der Abgabenordnung",
                     "start": 294,
-                    "end": 308,
+                    "end": 327,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-93b"
+                        "book": "ao",
+                        "law": "ao-93b"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -16906,18 +17024,28 @@
             ],
             "references": [
                 {
-                    "text": "§ 23 Nummer 1",
+                    "text": "§ 23 Nummer 1 des Gerichtsverfassungsgesetzes",
                     "start": 194,
-                    "end": 207,
+                    "end": 239,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00023"
+                        "book": "gvg",
+                        "law": "gvg-00023"
                     },
                     "fragment": {
                         "numbers": [
                             "1"
                         ]
                     }
+                },
+                {
+                    "text": "§ 23a des Gerichtsverfassungsgesetzes",
+                    "start": 340,
+                    "end": 377,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-23a"
+                    },
+                    "fragment": null
                 }
             ]
         },

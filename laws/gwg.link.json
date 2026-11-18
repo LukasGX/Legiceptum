@@ -1675,6 +1675,21 @@
                     }
                 },
                 {
+                    "text": "§ 78 Absatz 5 Satz 2 des Aufenthaltsgesetzes",
+                    "start": 894,
+                    "end": 938,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
                     "text": "§ 13",
                     "start": 949,
                     "end": 953,
@@ -1773,6 +1788,28 @@
                         "numbers": [
                             "1"
                         ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gwg-00008",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 147 Absatz 5 der Abgabenordnung",
+                    "start": 119,
+                    "end": 152,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00147"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
                     }
                 }
             ]
@@ -2814,6 +2851,18 @@
                         "law": "gwg-00012"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 78 Absatz 5 des Aufenthaltsgesetzes",
+                    "start": 124,
+                    "end": 161,
+                    "target": {
+                        "book": "aufenthg",
+                        "law": "aufenthg-00078"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
                 }
             ]
         },
@@ -6122,6 +6171,16 @@
                         "law": "gwg-00020"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 60b der Abgabenordnung",
+                    "start": 989,
+                    "end": 1013,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-60b"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -6497,12 +6556,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 6 Absatz 2 Nummer 5",
+                    "text": "§ 6 Absatz 2 Nummer 5 der Abgabenordnung",
                     "start": 71,
-                    "end": 92,
+                    "end": 111,
                     "target": {
-                        "book": "gwg",
-                        "law": "gwg-00006"
+                        "book": "ao",
+                        "law": "ao-00006"
                     },
                     "fragment": {
                         "paragraph": "2",
@@ -7018,6 +7077,30 @@
         {
             "source": "gwg-00030",
             "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31b der Abgabenordnung",
+                    "start": 37,
+                    "end": 61,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-31b"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gwg-00030",
+            "element_path": [
                 1,
                 "elements",
                 0
@@ -7185,6 +7268,33 @@
             ],
             "references": [
                 {
+                    "text": "§ 31b Absatz 1 Nummer 5 der Abgabenordnung",
+                    "start": 96,
+                    "end": 138,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-31b"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "5"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 31b Absatz 2 der Abgabenordnung",
+                    "start": 168,
+                    "end": 201,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-31b"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
                     "text": "§ 28 Absatz 1 Satz 3 Nummer 2",
                     "start": 336,
                     "end": 365,
@@ -7203,12 +7313,12 @@
                     }
                 },
                 {
-                    "text": "§ 30",
+                    "text": "§ 30 der Abgabenordnung",
                     "start": 381,
-                    "end": 385,
+                    "end": 404,
                     "target": {
-                        "book": "gwg",
-                        "law": "gwg-00030"
+                        "book": "ao",
+                        "law": "ao-00030"
                     },
                     "fragment": null
                 },
@@ -7341,12 +7451,22 @@
                     }
                 },
                 {
-                    "text": "§ 30",
+                    "text": "§ 30 der Abgabenordnung",
                     "start": 2245,
-                    "end": 2249,
+                    "end": 2268,
                     "target": {
-                        "book": "gwg",
-                        "law": "gwg-00030"
+                        "book": "ao",
+                        "law": "ao-00030"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 31b der Abgabenordnung",
+                    "start": 2398,
+                    "end": 2422,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-31b"
                     },
                     "fragment": null
                 }
@@ -8122,6 +8242,18 @@
                         "law": "gwg-00044"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 31b Absatz 2 der Abgabenordnung",
+                    "start": 81,
+                    "end": 114,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-31b"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
                 }
             ]
         },
@@ -13762,6 +13894,26 @@
         {
             "source": "gwg-00056",
             "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 412 der Abgabenordnung",
+                    "start": 141,
+                    "end": 165,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00412"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gwg-00056",
+            "element_path": [
                 7,
                 "elements",
                 0
@@ -14066,6 +14218,52 @@
                     },
                     "fragment": {
                         "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 93b Absatz 1 und 1a der Abgabenordnung",
+                    "start": 244,
+                    "end": 284,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-93b"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 139b der Abgabenordnung",
+                    "start": 348,
+                    "end": 373,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-139b"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 93 Absatz 8 der Abgabenordnung",
+                    "start": 386,
+                    "end": 418,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00093"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 93 Absatz 8a bis 10 der Abgabenordnung",
+                    "start": 457,
+                    "end": 497,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00093"
+                    },
+                    "fragment": {
+                        "paragraph": "8a"
                     }
                 },
                 {

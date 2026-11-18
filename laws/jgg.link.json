@@ -724,6 +724,30 @@
                 "elements",
                 1,
                 "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 76,
+                    "end": 113,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "jgg-33b",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
                 1,
                 "elements",
                 0
@@ -770,6 +794,35 @@
                         "paragraph": "1",
                         "numbers": [
                             "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "jgg-33b",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74c Absatz 1 Satz 1 des Gerichtsverfassungsgesetzes",
+                    "start": 22,
+                    "end": 75,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74c"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
                         ]
                     }
                 }
@@ -861,12 +914,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 40",
+                    "text": "§ 40 des Gerichtsverfassungsgesetzes",
                     "start": 147,
-                    "end": 151,
+                    "end": 183,
                     "target": {
-                        "book": "jgg",
-                        "law": "jgg-00040"
+                        "book": "gvg",
+                        "law": "gvg-00040"
                     },
                     "fragment": null
                 }
@@ -881,12 +934,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 36",
+                    "text": "§ 36 des Gerichtsverfassungsgesetzes",
                     "start": 85,
-                    "end": 89,
+                    "end": 121,
                     "target": {
-                        "book": "jgg",
-                        "law": "jgg-00036"
+                        "book": "gvg",
+                        "law": "gvg-00036"
                     },
                     "fragment": null
                 }
@@ -1058,6 +1111,30 @@
                 "elements",
                 1,
                 "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 70,
+                    "end": 107,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "jgg-00041",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
                 1,
                 "elements",
                 0
@@ -1136,12 +1213,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 73 Abs. 1",
+                    "text": "§ 73 Abs. 1 des Gerichtsverfassungsgesetzes",
                     "start": 204,
-                    "end": 215,
+                    "end": 247,
                     "target": {
-                        "book": "jgg",
-                        "law": "jgg-00073"
+                        "book": "gvg",
+                        "law": "gvg-00073"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -1486,6 +1563,26 @@
                             "1"
                         ]
                     }
+                }
+            ]
+        },
+        {
+            "source": "jgg-00051",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 177 des Gerichtsverfassungsgesetzes",
+                    "start": 0,
+                    "end": 37,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00177"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -2381,6 +2478,16 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                },
+                {
+                    "text": "§ 177 des Gerichtsverfassungsgesetzes",
+                    "start": 158,
+                    "end": 195,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00177"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -3798,6 +3905,18 @@
             ],
             "references": [
                 {
+                    "text": "§ 120 Abs. 1 und 2 des Gerichtsverfassungsgesetzes",
+                    "start": 223,
+                    "end": 273,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-00120"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
                     "text": "§ 59 Abs. 1",
                     "start": 470,
                     "end": 481,
@@ -3819,6 +3938,36 @@
                 0
             ],
             "references": [
+                {
+                    "text": "§ 74e des Gerichtsverfassungsgesetzes",
+                    "start": 153,
+                    "end": 190,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74e"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 74a des Gerichtsverfassungsgesetzes",
+                    "start": 262,
+                    "end": 299,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 74a des Gerichtsverfassungsgesetzes",
+                    "start": 498,
+                    "end": 535,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74a"
+                    },
+                    "fragment": null
+                },
                 {
                     "text": "§ 270 Abs. 1 Satz 2 der Strafprozeßordnung",
                     "start": 589,
@@ -4464,12 +4613,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 25",
+                    "text": "§ 25 des Gerichtsverfassungsgesetzes",
                     "start": 143,
-                    "end": 147,
+                    "end": 179,
                     "target": {
-                        "book": "jgg",
-                        "law": "jgg-00025"
+                        "book": "gvg",
+                        "law": "gvg-00025"
                     },
                     "fragment": null
                 }
@@ -4484,12 +4633,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 24 Abs. 2",
+                    "text": "§ 24 Abs. 2 des Gerichtsverfassungsgesetzes",
                     "start": 101,
-                    "end": 112,
+                    "end": 144,
                     "target": {
-                        "book": "jgg",
-                        "law": "jgg-00024"
+                        "book": "gvg",
+                        "law": "gvg-00024"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -4841,6 +4990,26 @@
                     "fragment": {
                         "paragraph": "2"
                     }
+                }
+            ]
+        },
+        {
+            "source": "jgg-00121",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74f des Gerichtsverfassungsgesetzes",
+                    "start": 250,
+                    "end": 287,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-74f"
+                    },
+                    "fragment": null
                 }
             ]
         }
