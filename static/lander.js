@@ -16,6 +16,7 @@
 	let totalResults = 0;
 	let debounceTimeout = null;
 	let activeController = null;
+	let requestId = 0;
 	let isLoading = false;
 
 	function clearResults() {
@@ -23,15 +24,18 @@
 		resultsCount.textContent = "";
 		loadMoreButton.hidden = true;
 		searchStatus.textContent = "";
+		totalResults = 0;
+		currentPage = 1;
 	}
 
 	function createResultElement(result) {
 		const article = document.createElement("button");
+		article.type = "button";
 		article.className = "search-result";
 
 		const heading = document.createElement("h3");
 
-		const prefix = result.no_prefix ? "" : result.prefix + " ";
+		const prefix = result.no_prefix ? "" : `${result.prefix} `;
 		heading.textContent = `${prefix}${result.nr}`;
 
 		if (result.name) {
@@ -52,20 +56,21 @@
 	}
 
 	function updateResultsCount() {
-		resultsCount.textContent = `${resultsList.children.length} von ${totalResults} Ergebnissen`;
+		const count = resultsList.children.length;
+		resultsCount.textContent = `${count} von ${totalResults} Ergebnissen`;
 	}
 
 	async function search(query, page = 1) {
-		if (isLoading) return;
-
 		if (activeController) {
 			activeController.abort();
 		}
 
 		const controller = new AbortController();
 		activeController = controller;
-		isLoading = true;
 
+		const currentRequestId = ++requestId;
+
+		isLoading = true;
 		searchStatus.textContent = "Suche läuft …";
 		loadMoreButton.disabled = true;
 
@@ -73,14 +78,14 @@
 			const response = await fetch(SEARCH_ENDPOINT, {
 				method: "POST",
 				headers: {
-					"Content-Type": "application/json",
+					"Content-Type": "application/json"
 				},
 				body: JSON.stringify({
 					query,
 					page,
-					limit: PAGE_SIZE,
+					limit: PAGE_SIZE
 				}),
-				signal: controller.signal,
+				signal: controller.signal
 			});
 
 			if (!response.ok) {
@@ -89,8 +94,8 @@
 
 			const data = await response.json();
 
-			// Veraltete Suchanfragen ignorieren
-			if (query !== currentQuery) return;
+			// Nur die aktuellste Anfrage darf Ergebnisse anzeigen.
+			if (currentRequestId !== requestId) return;
 
 			if (page === 1) {
 				resultsList.replaceChildren();
@@ -107,16 +112,17 @@
 			updateResultsCount();
 
 			loadMoreButton.hidden = !data.has_more;
+
 			searchStatus.textContent =
 				data.total === 0 ? "Keine Ergebnisse gefunden." : "";
 		} catch (error) {
-			if (error.name !== "AbortError") {
+			if (error.name !== "AbortError" && currentRequestId === requestId) {
 				console.error("Search failed:", error);
 				searchStatus.textContent =
 					"Bei der Suche ist ein Fehler aufgetreten.";
 			}
 		} finally {
-			if (activeController === controller) {
+			if (currentRequestId === requestId) {
 				activeController = null;
 				isLoading = false;
 				loadMoreButton.disabled = false;
@@ -124,8 +130,7 @@
 		}
 	}
 
-	// Live-Suche mit Debouncing
-	searchInput.addEventListener("input", () => {
+	function startSearch() {
 		clearTimeout(debounceTimeout);
 
 		const query = searchInput.value.trim();
@@ -133,11 +138,15 @@
 		currentQuery = query;
 		currentPage = 1;
 
+		// Laufende Anfragen ungültig machen und abbrechen.
+		requestId++;
+
 		if (activeController) {
 			activeController.abort();
 			activeController = null;
-			isLoading = false;
 		}
+
+		isLoading = false;
 
 		clearResults();
 
@@ -151,12 +160,26 @@
 		debounceTimeout = setTimeout(() => {
 			search(query, 1);
 		}, 300);
-	});
+	}
+
+	// Live-Suche mit Debouncing
+	searchInput.addEventListener("input", startSearch);
 
 	// Weitere Ergebnisse laden
 	loadMoreButton.addEventListener("click", () => {
 		if (currentQuery && !isLoading) {
 			search(currentQuery, currentPage + 1);
+		}
+	});
+
+	document.addEventListener("keydown", (event) => {
+		if (
+			event.key === "/" &&
+			!["INPUT", "TEXTAREA"].includes(document.activeElement.tagName) &&
+			!document.activeElement.isContentEditable
+		) {
+			event.preventDefault();
+			searchInput.focus();
 		}
 	});
 })();

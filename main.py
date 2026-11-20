@@ -46,6 +46,46 @@ def get_law_fulltext(law: dict) -> str:
         for paragraph in paragraphs
     )
 
+def build_global_title_index():
+    GLOBAL_TITLE_INDEX.clear()
+
+    for file in LAWS_BASE_DIR.rglob("*.json"):
+        if file.name.endswith(".link.json"):
+            continue
+
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                content = json.load(f)
+        except (OSError, json.JSONDecodeError) as error:
+            print(f"Fehler beim Laden von {file}: {error}")
+            continue
+
+        book = {
+            "id": content.get("id"),
+            "abbr": content.get("abbr"),
+            "name": content.get("name"),
+            "scope": content.get("scope")
+        }
+
+        for law in content.get("laws", []):
+            nr = str(law.get("nr") or "")
+            name = str(law.get("name") or "")
+
+            GLOBAL_TITLE_INDEX.append({
+                "id": law["id"],
+                "nr": nr,
+                "name": name,
+                "prefix": content.get("prefix", ""),
+                "no_prefix": law.get("no_prefix", False),
+                "book": book,
+                "_search": f"{nr} {name}".casefold()
+            })
+
+    print(
+        f"Globaler Titelindex aufgebaut: "
+        f"{len(GLOBAL_TITLE_INDEX)} Normen"
+    )
+
 def build_global_search_index():
     GLOBAL_BOOK_INDEX.clear()
     GLOBAL_LAW_INDEX.clear()
@@ -87,9 +127,11 @@ def build_global_search_index():
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    build_global_title_index()
     build_global_search_index()
     yield
     GLOBAL_TITLE_INDEX.clear()
+    GLOBAL_BOOK_INDEX.clear()
 
 app = FastAPI(lifespan=lifespan)
 
@@ -299,7 +341,6 @@ class GlobalTitleSearchRequest(BaseModel):
     query: str
     page: int = Field(default=1, ge=1)
     limit: int = Field(default=150, ge=1, le=150)
-
 
 @app.post("/laws/search/global/title")
 async def search_all_titles(data: GlobalTitleSearchRequest):

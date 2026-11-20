@@ -1,0 +1,11 @@
+{
+    "id": "baugb",
+    "abbr": "BauGB",
+    "name": "Baugesetzbuch",
+    "desc": "Regelt die städtebauliche Entwicklung, insbesondere die Bauleitplanung, die Zulässigkeit von Bauvorhaben und die Bodenordnung.",
+    "scope": "bund",
+    "field": "Verwaltungsrecht",
+    "icon": "city",
+    "updated": "",
+    "prefix": "§"
+}

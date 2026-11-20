@@ -1,0 +1,11 @@
+{
+    "id": "markeng",
+    "abbr": "MarkenG",
+    "name": "Markengesetz",
+    "desc": "Regelt den Schutz von Marken, geschäftlichen Bezeichnungen und geografischen Herkunftsangaben in Deutschland.",
+    "scope": "bund",
+    "field": "Gewerblicher Rechtsschutz",
+    "icon": "trademark",
+    "updated": "",
+    "prefix": "§"
+}

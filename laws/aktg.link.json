@@ -2040,6 +2040,18 @@
                         "law": "aktg-00327"
                     },
                     "fragment": null
+                },
+                {
+                    "text": "§ 340 Absatz 1 des Umwandlungsgesetzes",
+                    "start": 205,
+                    "end": 243,
+                    "target": {
+                        "book": "umwg",
+                        "law": "umwg-00340"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
                 }
             ]
         },
@@ -2501,6 +2513,16 @@
                     "target": {
                         "book": "hgb",
                         "law": "hgb-00331"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 346 des Umwandlungsgesetzes",
+                    "start": 86,
+                    "end": 115,
+                    "target": {
+                        "book": "umwg",
+                        "law": "umwg-00346"
                     },
                     "fragment": null
                 },
@@ -9529,22 +9551,22 @@
                     }
                 },
                 {
-                    "text": "§ 1",
+                    "text": "§ 1 des Umwandlungsgesetzes",
                     "start": 482,
-                    "end": 485,
+                    "end": 509,
                     "target": {
-                        "book": "aktg",
-                        "law": "aktg-00001"
+                        "book": "umwg",
+                        "law": "umwg-00001"
                     },
                     "fragment": null
                 },
                 {
-                    "text": "§ 20 Abs. 2",
+                    "text": "§ 20 Abs. 2 des Umwandlungsgesetzes",
                     "start": 564,
-                    "end": 575,
+                    "end": 599,
                     "target": {
-                        "book": "aktg",
-                        "law": "aktg-00020"
+                        "book": "umwg",
+                        "law": "umwg-00020"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -10132,6 +10154,21 @@
                     },
                     "fragment": {
                         "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 72a Absatz 1 Satz 2 des Umwandlungsgesetzes",
+                    "start": 173,
+                    "end": 218,
+                    "target": {
+                        "book": "umwg",
+                        "law": "umwg-72a"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
                     }
                 }
             ]
@@ -12114,12 +12151,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 10 Abs. 3 bis 5",
+                    "text": "§ 10 Abs. 3 bis 5 des Umwandlungsgesetzes",
                     "start": 0,
-                    "end": 17,
+                    "end": 41,
                     "target": {
-                        "book": "aktg",
-                        "law": "aktg-00010"
+                        "book": "umwg",
+                        "law": "umwg-00010"
                     },
                     "fragment": {
                         "paragraph": "3"

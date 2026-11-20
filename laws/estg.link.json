@@ -6702,6 +6702,70 @@
         {
             "source": "estg-6b",
             "element_path": [
+                8,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 166 Absatz 4 des Baugesetzbuchs",
+                    "start": 100,
+                    "end": 133,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00166"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 205 des Baugesetzbuchs",
+                    "start": 157,
+                    "end": 181,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00205"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 157 des Baugesetzbuchs",
+                    "start": 205,
+                    "end": 229,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00157"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 167 des Baugesetzbuchs",
+                    "start": 255,
+                    "end": 279,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00167"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 148 Absatz 1 Baugesetzbuch",
+                    "start": 389,
+                    "end": 417,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00148"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "estg-6b",
+            "element_path": [
                 10,
                 "elements",
                 0
@@ -7399,6 +7463,16 @@
                     "fragment": {
                         "paragraph": "4"
                     }
+                },
+                {
+                    "text": "§ 177 des Baugesetzbuchs",
+                    "start": 417,
+                    "end": 441,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00177"
+                    },
+                    "fragment": null
                 }
             ]
         },
@@ -10692,6 +10766,26 @@
                     "target": {
                         "book": "estg",
                         "law": "estg-00005"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "estg-11a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 177 des Baugesetzbuchs",
+                    "start": 155,
+                    "end": 179,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00177"
                     },
                     "fragment": null
                 }
@@ -35109,6 +35203,38 @@
                 "elements",
                 1,
                 "elements",
+                9,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 177 des Baugesetzbuchs",
+                    "start": 150,
+                    "end": 174,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00177"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "estg-00051",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
                 10,
                 "elements",
                 2
@@ -35200,6 +35326,34 @@
                             "2"
                         ]
                     }
+                }
+            ]
+        },
+        {
+            "source": "estg-00051",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                15,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 177 des Baugesetzbuchs",
+                    "start": 111,
+                    "end": 135,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00177"
+                    },
+                    "fragment": null
                 }
             ]
         },

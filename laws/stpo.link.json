@@ -17260,12 +17260,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 142 Abs. 1",
+                    "text": "§ 142 Abs. 1 des Patentgesetzes",
                     "start": 19,
-                    "end": 31,
+                    "end": 50,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00142"
+                        "book": "patg",
+                        "law": "patg-00142"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -17308,12 +17308,12 @@
                     }
                 },
                 {
-                    "text": "§ 144 Absatz 1",
+                    "text": "§ 144 Absatz 1 des Markengesetzes",
                     "start": 190,
-                    "end": 204,
+                    "end": 223,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00144"
+                        "book": "markeng",
+                        "law": "markeng-00144"
                     },
                     "fragment": {
                         "paragraph": "1"
@@ -17843,12 +17843,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 142",
+                    "text": "§ 142 des Patentgesetzes",
                     "start": 0,
-                    "end": 5,
+                    "end": 24,
                     "target": {
-                        "book": "stpo",
-                        "law": "stpo-00142"
+                        "book": "patg",
+                        "law": "patg-00142"
                     },
                     "fragment": null
                 },

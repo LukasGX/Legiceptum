@@ -459,12 +459,12 @@
                     }
                 },
                 {
-                    "text": "§ 343 Absatz 1 Satz 4",
+                    "text": "§ 343 Absatz 1 Satz 4 des Umwandlungsgesetzes",
                     "start": 109,
-                    "end": 130,
+                    "end": 154,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00343"
+                        "book": "umwg",
+                        "law": "umwg-00343"
                     },
                     "fragment": {
                         "paragraph": "1",
@@ -517,12 +517,12 @@
                     }
                 },
                 {
-                    "text": "§ 343 Absatz 1 Satz 4",
+                    "text": "§ 343 Absatz 1 Satz 4 des Umwandlungsgesetzes",
                     "start": 108,
-                    "end": 129,
+                    "end": 153,
                     "target": {
-                        "book": "hgb",
-                        "law": "hgb-00343"
+                        "book": "umwg",
+                        "law": "umwg-00343"
                     },
                     "fragment": {
                         "paragraph": "1",

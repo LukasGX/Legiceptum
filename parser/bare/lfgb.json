@@ -1,0 +1,11 @@
+{
+    "id": "lfgb",
+    "abbr": "LFGB",
+    "name": "Lebensmittel- und Futtermittelgesetzbuch",
+    "desc": "Regelt den Verkehr mit Lebensmitteln, Futtermitteln, Kosmetika und Bedarfsgegenständen sowie den Schutz der Verbraucher vor Täuschung.",
+    "scope": "bund",
+    "field": "Verwaltungsrecht",
+    "icon": "utensils",
+    "updated": "",
+    "prefix": "§"
+}

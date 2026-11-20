@@ -99,6 +99,7 @@
 }
 
 .search-result {
+	display: block !important;
 	padding: 1rem;
 	background: var(--surface);
 	border: 1px solid var(--border);

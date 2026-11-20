@@ -99,6 +99,26 @@
 		{
 			"slug": "aufenthg_2004",
 			"abbr": "aufenthg"
+		},
+		{
+			"slug": "bbaug",
+			"abbr": "baugb"
+		},
+		{
+			"slug": "lfgb",
+			"abbr": "lfgb"
+		},
+		{
+			"slug": "umwg",
+			"abbr": "umwg"
+		},
+		{
+			"slug": "markeng",
+			"abbr": "markeng"
+		},
+		{
+			"slug": "patg",
+			"abbr": "patg"
 		}
 	],
 	"override": [],

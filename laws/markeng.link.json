@@ -1,0 +1,6321 @@
+{
+    "version": 1,
+    "book": "markeng",
+    "links": [
+        {
+            "source": "markeng-00006",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 96,
+                    "end": 107,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 34",
+                    "start": 141,
+                    "end": 145,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00034"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 35",
+                    "start": 156,
+                    "end": 160,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00035"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00006",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Nr. 2 und 3",
+                    "start": 58,
+                    "end": 73,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00008",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 68,
+                    "end": 71,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00010",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1 Nr. 1, 2 oder 3",
+                    "start": 257,
+                    "end": 283,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00012",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Nr. 2",
+                    "start": 167,
+                    "end": 176,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 5",
+                    "start": 231,
+                    "end": 234,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00005"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00014",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4",
+                    "start": 35,
+                    "end": 38,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00015",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 6 Satz 2 und 3",
+                    "start": 169,
+                    "end": 193,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "6",
+                        "sentences": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00015",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 7",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00017",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11",
+                    "start": 24,
+                    "end": 28,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00011"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00017",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11",
+                    "start": 24,
+                    "end": 28,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00011"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 14",
+                    "start": 162,
+                    "end": 166,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 14 Abs. 7",
+                    "start": 431,
+                    "end": 442,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00019",
+            "element_path": [
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 52 Abs. 1 der Strafprozessordnung",
+                    "start": 217,
+                    "end": 252,
+                    "target": {
+                        "book": "stpo",
+                        "law": "stpo-00052"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00019",
+            "element_path": [
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Nummer 70",
+                    "start": 58,
+                    "end": 71,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "70"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00019",
+            "element_path": [
+                9,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 10 des Grundgesetzes",
+                    "start": 89,
+                    "end": 117,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-19a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 811 des Bürgerlichen Gesetzbuchs",
+                    "start": 0,
+                    "end": 34,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00811"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19 Abs. 8",
+                    "start": 41,
+                    "end": 52,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-19b",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 6",
+                    "start": 160,
+                    "end": 171,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 15 Abs. 5",
+                    "start": 173,
+                    "end": 184,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 17 Abs. 2 Satz 2",
+                    "start": 191,
+                    "end": 209,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-19b",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 811 des Bürgerlichen Gesetzbuchs",
+                    "start": 0,
+                    "end": 34,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00811"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19 Abs. 8",
+                    "start": 41,
+                    "end": 52,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00020",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 852 des Bürgerlichen Gesetzbuchs",
+                    "start": 265,
+                    "end": 299,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00852"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00021",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Nr. 2 oder 3",
+                    "start": 122,
+                    "end": 138,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 13",
+                    "start": 214,
+                    "end": 218,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1 Nr. 3",
+                    "start": 179,
+                    "end": 195,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Absatz 2 Satz 1 Nummer 3",
+                    "start": 201,
+                    "end": 230,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 15 Abs. 3",
+                    "start": 240,
+                    "end": 251,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 51 Abs. 3",
+                    "start": 265,
+                    "end": 276,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 51 Absatz 4",
+                    "start": 266,
+                    "end": 279,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00022",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Absatz 1 Nummer 2",
+                    "start": 124,
+                    "end": 145,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Absatz 2 Satz 1 Nummer 2",
+                    "start": 151,
+                    "end": 180,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 15 Absatz 2",
+                    "start": 190,
+                    "end": 203,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00025",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 312,
+                    "end": 316,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00025",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 357,
+                    "end": 361,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 26",
+                    "start": 796,
+                    "end": 800,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00027",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 46 Abs. 2 und 3 Satz 1",
+                    "start": 185,
+                    "end": 209,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00046"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00029",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 270 der Insolvenzordnung",
+                    "start": 243,
+                    "end": 269,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-00270"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00030",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27",
+                    "start": 24,
+                    "end": 28,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00027"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00032",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Absatz 1",
+                    "start": 63,
+                    "end": 75,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00032",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 65 Abs. 1 Nr. 2",
+                    "start": 104,
+                    "end": 121,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00065"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00033",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Absatz 2",
+                    "start": 95,
+                    "end": 108,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00033",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Absatz 2",
+                    "start": 54,
+                    "end": 67,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00035",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 34",
+                    "start": 252,
+                    "end": 256,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00034"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00035",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34",
+                    "start": 82,
+                    "end": 86,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00034"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00036",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 87,
+                    "end": 98,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00036",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7",
+                    "start": 18,
+                    "end": 21,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00007"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00036",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7",
+                    "start": 29,
+                    "end": 32,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00007"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00037",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 19,
+                    "end": 22,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00037",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 54,
+                    "end": 65,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 8 Abs. 2 Nr. 1, 2 oder 3",
+                    "start": 97,
+                    "end": 123,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 34",
+                    "start": 371,
+                    "end": 375,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00034"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 35",
+                    "start": 381,
+                    "end": 385,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00035"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 6 Abs. 2",
+                    "start": 542,
+                    "end": 552,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00037",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 2 Nr. 4",
+                    "start": 25,
+                    "end": 41,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00037",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 25,
+                    "end": 29,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00010"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9 Abs. 1 Nr. 1 oder 2",
+                    "start": 146,
+                    "end": 169,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00041",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37",
+                    "start": 79,
+                    "end": 83,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00041",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 62 Absatz 4",
+                    "start": 257,
+                    "end": 270,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00062"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 41 Absatz 2",
+                    "start": 104,
+                    "end": 117,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00041"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 76,
+                    "end": 79,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 64,
+                    "end": 68,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00010"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9",
+                    "start": 87,
+                    "end": 90,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11",
+                    "start": 80,
+                    "end": 84,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00011"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Nr. 2",
+                    "start": 64,
+                    "end": 73,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 5",
+                    "start": 138,
+                    "end": 141,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00005"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 12",
+                    "start": 160,
+                    "end": 164,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00012"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13",
+                    "start": 98,
+                    "end": 102,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00043",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 316,
+                    "end": 320,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00043",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 52 Abs. 2 und 3",
+                    "start": 40,
+                    "end": 57,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00052"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00044",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43",
+                    "start": 135,
+                    "end": 139,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00043"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00047",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Absatz 1",
+                    "start": 98,
+                    "end": 111,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00049",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 231,
+                    "end": 235,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 26",
+                    "start": 441,
+                    "end": 445,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 53 Abs. 1",
+                    "start": 1019,
+                    "end": 1030,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 55 Abs. 1",
+                    "start": 1253,
+                    "end": 1264,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 53 Abs. 4",
+                    "start": 1328,
+                    "end": 1339,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00049",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7",
+                    "start": 45,
+                    "end": 48,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00007"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00050",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 23,
+                    "end": 26,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 8 Absatz 2 Nummer 1, 2 oder 3",
+                    "start": 265,
+                    "end": 296,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 8 Absatz 2 Nummer 1, 2 oder 3",
+                    "start": 586,
+                    "end": 617,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00050",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 2 Nummer 4 bis 14",
+                    "start": 106,
+                    "end": 132,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "4",
+                            "14"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00050",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 2 Nummer 4 bis 13",
+                    "start": 26,
+                    "end": 52,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "4",
+                            "13"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 55",
+                    "start": 48,
+                    "end": 52,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 53",
+                    "start": 71,
+                    "end": 75,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 4 Nr. 2",
+                    "start": 610,
+                    "end": 619,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 4 Nr. 3",
+                    "start": 669,
+                    "end": 678,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 5",
+                    "start": 729,
+                    "end": 732,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00005"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 13 Abs. 2 Nr. 4",
+                    "start": 778,
+                    "end": 795,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Abs. 1 Nr. 3",
+                    "start": 329,
+                    "end": 345,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Absatz 2 Satz 1 Nummer 3",
+                    "start": 351,
+                    "end": 380,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 15 Abs. 3",
+                    "start": 390,
+                    "end": 401,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 13,
+                    "end": 17,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                3,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50",
+                    "start": 32,
+                    "end": 36,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00051",
+            "element_path": [
+                3,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Absatz 1 Nummer 2",
+                    "start": 45,
+                    "end": 66,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00052",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 151,
+                    "end": 155,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 55",
+                    "start": 186,
+                    "end": 190,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00053",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 39,
+                    "end": 43,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 50",
+                    "start": 100,
+                    "end": 104,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 51",
+                    "start": 126,
+                    "end": 130,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 81 Absatz 6 des Patentgesetzes",
+                    "start": 302,
+                    "end": 334,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 55",
+                    "start": 606,
+                    "end": 610,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 325 Absatz 1 der Zivilprozessordnung",
+                    "start": 629,
+                    "end": 667,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00325"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00053",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 269,
+                    "end": 273,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 26",
+                    "start": 620,
+                    "end": 624,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 49 Absatz 1",
+                    "start": 984,
+                    "end": 997,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00054",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53 Absatz 1 bis 3",
+                    "start": 28,
+                    "end": 47,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 38,
+                    "end": 42,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 51",
+                    "start": 97,
+                    "end": 101,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 14,
+                    "end": 18,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 17,
+                    "end": 21,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 325 Absatz 1 der Zivilprozessordnung",
+                    "start": 0,
+                    "end": 38,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00325"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13 Abs. 2 Nr. 5",
+                    "start": 135,
+                    "end": 152,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00055",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 246,
+                    "end": 250,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 26",
+                    "start": 603,
+                    "end": 607,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 49 Absatz 1",
+                    "start": 955,
+                    "end": 968,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00056",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 95 Abs. 2",
+                    "start": 517,
+                    "end": 528,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00095"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00056",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 476,
+                    "end": 480,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00060",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 128a der Zivilprozessordnung",
+                    "start": 390,
+                    "end": 420,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-128a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00061",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 91",
+                    "start": 695,
+                    "end": 699,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00091"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 64",
+                    "start": 808,
+                    "end": 812,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00064"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00063",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Absatz 3 Satz 2",
+                    "start": 112,
+                    "end": 132,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 33 Absatz 1",
+                    "start": 137,
+                    "end": 150,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00063",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66",
+                    "start": 400,
+                    "end": 404,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00064",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66",
+                    "start": 49,
+                    "end": 53,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 66 Abs. 4 Satz 2",
+                    "start": 448,
+                    "end": 466,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00064",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66 Abs. 3",
+                    "start": 63,
+                    "end": 74,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00065",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                11,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 48 Abs. 1",
+                    "start": 349,
+                    "end": 360,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00048"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 53",
+                    "start": 362,
+                    "end": 366,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 58 Abs. 1",
+                    "start": 395,
+                    "end": 406,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00065",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                13,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 3",
+                    "start": 33,
+                    "end": 44,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00066",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 64",
+                    "start": 103,
+                    "end": 107,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00064"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00066",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 64",
+                    "start": 30,
+                    "end": 34,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00064"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00067",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66",
+                    "start": 30,
+                    "end": 34,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00069",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74 Abs. 1",
+                    "start": 49,
+                    "end": 60,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00074"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00081",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 96",
+                    "start": 83,
+                    "end": 87,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00096"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00081",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 des Aktiengesetzes",
+                    "start": 74,
+                    "end": 97,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00015"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00081",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 der Abgabenordnung",
+                    "start": 32,
+                    "end": 55,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00015"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 11",
+                    "start": 57,
+                    "end": 61,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00011"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-81a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130 Absatz 2 und 3",
+                    "start": 16,
+                    "end": 36,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00082",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 227 Abs. 3 Satz 1 der Zivilprozeßordnung",
+                    "start": 275,
+                    "end": 317,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00227"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00082",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 62 Absatz 1 bis 4",
+                    "start": 59,
+                    "end": 78,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00062"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00082",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79 Absatz 2 Satz 1 und 2 Nummer 3 und 4 der Zivilprozessordnung",
+                    "start": 104,
+                    "end": 169,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00079"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ],
+                        "numbers": [
+                            "3",
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 81 Absatz 2 Satz 1",
+                    "start": 187,
+                    "end": 207,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00083",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66",
+                    "start": 104,
+                    "end": 108,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00066"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00085",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 142",
+                    "start": 87,
+                    "end": 92,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00142"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00085",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13",
+                    "start": 325,
+                    "end": 329,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00087",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 68 Abs. 1",
+                    "start": 139,
+                    "end": 150,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00068"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00088",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 91 Abs. 8",
+                    "start": 452,
+                    "end": 463,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00091"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 138 des Patentgesetzes",
+                    "start": 546,
+                    "end": 570,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00138"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00088",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 67 Abs. 2 und 3",
+                    "start": 43,
+                    "end": 60,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00067"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-89a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 321a Abs. 2 bis 5 der Zivilprozessordnung",
+                    "start": 292,
+                    "end": 335,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-321a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00091",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 1 Satz 1",
+                    "start": 374,
+                    "end": 391,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-91a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 1 Satz 1",
+                    "start": 104,
+                    "end": 121,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00094",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 96",
+                    "start": 81,
+                    "end": 85,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00096"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 96 Abs. 2",
+                    "start": 270,
+                    "end": 281,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00096"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 184 Abs. 2 Satz 1 und 4 der Zivilprozessordnung",
+                    "start": 288,
+                    "end": 337,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00184"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00094",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 4",
+                    "start": 80,
+                    "end": 90,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00096",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 der Zivilprozessordnung",
+                    "start": 99,
+                    "end": 127,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00023"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00097",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 77,
+                    "end": 80,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00099",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Absatz 2 Nummer 2",
+                    "start": 15,
+                    "end": 36,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00100",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 164,
+                    "end": 168,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00103",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37",
+                    "start": 51,
+                    "end": 55,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00104",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Absatz 6 Satz 2",
+                    "start": 39,
+                    "end": 59,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "6",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00105",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 58,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00105",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 103 Absatz 2",
+                    "start": 146,
+                    "end": 160,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00103"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00105",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 104 Abs. 2",
+                    "start": 55,
+                    "end": 67,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00104"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00105",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 137,
+                    "end": 141,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00106",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50",
+                    "start": 58,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 103",
+                    "start": 156,
+                    "end": 161,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00103"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00106",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 140,
+                    "end": 144,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106b",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26",
+                    "start": 128,
+                    "end": 132,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106e",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37",
+                    "start": 57,
+                    "end": 61,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 106d",
+                    "start": 150,
+                    "end": 156,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106d"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106f",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Absatz 6 Satz 2",
+                    "start": 39,
+                    "end": 59,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "6",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-106g",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 64,
+                    "end": 68,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106g",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106b",
+                    "start": 64,
+                    "end": 70,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106b"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106g",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106e Absatz 2",
+                    "start": 127,
+                    "end": 142,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106e"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-106g",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 106f Absatz 2",
+                    "start": 61,
+                    "end": 76,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106f"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 106d Absatz 3",
+                    "start": 83,
+                    "end": 98,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106d"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-106g",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 137,
+                    "end": 141,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106h",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50",
+                    "start": 64,
+                    "end": 68,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 106e",
+                    "start": 167,
+                    "end": 173,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-106e"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-106h",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53",
+                    "start": 140,
+                    "end": 144,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00109",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Absatz 1",
+                    "start": 173,
+                    "end": 185,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00111",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Absatz 1",
+                    "start": 133,
+                    "end": 145,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00113",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37",
+                    "start": 118,
+                    "end": 122,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 37 Absatz 2",
+                    "start": 163,
+                    "end": 176,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00113",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Absatz 1",
+                    "start": 47,
+                    "end": 60,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00114",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 41 Absatz 2",
+                    "start": 51,
+                    "end": 64,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00041"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00114",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Absatz 1",
+                    "start": 41,
+                    "end": 54,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00114",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Absatz 2 Satz 1",
+                    "start": 43,
+                    "end": 63,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00115",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 27,
+                    "end": 31,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 55",
+                    "start": 49,
+                    "end": 53,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 50",
+                    "start": 176,
+                    "end": 180,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 51",
+                    "start": 280,
+                    "end": 284,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00115",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49 Absatz 1",
+                    "start": 62,
+                    "end": 75,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 55",
+                    "start": 81,
+                    "end": 85,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00116",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Absatz 1",
+                    "start": 115,
+                    "end": 128,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 115 Absatz 2",
+                    "start": 263,
+                    "end": 277,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00116",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 51",
+                    "start": 126,
+                    "end": 130,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 53 Absatz 6",
+                    "start": 180,
+                    "end": 193,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 55 Absatz 3",
+                    "start": 198,
+                    "end": 211,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 115 Absatz 2",
+                    "start": 346,
+                    "end": 360,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00117",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25",
+                    "start": 136,
+                    "end": 140,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00025"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 115 Absatz 2",
+                    "start": 275,
+                    "end": 289,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00118",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Absatz 2",
+                    "start": 862,
+                    "end": 874,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00118",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 41 Absatz 1",
+                    "start": 449,
+                    "end": 462,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00041"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 22,
+                    "end": 25,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9 Absatz 1 Nummer 3",
+                    "start": 298,
+                    "end": 319,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00009"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Absatz 6 und 7",
+                    "start": 163,
+                    "end": 182,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 18",
+                    "start": 210,
+                    "end": 214,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00018"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19",
+                    "start": 227,
+                    "end": 231,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00019"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19a",
+                    "start": 260,
+                    "end": 265,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-19a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19b",
+                    "start": 308,
+                    "end": 313,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-19b"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19c",
+                    "start": 342,
+                    "end": 347,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-19c"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21 Absatz 1",
+                    "start": 164,
+                    "end": 177,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42",
+                    "start": 55,
+                    "end": 59,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00042"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 43 Absatz 1",
+                    "start": 133,
+                    "end": 146,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 26",
+                    "start": 258,
+                    "end": 262,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53 Absatz 1",
+                    "start": 17,
+                    "end": 30,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 55 Absatz 1",
+                    "start": 49,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 51 Absatz 2 Satz 1",
+                    "start": 4,
+                    "end": 24,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00119",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 53 Absatz 6",
+                    "start": 5,
+                    "end": 18,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 55 Absatz 3",
+                    "start": 23,
+                    "end": 36,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 26",
+                    "start": 148,
+                    "end": 152,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00120",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 47 Absatz 8",
+                    "start": 358,
+                    "end": 371,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00047"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                },
+                {
+                    "text": "§ 48 Absatz 1",
+                    "start": 398,
+                    "end": 411,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00048"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00120",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49 Abs. 1",
+                    "start": 192,
+                    "end": 203,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00121",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Absatz 1",
+                    "start": 287,
+                    "end": 300,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00121",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 41 Absatz 1",
+                    "start": 181,
+                    "end": 194,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00041"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00122",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 140 Absatz 4",
+                    "start": 48,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00140"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 142",
+                    "start": 67,
+                    "end": 72,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00142"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00125",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 270 der Insolvenzordnung",
+                    "start": 161,
+                    "end": 187,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-00270"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00128",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127",
+                    "start": 67,
+                    "end": 72,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 8 Abs. 3",
+                    "start": 100,
+                    "end": 110,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00128",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127",
+                    "start": 8,
+                    "end": 13,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 19b",
+                    "start": 345,
+                    "end": 350,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-19b"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00128",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 7",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                },
+                {
+                    "text": "§ 19d",
+                    "start": 16,
+                    "end": 21,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-19d"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00129",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 128",
+                    "start": 15,
+                    "end": 20,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00128"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 20",
+                    "start": 37,
+                    "end": 41,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00020"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00130",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Absatz 1",
+                    "start": 264,
+                    "end": 277,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00130",
+            "element_path": [
+                6,
+                "elements",
+                1,
+                "elements",
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 67 Absatz 2",
+                    "start": 40,
+                    "end": 53,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00067"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00132",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130",
+                    "start": 297,
+                    "end": 302,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00130"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00133",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130 Absatz 5 Satz 1",
+                    "start": 238,
+                    "end": 259,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00133",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130 Absatz 5",
+                    "start": 341,
+                    "end": 355,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00134",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 383 Absatz 1 Nummer 1 bis 3 der Zivilprozessordnung",
+                    "start": 143,
+                    "end": 196,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00383"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-134a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 134 Absatz 1",
+                    "start": 139,
+                    "end": 153,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00134"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-134a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 134 Absatz 2",
+                    "start": 19,
+                    "end": 33,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00134"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-134a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14",
+                    "start": 209,
+                    "end": 213,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-134a",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 145 Absatz 2, 3 und 4",
+                    "start": 106,
+                    "end": 129,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00145"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-134a",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14",
+                    "start": 129,
+                    "end": 133,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00135",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 14a Absatz 2",
+                    "start": 0,
+                    "end": 14,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-14a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00135",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 128 Absatz 2 und 3",
+                    "start": 0,
+                    "end": 20,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00128"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00136",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 135",
+                    "start": 19,
+                    "end": 24,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00135"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 20",
+                    "start": 40,
+                    "end": 44,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00020"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00137",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Absatz 2 Nummer 9",
+                    "start": 175,
+                    "end": 196,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "9"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00139",
+            "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 134 Absatz 1",
+                    "start": 229,
+                    "end": 243,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00134"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00140",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13",
+                    "start": 127,
+                    "end": 131,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00141",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14",
+                    "start": 199,
+                    "end": 203,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 2 Satz 1 Nr. 1 oder 2",
+                    "start": 9,
+                    "end": 40,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 2 Satz 1 Nr. 3",
+                    "start": 9,
+                    "end": 33,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 4 Nr. 1",
+                    "start": 9,
+                    "end": 26,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 Abs. 4 Nr. 2 oder 3",
+                    "start": 62,
+                    "end": 86,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 2 Satz 1 Nr. 1 oder 2",
+                    "start": 5,
+                    "end": 36,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 Abs. 2 Satz 1 Nr. 3",
+                    "start": 5,
+                    "end": 29,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Abs. 2",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 Abs. 3",
+                    "start": 9,
+                    "end": 20,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00015"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00143",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74a des Strafgesetzbuchs",
+                    "start": 74,
+                    "end": 100,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-74a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 18",
+                    "start": 131,
+                    "end": 135,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00018"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00144",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 143 Abs. 2 bis 6",
+                    "start": 0,
+                    "end": 18,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00143"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6a",
+                    "start": 9,
+                    "end": 13,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-6a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127 Absatz 1",
+                    "start": 9,
+                    "end": 23,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 127 Absatz 4 Nummer 1",
+                    "start": 48,
+                    "end": 71,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127 Absatz 2",
+                    "start": 9,
+                    "end": 23,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 127 Absatz 4",
+                    "start": 48,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127 Absatz 3",
+                    "start": 9,
+                    "end": 23,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 127 Absatz 4 Nummer 2",
+                    "start": 48,
+                    "end": 71,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 134 Absatz 4",
+                    "start": 9,
+                    "end": 23,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00134"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 134 Absatz 5",
+                    "start": 48,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00134"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 139 Absatz 1 Satz 2",
+                    "start": 28,
+                    "end": 49,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00139"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00145",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 36 Absatz 1 Nummer 1",
+                    "start": 32,
+                    "end": 54,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00036"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-145a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 145 Absatz 1 und 3",
+                    "start": 18,
+                    "end": 38,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00145"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00146",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 10 des Grundgesetzes",
+                    "start": 284,
+                    "end": 312,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00147",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 146 Abs. 2 Satz 1",
+                    "start": 104,
+                    "end": 123,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00146"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00147",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 146 Abs. 1",
+                    "start": 212,
+                    "end": 224,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00146"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00148",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 146 Abs. 1",
+                    "start": 16,
+                    "end": 28,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00146"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00148",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 178 der Abgabenordnung",
+                    "start": 99,
+                    "end": 123,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00178"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00149",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 146 Abs. 1",
+                    "start": 108,
+                    "end": 120,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00146"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 147 Abs. 2 Satz 2",
+                    "start": 215,
+                    "end": 234,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00147"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00150",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 148 Absatz 1 und 2",
+                    "start": 63,
+                    "end": 83,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00148"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 149",
+                    "start": 90,
+                    "end": 95,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00149"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00153",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21",
+                    "start": 178,
+                    "end": 182,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00021"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 21 Abs. 1 und 2",
+                    "start": 222,
+                    "end": 239,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00154",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29 Abs. 2",
+                    "start": 297,
+                    "end": 308,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00155",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30",
+                    "start": 181,
+                    "end": 185,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00030"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 30 Abs. 5",
+                    "start": 250,
+                    "end": 261,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00156",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10 Absatz 2 Nummer 2",
+                    "start": 149,
+                    "end": 171,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00010"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 54",
+                    "start": 550,
+                    "end": 554,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00054"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00157",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Abs. 1 Nr. 1",
+                    "start": 124,
+                    "end": 141,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00011"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 55",
+                    "start": 509,
+                    "end": 513,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 53",
+                    "start": 615,
+                    "end": 619,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00053"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00157",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 51 Abs. 2 Satz 1 und 2",
+                    "start": 40,
+                    "end": 64,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 51 Abs. 2 Satz 1 und 2",
+                    "start": 123,
+                    "end": 147,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6",
+                    "start": 12,
+                    "end": 15,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00006"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 20",
+                    "start": 122,
+                    "end": 126,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00020"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Absatz 1 und 2",
+                    "start": 117,
+                    "end": 136,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Absatz 1 und 2",
+                    "start": 146,
+                    "end": 165,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42 Absatz 3 und 4",
+                    "start": 67,
+                    "end": 86,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49",
+                    "start": 75,
+                    "end": 79,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 51",
+                    "start": 187,
+                    "end": 191,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 49 Absatz 1",
+                    "start": 237,
+                    "end": 250,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 51 Absatz 4 Nummer 1",
+                    "start": 252,
+                    "end": 274,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00051"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 55 Absatz 3",
+                    "start": 276,
+                    "end": 289,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 26",
+                    "start": 294,
+                    "end": 298,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00026"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Absatz 2 Nummer 9 bis 12",
+                    "start": 0,
+                    "end": 28,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "9",
+                            "12"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Absatz 2 Satz 1",
+                    "start": 0,
+                    "end": 20,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 50 Absatz 1",
+                    "start": 48,
+                    "end": 61,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 50 Absatz 1",
+                    "start": 134,
+                    "end": 147,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 50 Absatz 2",
+                    "start": 196,
+                    "end": 209,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                9,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 102 Absatz 4",
+                    "start": 0,
+                    "end": 14,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00102"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00158",
+            "element_path": [
+                10,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 127 Absatz 6",
+                    "start": 198,
+                    "end": 212,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00159",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 47",
+                    "start": 77,
+                    "end": 81,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00047"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 47 Absatz 1",
+                    "start": 231,
+                    "end": 244,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00047"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00159",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 47 Absatz 1",
+                    "start": 49,
+                    "end": 62,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00047"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "markeng-00160",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 144",
+                    "start": 300,
+                    "end": 305,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00144"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 145 Absatz 2, 3 und 4",
+                    "start": 336,
+                    "end": 359,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00145"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 2 Absatz 3 des Strafgesetzbuches",
+                    "start": 458,
+                    "end": 492,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 4 Absatz 3",
+                    "start": 501,
+                    "end": 513,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-00004"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5213 @@
+{
+    "version": 1,
+    "book": "patg",
+    "links": [
+        {
+            "source": "patg-2a",
+            "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 1a Abs. 3",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-1a"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00003",
+            "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 292,
+                    "end": 303,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00003",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2a Abs. 1 Nr. 2",
+                    "start": 175,
+                    "end": 192,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-2a"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00003",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2a Abs. 1 Nr. 2",
+                    "start": 133,
+                    "end": 150,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-2a"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00004",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 2",
+                    "start": 222,
+                    "end": 232,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00007",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21 Abs. 1 Nr. 3",
+                    "start": 62,
+                    "end": 79,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00008",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 58 Abs. 1",
+                    "start": 484,
+                    "end": 495,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 21 Abs. 1 Nr. 3",
+                    "start": 594,
+                    "end": 611,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-9a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 157,
+                    "end": 160,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-9a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 203,
+                    "end": 206,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-9a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 162,
+                    "end": 165,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 1a Abs. 1",
+                    "start": 304,
+                    "end": 315,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-1a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-9b",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9",
+                    "start": 470,
+                    "end": 473,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-9c",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9a Abs. 1 bis 3",
+                    "start": 0,
+                    "end": 17,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-9a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00010",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Satz 2",
+                    "start": 192,
+                    "end": 202,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00010",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 11 Nr. 1 bis 3",
+                    "start": 21,
+                    "end": 37,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00011"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00013",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30 Abs. 1",
+                    "start": 268,
+                    "end": 279,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-16a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16",
+                    "start": 264,
+                    "end": 268,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00016"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-16a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14",
+                    "start": 319,
+                    "end": 323,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00014"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 20",
+                    "start": 406,
+                    "end": 410,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00020"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 22",
+                    "start": 435,
+                    "end": 439,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00022"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 23",
+                    "start": 471,
+                    "end": 475,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 25",
+                    "start": 505,
+                    "end": 509,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 64 Absatz 1",
+                    "start": 531,
+                    "end": 544,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00064"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 123",
+                    "start": 764,
+                    "end": 769,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00123"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 123a",
+                    "start": 799,
+                    "end": 805,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-123a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 124",
+                    "start": 835,
+                    "end": 840,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00124"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 125a",
+                    "start": 876,
+                    "end": 882,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-125a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-16a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23",
+                    "start": 30,
+                    "end": 34,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00020",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 1",
+                    "start": 64,
+                    "end": 74,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 13 Absatz 4",
+                    "start": 76,
+                    "end": 89,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00013"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 14 Abs. 2 und 5",
+                    "start": 95,
+                    "end": 112,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00014"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 23 Abs. 7 Satz 4",
+                    "start": 139,
+                    "end": 157,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "7",
+                        "sentences": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00021",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 61",
+                    "start": 28,
+                    "end": 32,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00061"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00021",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2",
+                    "start": 268,
+                    "end": 278,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00022",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 81",
+                    "start": 28,
+                    "end": 32,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00081"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 21 Abs. 1",
+                    "start": 90,
+                    "end": 101,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00022",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21 Abs. 2 und 3",
+                    "start": 0,
+                    "end": 17,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00023",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30 Abs. 1",
+                    "start": 54,
+                    "end": 65,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 125a",
+                    "start": 169,
+                    "end": 175,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-125a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00023",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30 Abs. 4",
+                    "start": 113,
+                    "end": 124,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00023",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25",
+                    "start": 316,
+                    "end": 320,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00023",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 125a",
+                    "start": 100,
+                    "end": 106,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-125a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00025",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 der Zivilprozessordnung",
+                    "start": 99,
+                    "end": 127,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00023"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-26a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 65a des Markengesetzes",
+                    "start": 349,
+                    "end": 373,
+                    "target": {
+                        "book": "markeng",
+                        "law": "markeng-65a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00027",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29 Abs. 3",
+                    "start": 118,
+                    "end": 129,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00027",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Abs. 4 und 6",
+                    "start": 116,
+                    "end": 133,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 29 Abs. 1 und 2",
+                    "start": 333,
+                    "end": 350,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00027",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Abs. 4",
+                    "start": 232,
+                    "end": 243,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00030",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16a",
+                    "start": 207,
+                    "end": 212,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-16a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 25",
+                    "start": 290,
+                    "end": 294,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 16a",
+                    "start": 590,
+                    "end": 595,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-16a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00030",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Abs. 1",
+                    "start": 292,
+                    "end": 303,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00031",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 64",
+                    "start": 353,
+                    "end": 357,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00064"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00031",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 35",
+                    "start": 26,
+                    "end": 30,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00035"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00031",
+            "element_path": [
+                1,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 5",
+                    "start": 21,
+                    "end": 32,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 35a Absatz 4",
+                    "start": 150,
+                    "end": 164,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-35a"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00031",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 1",
+                    "start": 32,
+                    "end": 43,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 63 Abs. 1 Satz 4 und 5",
+                    "start": 150,
+                    "end": 174,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00063"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "4",
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00031",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50",
+                    "start": 63,
+                    "end": 67,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 3 Abs. 2 Satz 3",
+                    "start": 541,
+                    "end": 558,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00032",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Absatz 3b",
+                    "start": 336,
+                    "end": 350,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "3b"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00032",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 2",
+                    "start": 41,
+                    "end": 52,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 36",
+                    "start": 140,
+                    "end": 144,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00036"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00032",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Absatz 1",
+                    "start": 330,
+                    "end": 343,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 36",
+                    "start": 371,
+                    "end": 375,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00036"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00032",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 2",
+                    "start": 72,
+                    "end": 83,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00033",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 5",
+                    "start": 45,
+                    "end": 56,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00033",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 852 des Bürgerlichen Gesetzbuchs",
+                    "start": 313,
+                    "end": 347,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00852"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00034",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 Strafgesetzbuch",
+                    "start": 295,
+                    "end": 315,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-34a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Absatz 1",
+                    "start": 207,
+                    "end": 219,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 32 Absatz 5",
+                    "start": 429,
+                    "end": 442,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00035",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34 Abs. 3 Nr. 1 und 2",
+                    "start": 75,
+                    "end": 98,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 34 Abs. 3 Nr. 4",
+                    "start": 205,
+                    "end": 222,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-35a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Absatz 1",
+                    "start": 38,
+                    "end": 51,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 44 Absatz 1",
+                    "start": 57,
+                    "end": 70,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-35a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Absatz 2 Satz 1 Nummer 1",
+                    "start": 143,
+                    "end": 172,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00038",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44",
+                    "start": 203,
+                    "end": 207,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00039",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44",
+                    "start": 143,
+                    "end": 147,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00039",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43",
+                    "start": 240,
+                    "end": 244,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 44",
+                    "start": 301,
+                    "end": 305,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 43",
+                    "start": 395,
+                    "end": 399,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00040",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31",
+                    "start": 66,
+                    "end": 70,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00042",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34 Abs. 6",
+                    "start": 307,
+                    "end": 318,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                },
+                {
+                    "text": "§ 44",
+                    "start": 387,
+                    "end": 391,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00042",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1a Absatz 1",
+                    "start": 5,
+                    "end": 18,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-1a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 2",
+                    "start": 20,
+                    "end": 23,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00002"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 2a Absatz 1",
+                    "start": 29,
+                    "end": 42,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-2a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34 Absatz 3 bis 5",
+                    "start": 311,
+                    "end": 330,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25",
+                    "start": 93,
+                    "end": 97,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Absatz 5",
+                    "start": 118,
+                    "end": 131,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44",
+                    "start": 65,
+                    "end": 69,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 44",
+                    "start": 208,
+                    "end": 212,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 43",
+                    "start": 257,
+                    "end": 261,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34 Absatz 5",
+                    "start": 119,
+                    "end": 132,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                7,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Absatz 1",
+                    "start": 146,
+                    "end": 159,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00043",
+            "element_path": [
+                7,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 42",
+                    "start": 39,
+                    "end": 43,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00042"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 27 Absatz 1",
+                    "start": 210,
+                    "end": 223,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00044",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Absatz 1",
+                    "start": 305,
+                    "end": 317,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00044",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43",
+                    "start": 28,
+                    "end": 32,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 43",
+                    "start": 121,
+                    "end": 125,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 43 Absatz 2 Satz 2 und 3",
+                    "start": 250,
+                    "end": 276,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00045",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 36",
+                    "start": 98,
+                    "end": 102,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00036"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00047",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 73 Abs. 2",
+                    "start": 264,
+                    "end": 275,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00073"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 123",
+                    "start": 611,
+                    "end": 616,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00123"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00048",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 45 Abs. 1",
+                    "start": 61,
+                    "end": 72,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00045"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 42 Abs. 3 Satz 2",
+                    "start": 210,
+                    "end": 228,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00049",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 45 Abs. 1",
+                    "start": 71,
+                    "end": 82,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00045"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-49a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16a",
+                    "start": 207,
+                    "end": 212,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-16a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-49a",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 34 Abs. 6",
+                    "start": 0,
+                    "end": 11,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00034"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00050",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 des Strafgesetzbuches",
+                    "start": 73,
+                    "end": 99,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00050",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 73 Abs. 2",
+                    "start": 261,
+                    "end": 272,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00073"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00051",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 132,
+                    "end": 143,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 183,
+                    "end": 194,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00052",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 des Strafgesetzbuches",
+                    "start": 47,
+                    "end": 73,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00053",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 136,
+                    "end": 147,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 93 des Strafgesetzbuches",
+                    "start": 326,
+                    "end": 352,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-00093"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00053",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 49,
+                    "end": 60,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00054",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 52,
+                    "end": 63,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 31 Abs. 5 Satz 1",
+                    "start": 210,
+                    "end": 228,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00055",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 185,
+                    "end": 196,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00055",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 205,
+                    "end": 216,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00056",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 5",
+                    "start": 87,
+                    "end": 98,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00058",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 5",
+                    "start": 106,
+                    "end": 117,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 213,
+                    "end": 224,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00058",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44 Abs. 2",
+                    "start": 27,
+                    "end": 38,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 7 Abs. 1",
+                    "start": 188,
+                    "end": 198,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00059",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21",
+                    "start": 298,
+                    "end": 302,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00059",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Absatz 3 Satz 2",
+                    "start": 16,
+                    "end": 36,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00061",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21 Absatz 1 Nummer 3",
+                    "start": 474,
+                    "end": 496,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00021"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00062",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 61 Abs. 1",
+                    "start": 21,
+                    "end": 32,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00061"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00062",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 73",
+                    "start": 608,
+                    "end": 612,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00073"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00063",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 2",
+                    "start": 29,
+                    "end": 40,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 32 Abs. 3",
+                    "start": 66,
+                    "end": 77,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 58 Abs. 1",
+                    "start": 136,
+                    "end": 147,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 30 Abs. 1",
+                    "start": 294,
+                    "end": 305,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00064",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44 Abs. 1",
+                    "start": 49,
+                    "end": 60,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00065",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 26 Abs. 3",
+                    "start": 321,
+                    "end": 332,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00026"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00065",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 71",
+                    "start": 81,
+                    "end": 85,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00071"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00067",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 23 Abs. 4",
+                    "start": 98,
+                    "end": 109,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 50 Abs. 1 und 2",
+                    "start": 118,
+                    "end": 135,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00067",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 61 Absatz 1",
+                    "start": 4,
+                    "end": 17,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00061"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 64 Abs. 1",
+                    "start": 26,
+                    "end": 37,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00064"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00067",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 61 Abs. 2",
+                    "start": 4,
+                    "end": 15,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00061"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00067",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 5",
+                    "start": 136,
+                    "end": 147,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00068",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 21b Abs. 6 des Gerichtsverfassungsgesetzes",
+                    "start": 25,
+                    "end": 69,
+                    "target": {
+                        "book": "gvg",
+                        "law": "gvg-21b"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00069",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 5",
+                    "start": 120,
+                    "end": 131,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 58 Abs. 1",
+                    "start": 160,
+                    "end": 171,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00069",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 32 Abs. 5",
+                    "start": 137,
+                    "end": 148,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00032"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 58 Abs. 1",
+                    "start": 202,
+                    "end": 213,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00071",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 65 Abs. 2 Satz 3",
+                    "start": 67,
+                    "end": 85,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00065"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00074",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 5",
+                    "start": 18,
+                    "end": 29,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 50 Abs. 1 und 2",
+                    "start": 38,
+                    "end": 55,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00075",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 50 Abs. 1",
+                    "start": 148,
+                    "end": 159,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00050"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00078",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 88 Abs. 1",
+                    "start": 43,
+                    "end": 54,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00088"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00081",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 22",
+                    "start": 566,
+                    "end": 570,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00022"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00081",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49a Abs. 4",
+                    "start": 282,
+                    "end": 294,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-49a"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00081",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 110 Abs. 2 Nr. 1 bis 3 der Zivilprozeßordnung",
+                    "start": 258,
+                    "end": 305,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00110"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "numbers": [
+                            "1",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00082",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 81 Absatz 5 Satz 3",
+                    "start": 357,
+                    "end": 377,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "5",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00083",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 82 Absatz 3 Satz 2 und 3",
+                    "start": 794,
+                    "end": 820,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00082"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 139 der Zivilprozessordnung",
+                    "start": 1097,
+                    "end": 1126,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00139"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00084",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 99 Abs. 2",
+                    "start": 395,
+                    "end": 406,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00099"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00085",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 24 Abs. 1 bis 6",
+                    "start": 212,
+                    "end": 229,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00024"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00085",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 82 Absatz 4 Satz 2",
+                    "start": 85,
+                    "end": 105,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00082"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 84",
+                    "start": 114,
+                    "end": 118,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00084"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-85a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 81 Abs. 1 Satz 1",
+                    "start": 396,
+                    "end": 414,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00097",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25",
+                    "start": 77,
+                    "end": 81,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00097",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 des Aktiengesetzes",
+                    "start": 74,
+                    "end": 97,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00015"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00097",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 15 der Abgabenordnung",
+                    "start": 32,
+                    "end": 55,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00015"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 11",
+                    "start": 57,
+                    "end": 61,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00011"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00099",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31",
+                    "start": 59,
+                    "end": 63,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00099",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 227 Abs. 3 Satz 1 der Zivilprozeßordnung",
+                    "start": 0,
+                    "end": 42,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00227"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00099",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 79 Absatz 2 Satz 1 und 2 Nummer 3 und 4 der Zivilprozessordnung",
+                    "start": 104,
+                    "end": 169,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00079"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ],
+                        "numbers": [
+                            "3",
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 97 Absatz 2 Satz 1",
+                    "start": 187,
+                    "end": 207,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00097"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00100",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 73",
+                    "start": 98,
+                    "end": 102,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00073"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 61 Abs. 2",
+                    "start": 172,
+                    "end": 183,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00061"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00102",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 144",
+                    "start": 87,
+                    "end": 92,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00144"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00102",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 143 Abs. 3",
+                    "start": 230,
+                    "end": 242,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00143"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00103",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 75 Abs. 2",
+                    "start": 48,
+                    "end": 59,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00075"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00105",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 76",
+                    "start": 118,
+                    "end": 122,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00076"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00106",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 123 Abs. 5 bis 7",
+                    "start": 369,
+                    "end": 387,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00123"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00106",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 69 Abs. 1",
+                    "start": 43,
+                    "end": 54,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00069"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00110",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 84",
+                    "start": 61,
+                    "end": 65,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00084"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00110",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 84",
+                    "start": 72,
+                    "end": 76,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00084"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 71 Abs. 3 der Zivilprozeßordnung",
+                    "start": 90,
+                    "end": 124,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00071"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00111",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 117",
+                    "start": 140,
+                    "end": 145,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00117"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00112",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 117",
+                    "start": 141,
+                    "end": 146,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00117"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00112",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 110 Abs. 5",
+                    "start": 0,
+                    "end": 12,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00110"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00114",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 525 der Zivilprozessordnung",
+                    "start": 0,
+                    "end": 29,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00525"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00115",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 110 Abs. 4, 5 und 8",
+                    "start": 69,
+                    "end": 90,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00110"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 112 Abs. 3",
+                    "start": 97,
+                    "end": 109,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00112"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00116",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 117",
+                    "start": 146,
+                    "end": 151,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00117"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00117",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 520 der Zivilprozessordnung",
+                    "start": 252,
+                    "end": 281,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00520"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 112",
+                    "start": 286,
+                    "end": 291,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00112"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00118",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 69 Abs. 2",
+                    "start": 75,
+                    "end": 86,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00069"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00120",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 111 Abs. 3",
+                    "start": 174,
+                    "end": 186,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00111"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00121",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 144",
+                    "start": 71,
+                    "end": 76,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00144"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00122",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 110 Abs. 7",
+                    "start": 219,
+                    "end": 231,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00110"
+                    },
+                    "fragment": {
+                        "paragraph": "7"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00122",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74 Abs. 1",
+                    "start": 51,
+                    "end": 62,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00074"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-122a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 321a Abs. 2 bis 5 der Zivilprozessordnung",
+                    "start": 292,
+                    "end": 335,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-321a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00123",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 59 Abs. 1",
+                    "start": 29,
+                    "end": 40,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00059"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 6 Abs. 1 Satz 1",
+                    "start": 80,
+                    "end": 97,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00123",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 73 Abs. 2",
+                    "start": 93,
+                    "end": 104,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00073"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 6 Abs. 1 Satz 1",
+                    "start": 144,
+                    "end": 161,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00123",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2",
+                    "start": 61,
+                    "end": 71,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 40",
+                    "start": 76,
+                    "end": 80,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00040"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00123",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 60,
+                    "end": 71,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00123",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 41",
+                    "start": 218,
+                    "end": 222,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00041"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-123a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 1 Satz 1",
+                    "start": 104,
+                    "end": 121,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00125",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3",
+                    "start": 142,
+                    "end": 145,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00003"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00127",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 25",
+                    "start": 81,
+                    "end": 85,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 25 Abs. 2",
+                    "start": 270,
+                    "end": 281,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00025"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 184 Abs. 2 Satz 1 und 4 der Zivilprozessordnung",
+                    "start": 288,
+                    "end": 337,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00184"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00127",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 4",
+                    "start": 80,
+                    "end": 90,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00130",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 17",
+                    "start": 338,
+                    "end": 342,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00017"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00130",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 122 Abs. 1 der Zivilprozeßordnung",
+                    "start": 212,
+                    "end": 247,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00122"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00130",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 115 Absatz 4 der Zivilprozessordnung",
+                    "start": 168,
+                    "end": 206,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00115"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 5 Abs. 2",
+                    "start": 579,
+                    "end": 589,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00130",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 44",
+                    "start": 37,
+                    "end": 41,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00131",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 64",
+                    "start": 61,
+                    "end": 65,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00064"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 130 Abs. 1, 2 und 5",
+                    "start": 93,
+                    "end": 114,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00132",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130 Abs. 1 Satz 2",
+                    "start": 155,
+                    "end": 174,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00132",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 59 Abs. 2",
+                    "start": 57,
+                    "end": 68,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00059"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00133",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 121 Abs. 4 und 5 der Zivilprozeßordnung",
+                    "start": 523,
+                    "end": 564,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00121"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00135",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 125a",
+                    "start": 300,
+                    "end": 306,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-125a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00135",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 133",
+                    "start": 235,
+                    "end": 240,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00133"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 127 Abs. 3 der Zivilprozeßordnung",
+                    "start": 294,
+                    "end": 329,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00136",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 117 Absatz 2 bis 4 Satz 1",
+                    "start": 21,
+                    "end": 48,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00117"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 118 Abs. 2 und 3",
+                    "start": 54,
+                    "end": 72,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00118"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 127 Abs. 2 der Zivilprozessordnung",
+                    "start": 229,
+                    "end": 265,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00127"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 117 Abs. 1 Satz 2",
+                    "start": 509,
+                    "end": 528,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00117"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 118 Abs. 1",
+                    "start": 530,
+                    "end": 542,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00118"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 122 Abs. 2",
+                    "start": 544,
+                    "end": 556,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00122"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00137",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 124 Absatz 1 Nr. 3 der Zivilprozeßordnung",
+                    "start": 530,
+                    "end": 573,
+                    "target": {
+                        "book": "zpo",
+                        "law": "zpo-00124"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00138",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 100",
+                    "start": 40,
+                    "end": 45,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00100"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00138",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 130 Abs. 2, 3, 5 und 6",
+                    "start": 37,
+                    "end": 61,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00130"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00140",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 1 Satz 2",
+                    "start": 114,
+                    "end": 132,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 33 Abs. 1",
+                    "start": 270,
+                    "end": 281,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 44",
+                    "start": 443,
+                    "end": 447,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00044"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-140b",
+            "element_path": [
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 52 Abs. 1 der Strafprozessordnung",
+                    "start": 217,
+                    "end": 252,
+                    "target": {
+                        "book": "stpo",
+                        "law": "stpo-00052"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-140b",
+            "element_path": [
+                8,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Nummer 70",
+                    "start": 58,
+                    "end": 71,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00003"
+                    },
+                    "fragment": {
+                        "numbers": [
+                            "70"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-140b",
+            "element_path": [
+                9,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 10 des Grundgesetzes",
+                    "start": 89,
+                    "end": 117,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-140c",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 811 des Bürgerlichen Gesetzbuchs",
+                    "start": 0,
+                    "end": 34,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00811"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 140b Abs. 8",
+                    "start": 41,
+                    "end": 54,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-140b"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-140d",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 139 Abs. 2",
+                    "start": 112,
+                    "end": 124,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00139"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-140d",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 811 des Bürgerlichen Gesetzbuchs",
+                    "start": 0,
+                    "end": 34,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00811"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 140b Abs. 8",
+                    "start": 41,
+                    "end": 54,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-140b"
+                    },
+                    "fragment": {
+                        "paragraph": "8"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00141",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 852 des Bürgerlichen Gesetzbuchs",
+                    "start": 268,
+                    "end": 302,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00852"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Satz 2 Nr. 1",
+                    "start": 86,
+                    "end": 102,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Satz 2 Nr. 2",
+                    "start": 89,
+                    "end": 105,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                0,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 9 Satz 2 Nr. 3",
+                    "start": 205,
+                    "end": 221,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00009"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 74a des Strafgesetzbuches",
+                    "start": 74,
+                    "end": 101,
+                    "target": {
+                        "book": "stgb",
+                        "law": "stgb-74a"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 140a",
+                    "start": 132,
+                    "end": 138,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-140a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                6,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 139 Absatz 1 Satz 3",
+                    "start": 12,
+                    "end": 33,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00139"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00142",
+            "element_path": [
+                7,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 262 Absatz 2 der Strafprozessordnung",
+                    "start": 28,
+                    "end": 66,
+                    "target": {
+                        "book": "stpo",
+                        "law": "stpo-00262"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-142a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "Artikel 10 des Grundgesetzes",
+                    "start": 294,
+                    "end": 322,
+                    "target": {
+                        "book": "gg",
+                        "law": "gg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-142a",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 178 der Abgabenordnung",
+                    "start": 276,
+                    "end": 300,
+                    "target": {
+                        "book": "ao",
+                        "law": "ao-00178"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-142b",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 142a Absatz 5 und 6",
+                    "start": 61,
+                    "end": 82,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-142a"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00143",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 13",
+                    "start": 115,
+                    "end": 119,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00013"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00145",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 139",
+                    "start": 20,
+                    "end": 25,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00139"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-145a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 81 Absatz 1 Satz 1",
+                    "start": 108,
+                    "end": 128,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00081"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Absatz 1",
+                    "start": 315,
+                    "end": 328,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00147",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6",
+                    "start": 12,
+                    "end": 15,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00006"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 33 Abs. 3",
+                    "start": 122,
+                    "end": 133,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00033"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                },
+                {
+                    "text": "§ 141",
+                    "start": 138,
+                    "end": 143,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00141"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "patg-00147",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 16 Absatz 1 Satz 2",
+                    "start": 86,
+                    "end": 106,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 16 Absatz 1 Satz 2",
+                    "start": 237,
+                    "end": 257,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00016"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 17 Absatz 2",
+                    "start": 269,
+                    "end": 282,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00017"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 23 Absatz 1",
+                    "start": 284,
+                    "end": 297,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00023"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 42 Absatz 2 Satz 1 Nummer 4",
+                    "start": 299,
+                    "end": 328,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00042"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ],
+                        "numbers": [
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 43 Absatz 2 Satz 4",
+                    "start": 363,
+                    "end": 383,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00147",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Absatz 2 Satz 2 bis 4",
+                    "start": 72,
+                    "end": 98,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 20 Absatz 1 Nummer 2",
+                    "start": 103,
+                    "end": 125,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00020"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "patg-00147",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 46 Absatz 1",
+                    "start": 30,
+                    "end": 43,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00046"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 46",
+                    "start": 130,
+                    "end": 134,
+                    "target": {
+                        "book": "patg",
+                        "law": "patg-00046"
+                    },
+                    "fragment": null
+                }
+            ]
+        }
+    ]
+}

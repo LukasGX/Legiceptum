@@ -1,0 +1,11 @@
+{
+    "id": "patg",
+    "abbr": "PatG",
+    "name": "Patentgesetz",
+    "desc": "Regelt die Erteilung, den Schutzumfang und die Durchsetzung von Patenten für technische Erfindungen in Deutschland.",
+    "scope": "bund",
+    "field": "Gewerblicher Rechtsschutz",
+    "icon": "lightbulb",
+    "updated": "",
+    "prefix": "§"
+}

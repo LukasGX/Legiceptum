@@ -1,0 +1,11 @@
+{
+    "id": "umwg",
+    "abbr": "UmwG",
+    "name": "Umwandlungsgesetz",
+    "desc": "Regelt die Umwandlung von Rechtsträgern durch Verschmelzung, Spaltung, Vermögensübertragung und Formwechsel.",
+    "scope": "bund",
+    "field": "Gesellschaftsrecht",
+    "icon": "code-merge",
+    "updated": "",
+    "prefix": "§"
+}

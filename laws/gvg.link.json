@@ -1110,12 +1110,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 10",
+                    "text": "§ 10 des Umwandlungsgesetzes",
                     "start": 0,
-                    "end": 4,
+                    "end": 28,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00010"
+                        "book": "umwg",
+                        "law": "umwg-00010"
                     },
                     "fragment": null
                 }
@@ -3212,36 +3212,36 @@
             ],
             "references": [
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 120,
-                    "end": 131,
+                    "end": 150,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 214,
-                    "end": 225,
+                    "end": 244,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 356,
-                    "end": 367,
+                    "end": 386,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"
@@ -4099,36 +4099,36 @@
             ],
             "references": [
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 16,
-                    "end": 27,
+                    "end": 46,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 110,
-                    "end": 121,
+                    "end": 140,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"
                     }
                 },
                 {
-                    "text": "§ 52 Abs. 2",
+                    "text": "§ 52 Abs. 2 des Patentgesetzes",
                     "start": 252,
-                    "end": 263,
+                    "end": 282,
                     "target": {
-                        "book": "gvg",
-                        "law": "gvg-00052"
+                        "book": "patg",
+                        "law": "patg-00052"
                     },
                     "fragment": {
                         "paragraph": "2"

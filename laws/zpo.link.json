@@ -3700,12 +3700,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 133 Absatz 3 Satz 2",
+                    "text": "§ 133 Absatz 3 Satz 2 des Umwandlungsgesetzes",
                     "start": 51,
-                    "end": 72,
+                    "end": 96,
                     "target": {
-                        "book": "zpo",
-                        "law": "zpo-00133"
+                        "book": "umwg",
+                        "law": "umwg-00133"
                     },
                     "fragment": {
                         "paragraph": "3",

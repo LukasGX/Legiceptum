@@ -327,12 +327,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 123 Absatz 1",
+                    "text": "§ 123 Absatz 1 des Umwandlungsgesetzes",
                     "start": 100,
-                    "end": 114,
+                    "end": 138,
                     "target": {
-                        "book": "owig",
-                        "law": "owig-00123"
+                        "book": "umwg",
+                        "law": "umwg-00123"
                     },
                     "fragment": {
                         "paragraph": "1"

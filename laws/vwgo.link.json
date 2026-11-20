@@ -426,6 +426,32 @@
         {
             "source": "vwgo-00047",
             "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 246 Abs. 2 des Baugesetzbuchs",
+                    "start": 125,
+                    "end": 156,
+                    "target": {
+                        "book": "baugb",
+                        "law": "baugb-00246"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "vwgo-00047",
+            "element_path": [
                 1,
                 "elements",
                 0
@@ -4504,12 +4530,12 @@
             ],
             "references": [
                 {
-                    "text": "§ 13 Abs. 2",
+                    "text": "§ 13 Abs. 2 des Patentgesetzes",
                     "start": 0,
-                    "end": 11,
+                    "end": 30,
                     "target": {
-                        "book": "vwgo",
-                        "law": "vwgo-00013"
+                        "book": "patg",
+                        "law": "patg-00013"
                     },
                     "fragment": {
                         "paragraph": "2"
