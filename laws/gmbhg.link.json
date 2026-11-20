@@ -1,0 +1,2593 @@
+{
+    "version": 1,
+    "book": "gmbhg",
+    "links": [
+        {
+            "source": "gmbhg-00004",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 22 des Handelsgesetzbuchs",
+                    "start": 51,
+                    "end": 78,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00022"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-5a",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 107,
+                    "end": 117,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 4",
+                    "start": 167,
+                    "end": 170,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00004"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-5a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2",
+                    "start": 15,
+                    "end": 25,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-5a",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57c",
+                    "start": 15,
+                    "end": 20,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57c"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-5a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49 Abs. 3",
+                    "start": 15,
+                    "end": 26,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-5a",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 94,
+                    "end": 104,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00006",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 1825 des Bürgerlichen Gesetzbuchs",
+                    "start": 114,
+                    "end": 149,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-01825"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00006",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 82",
+                    "start": 26,
+                    "end": 30,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00082"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 399 des Aktiengesetzes",
+                    "start": 52,
+                    "end": 76,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00399"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00006",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 400 des Aktiengesetzes",
+                    "start": 33,
+                    "end": 57,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00400"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 331 des Handelsgesetzbuchs",
+                    "start": 59,
+                    "end": 87,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00331"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 346 des Umwandlungsgesetzes",
+                    "start": 89,
+                    "end": 118,
+                    "target": {
+                        "book": "umwg",
+                        "law": "umwg-00346"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00007",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 408,
+                    "end": 418,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Abs. 2",
+                    "start": 41,
+                    "end": 51,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 40",
+                    "start": 168,
+                    "end": 172,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00040"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 4",
+                    "start": 12,
+                    "end": 22,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2 und 3",
+                    "start": 60,
+                    "end": 76,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2 Satz 2 Nr. 2 und 3",
+                    "start": 114,
+                    "end": 143,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 53 Abs. 2",
+                    "start": 294,
+                    "end": 305,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00053"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00008",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 12 Abs. 2 des Handelsgesetzbuchs",
+                    "start": 59,
+                    "end": 93,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00012"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-9b",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9a",
+                    "start": 55,
+                    "end": 59,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-9b",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9a",
+                    "start": 38,
+                    "end": 42,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-9c",
+            "element_path": [
+                1,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Abs. 1",
+                    "start": 53,
+                    "end": 63,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00016",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 40",
+                    "start": 249,
+                    "end": 253,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00040"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00019",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 4 Satz 1",
+                    "start": 283,
+                    "end": 300,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00019",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8",
+                    "start": 559,
+                    "end": 562,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00008"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00028",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 27 Abs. 4",
+                    "start": 325,
+                    "end": 336,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00027"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00030",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 291 des Aktiengesetzes",
+                    "start": 231,
+                    "end": 255,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00291"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00030",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 12",
+                    "start": 261,
+                    "end": 265,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00012"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 28 Abs. 2",
+                    "start": 298,
+                    "end": 309,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00028"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00031",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30",
+                    "start": 39,
+                    "end": 43,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00030"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00031",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 19 Abs. 6 Satz 2",
+                    "start": 295,
+                    "end": 313,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "6",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00031",
+            "element_path": [
+                5,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Abs. 1 und 4",
+                    "start": 251,
+                    "end": 268,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00032",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 31 Abs. 1",
+                    "start": 13,
+                    "end": 24,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00031"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00033",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 29 Absatz 1",
+                    "start": 95,
+                    "end": 108,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 29 Absatz 1",
+                    "start": 146,
+                    "end": 159,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00029"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 340 Absatz 1 des Umwandlungsgesetzes",
+                    "start": 256,
+                    "end": 294,
+                    "target": {
+                        "book": "umwg",
+                        "law": "umwg-00340"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00034",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30 Abs. 1",
+                    "start": 18,
+                    "end": 29,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00030"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00035",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10 Abs. 2 Satz 2",
+                    "start": 657,
+                    "end": 675,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00010"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00035",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 181 des Bürgerlichen Gesetzbuchs",
+                    "start": 237,
+                    "end": 271,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00181"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00038",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 3 Absatz 1 und 2",
+                    "start": 75,
+                    "end": 93,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00003"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00038",
+            "element_path": [
+                2,
+                "elements",
+                2
+            ],
+            "references": [
+                {
+                    "text": "§ 77a Absatz 2",
+                    "start": 168,
+                    "end": 182,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-77a"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00039",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2 Satz 2 Nr. 2 und 3",
+                    "start": 120,
+                    "end": 149,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 8 Abs. 3 Satz 2",
+                    "start": 280,
+                    "end": 297,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-42a",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 267 Abs. 1 des Handelsgesetzbuchs",
+                    "start": 130,
+                    "end": 165,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00267"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-42a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 325 Abs. 2a des Handelsgesetzbuchs",
+                    "start": 218,
+                    "end": 254,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00325"
+                    },
+                    "fragment": {
+                        "paragraph": "2a"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00043",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 30",
+                    "start": 73,
+                    "end": 77,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00030"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 33",
+                    "start": 211,
+                    "end": 215,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00033"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 9b Abs. 1",
+                    "start": 337,
+                    "end": 348,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9b"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00046",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 325 Abs. 2a des Handelsgesetzbuchs",
+                    "start": 110,
+                    "end": 146,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00325"
+                    },
+                    "fragment": {
+                        "paragraph": "2a"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-51b",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 132 Abs. 1, 3 und 4 des Aktiengesetzes",
+                    "start": 80,
+                    "end": 120,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00132"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00052",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 93 Abs. 1 und 2 Satz 1 und 2 des Aktiengesetzes",
+                    "start": 308,
+                    "end": 357,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00093"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00052",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 37 Abs. 4 Nr. 3 und 3a des Aktiengesetzes",
+                    "start": 114,
+                    "end": 157,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00037"
+                    },
+                    "fragment": {
+                        "paragraph": "4",
+                        "numbers": [
+                            "3",
+                            "3a"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 10 des Handelsgesetzbuchs",
+                    "start": 462,
+                    "end": 489,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00053",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Absatz 3 Satz 1, 3 und 4",
+                    "start": 96,
+                    "end": 124,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1",
+                            "3",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00054",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 10",
+                    "start": 62,
+                    "end": 66,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00010"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00055",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 2 und 3",
+                    "start": 20,
+                    "end": 36,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                },
+                {
+                    "text": "§ 19 Abs. 6",
+                    "start": 105,
+                    "end": 116,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "6"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-55a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 56",
+                    "start": 20,
+                    "end": 24,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00056"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00056",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 55 Abs. 1",
+                    "start": 240,
+                    "end": 251,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-56a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2 Satz 1",
+                    "start": 65,
+                    "end": 82,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 19 Abs. 5",
+                    "start": 100,
+                    "end": 111,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00019"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00057",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 2 Satz 1",
+                    "start": 97,
+                    "end": 114,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 8 Abs. 2 Satz 2",
+                    "start": 246,
+                    "end": 263,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00057",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 55 Abs. 1",
+                    "start": 7,
+                    "end": 18,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00055"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00057",
+            "element_path": [
+                2,
+                "elements",
+                1,
+                "elements",
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 56",
+                    "start": 84,
+                    "end": 88,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00056"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00057",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9a Abs. 1 und 3",
+                    "start": 138,
+                    "end": 155,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9a"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 9b",
+                    "start": 157,
+                    "end": 161,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9b"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57a",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 9c Abs. 1",
+                    "start": 58,
+                    "end": 69,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-9c"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57e",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 267 Abs. 3 des Handelsgesetzbuchs",
+                    "start": 49,
+                    "end": 84,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00267"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57f",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 316a Satz 2 des Handelsgesetzbuchs",
+                    "start": 553,
+                    "end": 589,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-316a"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 267 Abs. 3 des Handelsgesetzbuchs",
+                    "start": 987,
+                    "end": 1022,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00267"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57g",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57f",
+                    "start": 141,
+                    "end": 146,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57f"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57h",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57l Abs. 2",
+                    "start": 43,
+                    "end": 55,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57l"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57i",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57f",
+                    "start": 225,
+                    "end": 230,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57f"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 325 Abs. 1 des Handelsgesetzbuchs",
+                    "start": 292,
+                    "end": 327,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00325"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57k",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 18",
+                    "start": 385,
+                    "end": 389,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00018"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-57n",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57c Abs. 2",
+                    "start": 285,
+                    "end": 297,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57c"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00058",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 18,
+                    "end": 28,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 5 Abs. 2 und 3",
+                    "start": 283,
+                    "end": 299,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58a",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 35,
+                    "end": 45,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58b",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 256,
+                    "end": 266,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58c",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 58b Abs. 3",
+                    "start": 467,
+                    "end": 479,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-58b"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58d",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 5 Abs. 1",
+                    "start": 344,
+                    "end": 354,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00005"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58e",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 325 des Handelsgesetzbuchs",
+                    "start": 29,
+                    "end": 57,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00325"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58f",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 58e",
+                    "start": 17,
+                    "end": 22,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-58e"
+                    },
+                    "fragment": null
+                },
+                {
+                    "text": "§ 56a",
+                    "start": 396,
+                    "end": 401,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-56a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-58f",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 325 des Handelsgesetzbuchs",
+                    "start": 29,
+                    "end": 57,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00325"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00065",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 60 Abs. 1 Nr. 7",
+                    "start": 393,
+                    "end": 410,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00060"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "7"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00066",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 6 Abs. 2 Satz 2 bis 4",
+                    "start": 40,
+                    "end": 63,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2",
+                            "4"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00067",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 66 Abs. 4",
+                    "start": 111,
+                    "end": 122,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00066"
+                    },
+                    "fragment": {
+                        "paragraph": "4"
+                    }
+                },
+                {
+                    "text": "§ 6 Abs. 2 Satz 2 Nr. 2 und 3",
+                    "start": 141,
+                    "end": 170,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00006"
+                    },
+                    "fragment": {
+                        "paragraph": "2",
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 8 Abs. 3 Satz 2",
+                    "start": 302,
+                    "end": 319,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00071",
+            "element_path": [
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 49 Abs. 1 und 2",
+                    "start": 60,
+                    "end": 77,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00049"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 15b der Insolvenzordnung",
+                    "start": 86,
+                    "end": 112,
+                    "target": {
+                        "book": "inso",
+                        "law": "inso-15b"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00071",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 35a",
+                    "start": 108,
+                    "end": 113,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-35a"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00073",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 65 Abs. 2",
+                    "start": 202,
+                    "end": 213,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00065"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00073",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 43 Abs. 3 und 4",
+                    "start": 172,
+                    "end": 189,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00043"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-77a",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 267 Absatz 3 des Handelsgesetzbuchs",
+                    "start": 33,
+                    "end": 70,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00267"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-77a",
+            "element_path": [
+                2,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 96 Absatz 2 des Aktiengesetzes",
+                    "start": 260,
+                    "end": 292,
+                    "target": {
+                        "book": "aktg",
+                        "law": "aktg-00096"
+                    },
+                    "fragment": {
+                        "paragraph": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00078",
+            "element_path": [
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 7 Abs. 1",
+                    "start": 127,
+                    "end": 137,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00007"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 57 Abs. 1",
+                    "start": 139,
+                    "end": 150,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00057"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 57i Abs. 1",
+                    "start": 152,
+                    "end": 164,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57i"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                },
+                {
+                    "text": "§ 58 Abs. 1 Nr. 3",
+                    "start": 166,
+                    "end": 183,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00079",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 14 des Handelsgesetzbuchs",
+                    "start": 150,
+                    "end": 177,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00079",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 58 Abs. 1 Nr. 3",
+                    "start": 40,
+                    "end": 57,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00058"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 14 des Handelsgesetzbuchs",
+                    "start": 241,
+                    "end": 268,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-00014"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00082",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                3,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 57i Abs. 1 Satz 2",
+                    "start": 30,
+                    "end": 49,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-57i"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "sentences": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00082",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 8 Abs. 3 Satz 1",
+                    "start": 141,
+                    "end": 158,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00008"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 39 Abs. 3 Satz 1",
+                    "start": 164,
+                    "end": 182,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00039"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 67 Abs. 3 Satz 1",
+                    "start": 241,
+                    "end": 259,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00067"
+                    },
+                    "fragment": {
+                        "paragraph": "3",
+                        "sentences": [
+                            "1"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00086",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 316a Satz 2 Nummer 1 oder 2 des Handelsgesetzbuchs",
+                    "start": 226,
+                    "end": 278,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-316a"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00086",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 87 Absatz 1, 2 oder 3",
+                    "start": 8,
+                    "end": 31,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00087"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00086",
+            "element_path": [
+                0,
+                "elements",
+                1,
+                "elements",
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 87 Absatz 1, 2 oder 3",
+                    "start": 8,
+                    "end": 31,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00087"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00087",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 316a Satz 2 Nummer 1 oder 2 des Handelsgesetzbuchs",
+                    "start": 177,
+                    "end": 229,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-316a"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00087",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 316a Satz 2 Nummer 1 oder 2 des Handelsgesetzbuchs",
+                    "start": 182,
+                    "end": 234,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-316a"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00087",
+            "element_path": [
+                4,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 36 Absatz 1 Nummer 1",
+                    "start": 32,
+                    "end": 54,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00036"
+                    },
+                    "fragment": {
+                        "paragraph": "1",
+                        "numbers": [
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "text": "§ 316a Satz 2 Nummer 2 des Handelsgesetzbuchs",
+                    "start": 174,
+                    "end": 219,
+                    "target": {
+                        "book": "hgb",
+                        "law": "hgb-316a"
+                    },
+                    "fragment": {
+                        "sentences": [
+                            "2"
+                        ],
+                        "numbers": [
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00088",
+            "element_path": [
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 87 Absatz 5",
+                    "start": 9,
+                    "end": 22,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00087"
+                    },
+                    "fragment": {
+                        "paragraph": "5"
+                    }
+                },
+                {
+                    "text": "§ 87 Absatz 1 bis 3",
+                    "start": 183,
+                    "end": 202,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00087"
+                    },
+                    "fragment": {
+                        "paragraph": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-00088",
+            "element_path": [
+                1,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 86",
+                    "start": 42,
+                    "end": 46,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00086"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-anlage-2",
+            "element_path": [
+                0,
+                "elements",
+                0,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Absatz 3 GmbHG",
+                    "start": 43,
+                    "end": 61,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-anlage-2",
+            "element_path": [
+                0,
+                "elements",
+                0,
+                "elements",
+                0,
+                "elements",
+                4,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 181 des Bürgerlichen Gesetzbuchs",
+                    "start": 513,
+                    "end": 547,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00181"
+                    },
+                    "fragment": null
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-anlage-2",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                0,
+                "elements",
+                1,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 2 Absatz 3 GmbHG",
+                    "start": 40,
+                    "end": 58,
+                    "target": {
+                        "book": "gmbhg",
+                        "law": "gmbhg-00002"
+                    },
+                    "fragment": {
+                        "paragraph": "3"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "gmbhg-anlage-2",
+            "element_path": [
+                1,
+                "elements",
+                0,
+                "elements",
+                0,
+                "elements",
+                4,
+                "elements",
+                0,
+                "elements",
+                0
+            ],
+            "references": [
+                {
+                    "text": "§ 181 des Bürgerlichen Gesetzbuchs",
+                    "start": 771,
+                    "end": 805,
+                    "target": {
+                        "book": "bgb",
+                        "law": "bgb-00181"
+                    },
+                    "fragment": null
+                }
+            ]
+        }
+    ]
+}

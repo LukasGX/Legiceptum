@@ -119,6 +119,10 @@
 		{
 			"slug": "patg",
 			"abbr": "patg"
+		},
+		{
+			"slug": "gmbhg",
+			"abbr": "gmbhg"
 		}
 	],
 	"override": [],

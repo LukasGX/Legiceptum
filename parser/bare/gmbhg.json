@@ -1,0 +1,11 @@
+{
+    "id": "gmbhg",
+    "abbr": "GmbHG",
+    "name": "Gesetz betreffend die Gesellschaften mit beschränkter Haftung",
+    "desc": "Regelt Gründung, Verfassung, Organe und Haftungsverhältnisse der Gesellschaft mit beschränkter Haftung (GmbH) als Kapitalgesellschaft.",
+    "scope": "bund",
+    "field": "Gesellschaftsrecht",
+    "icon": "building",
+    "updated": "",
+    "prefix": "§"
+}

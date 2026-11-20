@@ -79,8 +79,13 @@ def extract_metadata(response_data: dict) -> dict:
     return metadata
 
 def gen_bare_file(filename, id):
-    abbr = input(f"Enter abbr for {id}: ")
+    abbr_suggestion = id.upper()
+    abbr = input(f"Enter abbr for {id} [{abbr_suggestion}]: ")
+    if abbr == "" or abbr == None:
+        abbr = abbr_suggestion
     name = input(f"Input name for {id}: ")
+    if name == "" or abbr == None:
+        raise NameError("Name is empty")
 
     prompt = f"""
     Du bist ein juristischer Metadaten-Assistent für Legiceptum,
