@@ -7,7 +7,7 @@
 
 		{% include 'include/imports.html' %}
 	</head>
-	<body>
+	<body class="{% if clean_print %}clean-print{% endif %}">
 		<div class="head">
 			<p>Legiceptum</p>
 
@@ -81,6 +81,13 @@
 						<span id="save-feedback"></span>
 					</details>
 				</section>
+
+				{% if notes and not clean_print %}
+				<div class="notes-print">
+					<h3>Persönliche Notizen</h3>
+					<pre>{{ notes }}</pre>
+				</div>
+				{% endif %}
 
 				<section class="law-content">
 					{% from "include/law_element.html" import render_element %}

@@ -6,6 +6,7 @@ from typing import Literal
 
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, Form
+from fastapi.params import Query
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -219,6 +220,7 @@ async def get_law(
     request: Request,
     id: str,
     highlight: str | None = None,
+    clean_print: str | None = Query(None, alias="clean-print"),
     user = Depends(get_optional_user)
 ):
     splitted = id.split("-", 2)
@@ -305,7 +307,8 @@ async def get_law(
             "book_abbr": content["abbr"],
             "book_prefix": content["prefix"],
             "book_name": content["name"],
-            "book_updated": formatted
+            "book_updated": formatted,
+            "clean_print": clean_print is not None
         }
     )
 

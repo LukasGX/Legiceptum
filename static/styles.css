@@ -283,6 +283,24 @@ aside.nav .spacer {
 	margin-bottom: 1rem;
 }
 
+.notes-print {
+	display: none;
+	padding: 1rem;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	margin-bottom: 2rem;
+}
+
+.notes-print h3 {
+	margin: 0;
+}
+
+.notes-print pre {
+	margin: 0;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+}
+
 #save-feedback {
 	display: inline-block;
 	margin-left: 0.5rem;
