@@ -819,7 +819,7 @@ async def bookmarks(
     )
 
 class NoteSetRequest(BaseModel):
-    content: str = Field(max_length=5000)
+    content: str = Field(max_length=2000)
 
 @app.post("/notes/{law_id}")
 async def set_notes(

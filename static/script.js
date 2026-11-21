@@ -105,7 +105,7 @@ if (saveNotesBtn) {
 if (notesEl) {
 	notesEl.addEventListener("input", () => {
 		if (charCounter)
-			charCounter.textContent = `${notesEl.value.length} / 5000`;
+			charCounter.textContent = `${notesEl.value.length} / 2000`;
 	});
 }
 
