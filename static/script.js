@@ -560,6 +560,14 @@ if (settingsBtn && settingsPopover) {
 	}
 }
 
+// error page: back button
+const errorBackBtn = document.getElementById("error-back");
+
+if (errorBackBtn && window.history.length > 1) {
+	errorBackBtn.hidden = false;
+	errorBackBtn.addEventListener("click", () => window.history.back());
+}
+
 // global search
 const globSearchForm = document.getElementById("global-search-form");
 const globSearchInput = document.getElementById("global-search-input");

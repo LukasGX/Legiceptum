@@ -1856,3 +1856,70 @@ main > div::-webkit-scrollbar-thumb {
 	border-color: var(--border);
 	color: var(--text);
 }
+
+/* Error pages */
+.err-shadow{fill:var(--border)}
+.err-cover{fill:var(--primary-dark);stroke:var(--text);stroke-width:5;stroke-linejoin:round}
+.err-page{fill:var(--surface);stroke:var(--text);stroke-width:5;stroke-linejoin:round}
+.err-line{stroke:var(--border);stroke-width:5;stroke-linecap:round;fill:none}
+.err-mark{stroke:var(--accent-text);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.err-dot{fill:var(--accent-text)}
+.err-trail{stroke:var(--text-muted);stroke-width:6;stroke-dasharray:0.1 14;stroke-linecap:round;fill:none}
+.err-whoosh{stroke:var(--text-muted);stroke-width:5;stroke-linecap:round;fill:none}
+
+#content.error-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* Keeps the top reachable by scrolling when the content is taller */
+	justify-content: safe center;
+	text-align: center;
+	padding: 2rem 1.5rem;
+}
+
+/* Without this the artwork shrinks when the viewport is short */
+#content.error-page > * {
+	flex-shrink: 0;
+}
+
+.error-art {
+	width: min(100%, 340px);
+	height: auto;
+	/* Keeps the buttons reachable on short screens */
+	max-height: 32vh;
+	margin-bottom: 1rem;
+}
+
+.error-code {
+	margin: 0;
+	color: var(--accent-text);
+	font-family: "Black Ops One", system-ui;
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.error-page h1 {
+	margin: 0.5rem 0 0;
+	font-size: 1.8rem;
+	color: var(--text);
+}
+
+.error-message {
+	max-width: 32rem;
+	margin: 0.6rem 0 0;
+	color: var(--text-muted);
+	line-height: 1.6;
+}
+
+.error-actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.75rem;
+	margin-top: 1.75rem;
+}
+
+.error-actions .account-button[hidden] {
+	display: none;
+}

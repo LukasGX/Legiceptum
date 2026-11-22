@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Legiceptum - {{ error_title }}</title>
+
+		{% include 'include/imports.html' %}
+	</head>
+	<body>
+		<div class="head">
+			<p>Legiceptum</p>
+
+			{% include 'include/settings_menu.html' %}
+
+			<button
+				class="nav-toggle"
+				id="nav-toggle"
+				aria-label="Gesetzbuch-Navigation öffnen"
+				aria-expanded="false">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</div>
+
+		<main>
+			<aside class="nav">
+				<h2>Navigation</h2>
+				<div id="law-books">
+					{% from "include/navigation.html" import law_navigation %}
+					{{ law_navigation(laws, active_book, user) }}
+				</div>
+			</aside>
+
+			<div id="content" class="error-page">
+				{% include 'include/error_illustration.html' %}
+
+				<p class="error-code">{{ error_code }}</p>
+				<h1>{{ error_title }}</h1>
+				<p class="error-message">{{ error_message }}</p>
+
+				<div class="error-actions">
+					{% if show_login %}
+					<a
+						href="/login"
+						class="account-button account-button-primary">
+						<i class="fa-solid fa-right-to-bracket"></i>
+						Anmelden
+					</a>
+					<a href="/" class="account-button account-button-secondary">
+						<i class="fa-solid fa-house"></i>
+						Zur Startseite
+					</a>
+					{% else %}
+					<a href="/" class="account-button account-button-primary">
+						<i class="fa-solid fa-house"></i>
+						Zur Startseite
+					</a>
+					{% endif %}
+					<a
+						href="/search"
+						class="account-button account-button-secondary">
+						<i class="fa-solid fa-magnifying-glass"></i>
+						Zur Suche
+					</a>
+					<button
+						type="button"
+						id="error-back"
+						class="account-button account-button-secondary"
+						hidden>
+						<i class="fa-solid fa-arrow-left"></i>
+						Zurück
+					</button>
+				</div>
+			</div>
+		</main>
+
+		<script src="/static/script.js"></script>
+	</body>
+</html>

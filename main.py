@@ -9,11 +9,16 @@ from typing import Literal
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, Form
 from fastapi.params import Query
-from fastapi.responses import RedirectResponse
+from fastapi.exception_handlers import (
+    http_exception_handler,
+    request_validation_exception_handler
+)
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from fastapi.exceptions import HTTPException
+from fastapi.exceptions import HTTPException, RequestValidationError
 from pydantic import BaseModel, Field
+from starlette.exceptions import HTTPException as StarletteHTTPException
 from starlette.requests import Request
 from starlette.middleware.sessions import SessionMiddleware
 from pathlib import Path
@@ -157,6 +162,129 @@ LAWS_BASE_DIR = Path("./laws")
 GLOBAL_TITLE_INDEX: list[dict] = []
 SESSION_COOKIE = "legiceptum_session"
 
+# ==================================================
+# Error pages
+# ==================================================
+
+ERROR_MESSAGES = {
+    401: (
+        "Anmeldung erforderlich",
+        "Für diese Seite musst du angemeldet sein."
+    ),
+    403: (
+        "Kein Zugriff",
+        "Du hast keine Berechtigung, diese Seite zu sehen."
+    ),
+    404: (
+        "Seite nicht gefunden",
+        "Diese Seite gibt es nicht, oder sie wurde verschoben."
+    ),
+    405: (
+        "Aufruf nicht möglich",
+        "Diese Seite kann so nicht aufgerufen werden."
+    ),
+    422: (
+        "Ungültige Anfrage",
+        "Die Anfrage konnte nicht verarbeitet werden."
+    ),
+    500: (
+        "Interner Fehler",
+        "Auf unserer Seite ist etwas schiefgelaufen. "
+        "Bitte versuche es später noch einmal."
+    ),
+}
+
+DEFAULT_ERROR_MESSAGE = (
+    "Es ist ein Fehler aufgetreten",
+    "Die Seite konnte nicht angezeigt werden."
+)
+
+# Used only when the regular error template cannot be rendered
+FALLBACK_ERROR_HTML = """<!doctype html>
+<html lang="de"><head><meta charset="UTF-8" />
+<title>Legiceptum - {title}</title></head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 4rem;">
+<h1>{code}</h1><p>{title}</p><p><a href="/">Zur Startseite</a></p>
+</body></html>"""
+
+
+def wants_html(request: Request) -> bool:
+    """Browser page loads ask for HTML, fetch() calls usually do not."""
+    return "text/html" in request.headers.get("accept", "")
+
+
+def render_error(request: Request, status_code: int, headers=None):
+    title, message = ERROR_MESSAGES.get(status_code, DEFAULT_ERROR_MESSAGE)
+
+    # The error page must never fail itself, so every lookup is guarded
+    try:
+        user = get_user(request)
+    except Exception:
+        user = None
+
+    try:
+        laws = all_books()
+    except Exception:
+        laws = []
+
+    try:
+        return templates.TemplateResponse(
+            request=request,
+            name="error.html",
+            context={
+                "user": user,
+                "laws": laws,
+                "active_book": None,
+                "error_code": status_code,
+                "error_title": title,
+                "error_message": message,
+                "show_login": status_code == 401
+            },
+            status_code=status_code,
+            headers=headers
+        )
+    except Exception:
+        return HTMLResponse(
+            FALLBACK_ERROR_HTML.format(code=status_code, title=title),
+            status_code=status_code,
+            headers=headers
+        )
+
+
+@app.exception_handler(StarletteHTTPException)
+async def handle_http_exception(
+    request: Request,
+    exc: StarletteHTTPException
+):
+    if wants_html(request):
+        return render_error(request, exc.status_code, exc.headers)
+
+    return await http_exception_handler(request, exc)
+
+
+@app.exception_handler(RequestValidationError)
+async def handle_validation_error(
+    request: Request,
+    exc: RequestValidationError
+):
+    if wants_html(request):
+        return render_error(request, 422)
+
+    return await request_validation_exception_handler(request, exc)
+
+
+@app.exception_handler(Exception)
+async def handle_unexpected_error(request: Request, exc: Exception):
+    # Starlette still logs the traceback after this response was sent
+    if wants_html(request):
+        return render_error(request, 500)
+
+    return JSONResponse(
+        {"detail": "Internal Server Error"},
+        status_code=500
+    )
+
+
 @app.get("/")
 async def index(request: Request):
     return templates.TemplateResponse(
@@ -178,7 +306,7 @@ async def book(
     file = Path(LAWS_BASE_DIR, book + ".json")
 
     if not file.is_file():
-        raise HTTPException(detail=f"File {file} was not found", status_code=404)
+        raise HTTPException(detail="Book not found", status_code=404)
 
     with open(file, "r") as f:
         bc = json.load(f)
