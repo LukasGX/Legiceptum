@@ -67,12 +67,14 @@
 						</div>
 
 						<div class="account-actions">
-							<a
-								href="/logout"
-								class="account-button account-button-secondary">
-								<i class="fa-solid fa-right-from-bracket"></i>
-								Abmelden
-							</a>
+							<form method="post" action="/logout">
+								<button
+									type="submit"
+									class="account-button account-button-secondary">
+									<i class="fa-solid fa-right-from-bracket"></i>
+									Abmelden
+								</button>
+							</form>
 						</div>
 					</section>
 					{% else %}

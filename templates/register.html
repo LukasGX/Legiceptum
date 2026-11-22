@@ -41,6 +41,16 @@
 							<i class="fa-solid fa-user-plus"></i>
 						</div>
 
+						{% if registered %}
+						<h1>Prüfe dein Postfach</h1>
+						<p class="auth-description">
+							Wir haben dir eine E-Mail geschickt. Sobald du deine
+							Adresse bestätigt hast, kannst du dich anmelden.
+						</p>
+						<p class="auth-footer">
+							<a href="/login">Zur Anmeldung</a>
+						</p>
+						{% else %}
 						<h1>Legiceptum beitreten</h1>
 						<p class="auth-description">
 							Erstelle dein Konto und speichere deine persönlichen
@@ -81,10 +91,10 @@
 									id="password"
 									type="password"
 									name="password"
-									placeholder="Mindestens 8 Zeichen"
+									placeholder="Mindestens 12 Zeichen"
 									autocomplete="new-password"
 									required
-									minlength="8" />
+									minlength="12" />
 							</div>
 
 							<div class="form-field">
@@ -98,7 +108,7 @@
 									placeholder="Passwort erneut eingeben"
 									autocomplete="new-password"
 									required
-									minlength="8" />
+									minlength="12" />
 							</div>
 
 							{% if error %}
@@ -118,6 +128,7 @@
 							Bereits ein Konto?
 							<a href="/login">Jetzt anmelden</a>
 						</p>
+						{% endif %}
 					</section>
 				</div>
 			</div>

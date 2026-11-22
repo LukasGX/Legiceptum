@@ -23,9 +23,14 @@ from starlette.requests import Request
 from starlette.middleware.sessions import SessionMiddleware
 from pathlib import Path
 
+from slowapi.errors import RateLimitExceeded
+from slowapi.middleware import SlowAPIMiddleware
+
 from auth import authenticate_user, create_session, register_user, revoke_session
 from database.db import get_db, initialize_database
 from dependencies import get_current_user, get_optional_user, get_user
+from rate_limit import LOGIN_LIMIT, REGISTER_LIMIT, limiter
+from security import require_same_origin
 
 load_dotenv()
 
@@ -142,6 +147,7 @@ async def lifespan(app: FastAPI):
     GLOBAL_BOOK_INDEX.clear()
 
 app = FastAPI(lifespan=lifespan)
+app.state.limiter = limiter
 
 app.add_middleware(
     SessionMiddleware,
@@ -151,6 +157,7 @@ app.add_middleware(
     same_site="lax",
     https_only=True,
 )
+app.add_middleware(SlowAPIMiddleware)
 
 templates = Jinja2Templates(directory="templates")
 
@@ -182,6 +189,11 @@ ERROR_MESSAGES = {
     405: (
         "Aufruf nicht möglich",
         "Diese Seite kann so nicht aufgerufen werden."
+    ),
+    429: (
+        "Zu viele Anfragen",
+        "Du hast zu viele Versuche unternommen. "
+        "Bitte warte einen Moment und versuche es dann erneut."
     ),
     422: (
         "Ungültige Anfrage",
@@ -260,6 +272,22 @@ async def handle_http_exception(
         return render_error(request, exc.status_code, exc.headers)
 
     return await http_exception_handler(request, exc)
+
+
+@app.exception_handler(RateLimitExceeded)
+async def handle_rate_limit(request: Request, exc: RateLimitExceeded):
+    # Tell clients when to retry; fall back to one minute if unknown
+    retry_after = str(getattr(exc.limit.limit, "get_expiry", lambda: 60)())
+    headers = {"Retry-After": retry_after}
+
+    if wants_html(request):
+        return render_error(request, 429, headers)
+
+    return JSONResponse(
+        {"detail": "Too Many Requests"},
+        status_code=429,
+        headers=headers
+    )
 
 
 @app.exception_handler(RequestValidationError)
@@ -545,12 +573,14 @@ async def search_all_titles(data: GlobalTitleSearchRequest):
     }
 
 @app.post("/register")
+@limiter.limit(REGISTER_LIMIT)
 async def register(
     request: Request,
     username: str = Form(...),
     email: str = Form(...),
     password: str = Form(...),
-    password_confirm: str = Form(...)
+    password_confirm: str = Form(...),
+    _: None = Depends(require_same_origin)
 ):
     if password != password_confirm:
         return templates.TemplateResponse(
@@ -561,7 +591,7 @@ async def register(
         )
 
     try:
-        user_id = register_user(username, email, password)
+        register_user(username, email, password)
     except ValueError as exc:
         return templates.TemplateResponse(
             request=request,
@@ -570,27 +600,28 @@ async def register(
             status_code=400
         )
 
-    token = create_session(user_id)
-
-    response = RedirectResponse("/", status_code=303)
-    response.set_cookie(
-        key=SESSION_COOKIE,
-        value=token,
-        httponly=True,
-        secure=True,
-        samesite="lax",
-        max_age=60 * 60 * 24 * 7,
-        path="/"
+    # Same answer whether the account was created or the email already exists.
+    # TODO: send a real confirmation email once a mail provider is set up.
+    return templates.TemplateResponse(
+        request=request,
+        name="register.html",
+        context={
+            "user": get_user(request),
+            "laws": all_books(),
+            "active_book": "account",
+            "error": None,
+            "registered": True
+        }
     )
-
-    return response
 
 
 @app.post("/login")
+@limiter.limit(LOGIN_LIMIT)
 async def login(
     request: Request,
     identifier: str = Form(...),
-    password: str = Form(...)
+    password: str = Form(...),
+    _: None = Depends(require_same_origin)
 ):
     user = authenticate_user(identifier, password)
 
@@ -868,7 +899,6 @@ async def global_search(data: GlobalSearchRequest):
         }
     }
 
-@app.get("/logout")
 @app.post("/logout")
 async def logout_post(request: Request):
     token = request.cookies.get(SESSION_COOKIE)

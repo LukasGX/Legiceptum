@@ -1,5 +1,7 @@
 import hashlib
+import re
 import secrets
+import sqlite3
 
 from datetime import datetime, timedelta, timezone
 
@@ -12,10 +14,22 @@ from database.db import get_db
 password_hasher = PasswordHasher()
 
 SESSION_DURATION = timedelta(days=7)
+MIN_PASSWORD_LENGTH = 12
+MAX_EMAIL_LENGTH = 254
+MAX_PASSWORD_LENGTH = 1024
+USERNAME_TAKEN_MESSAGE = "Dieser Benutzername ist bereits vergeben."
+
+# Deliberately simple: one @, no whitespace, a dot in the domain part
+EMAIL_PATTERN = re.compile(r"[^@\s]+@[^@\s]+\.[^@\s]+")
 
 
 def hash_password(password: str) -> str:
     return password_hasher.hash(password)
+
+
+# Verified against when the user does not exist, so the response time
+# does not reveal whether an account exists
+DUMMY_PASSWORD_HASH = hash_password("dummy-password-for-timing")
 
 
 def verify_password(password: str, password_hash: str) -> bool:
@@ -29,23 +43,44 @@ def hash_token(token: str) -> str:
     return hashlib.sha256(token.encode("utf-8")).hexdigest()
 
 
-def register_user(username: str, email: str, password: str) -> int:
+def register_user(username: str, email: str, password: str) -> int | None:
+    """Create an account. Returns None if the email is already registered.
+
+    A taken username is reported openly, a taken email is not, so callers
+    must answer both outcomes identically for the email case.
+    """
     username = username.strip()
     email = email.strip().lower()
 
     if len(username) < 3 or len(username) > 32:
         raise ValueError("Ungültiger Benutzername.")
 
-    if len(password) < 8:
-        raise ValueError("Das Passwort muss mindestens 12 Zeichen lang sein.")
+    # "@" is reserved for emails so a login identifier is never ambiguous
+    if "@" in username:
+        raise ValueError("Der Benutzername darf kein @ enthalten.")
 
-    if len(password) > 1024:
+    if len(email) > MAX_EMAIL_LENGTH or not EMAIL_PATTERN.fullmatch(email):
+        raise ValueError("Ungültige E-Mail-Adresse.")
+
+    if len(password) < MIN_PASSWORD_LENGTH:
+        raise ValueError(
+            f"Das Passwort muss mindestens {MIN_PASSWORD_LENGTH} Zeichen lang sein."
+        )
+
+    if len(password) > MAX_PASSWORD_LENGTH:
         raise ValueError("Das Passwort ist zu lang.")
 
+    # Always hash, so a taken email costs the same time as a new account
     password_hash = hash_password(password)
 
     try:
         with get_db() as db:
+            if _exists(db, "username", username):
+                raise ValueError(USERNAME_TAKEN_MESSAGE)
+
+            if _exists(db, "email", email):
+                return None
+
             cursor = db.execute(
                 """
                 INSERT INTO users (username, email, password_hash)
@@ -56,29 +91,45 @@ def register_user(username: str, email: str, password: str) -> int:
 
             return cursor.lastrowid
 
-    except Exception as exc:
-        if "UNIQUE constraint failed" in str(exc):
-            raise ValueError(
-                "Benutzername oder E-Mail-Adresse bereits vergeben."
-            ) from exc
+    except sqlite3.IntegrityError as exc:
+        # Lost a race between the check and the insert
+        if "users.username" in str(exc):
+            raise ValueError(USERNAME_TAKEN_MESSAGE) from exc
+        if "users.email" in str(exc):
+            return None
         raise
+
+
+def _exists(db, column: str, value: str) -> bool:
+    row = db.execute(
+        f"SELECT 1 FROM users WHERE {column} = ? COLLATE NOCASE",
+        (value,)
+    ).fetchone()
+    return row is not None
 
 
 def authenticate_user(identifier: str, password: str):
     identifier = identifier.strip()
 
+    # Never feed oversized input to the hasher
+    if len(password) > MAX_PASSWORD_LENGTH:
+        return None
+
+    # An identifier with "@" is an email, anything else a username
+    column = "email" if "@" in identifier else "username"
+
     with get_db() as db:
         user = db.execute(
-            """
+            f"""
             SELECT id, username, email, password_hash
             FROM users
-            WHERE username = ? COLLATE NOCASE
-               OR email = ? COLLATE NOCASE
+            WHERE {column} = ? COLLATE NOCASE
             """,
-            (identifier, identifier)
+            (identifier,)
         ).fetchone()
 
     if user is None:
+        verify_password(password, DUMMY_PASSWORD_HASH)
         return None
 
     if not verify_password(password, user["password_hash"]):
