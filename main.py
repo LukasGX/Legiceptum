@@ -217,6 +217,21 @@ async def book(
         }
     )
 
+def pager_entry(laws: list[dict], index: int) -> dict | None:
+    """Return the data needed to link to laws[index], or None at the edges."""
+    if index < 0 or index >= len(laws):
+        return None
+
+    entry = laws[index]
+
+    return {
+        "id": entry["id"],
+        "nr": entry["nr"],
+        "name": entry.get("name", ""),
+        "no_prefix": entry.get("no_prefix", False)
+    }
+
+
 @app.get("/law/{id}")
 async def get_law(
     request: Request,
@@ -239,13 +254,21 @@ async def get_law(
     date = datetime.strptime(content["updated"], "%Y-%m-%d")
     formatted = date.strftime("%d.%m.%Y")
 
-    law = next(
-        (law for law in content["laws"] if law["id"] == id),
+    laws = content["laws"]
+
+    index = next(
+        (i for i, entry in enumerate(laws) if entry["id"] == id),
         None
     )
 
-    if law is None:
+    if index is None:
         raise HTTPException(detail="Law not found", status_code=404)
+
+    law = laws[index]
+
+    # Neighbours in reading order (the file order is the legal order)
+    prev_law = pager_entry(laws, index - 1)
+    next_law = pager_entry(laws, index + 1)
 
     # Load cross-references
     links_file = Path(LAWS_BASE_DIR, book + ".link.json")
@@ -303,6 +326,8 @@ async def get_law(
             "bookmarked": bookmarked,
             "notes": pnotes,
             "law": law,
+            "prev_law": prev_law,
+            "next_law": next_law,
             "highlight": highlight,
             "law_links": law_links,
             "book_id": content["id"],

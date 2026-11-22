@@ -77,6 +77,10 @@
 		display: none;
 	}
 
+	.law-pager {
+		display: none !important;
+	}
+
 	.notes-print {
 		display: block !important;
 	}

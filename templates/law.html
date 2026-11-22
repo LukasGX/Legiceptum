@@ -87,6 +87,10 @@
 					</div>
 				</div>
 
+				{% from "include/law_pager.html" import law_pager %} {% if not
+				clean_print %} {{ law_pager(prev_law, next_law, book_prefix) }}
+				{% endif %}
+
 				<section class="law-notes">
 					<details>
 						<summary>Persönliche Notizen</summary>

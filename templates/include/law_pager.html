@@ -1,0 +1,34 @@
+{% macro pager_label(entry, book_prefix) -%}
+{%- set number = ((book_prefix ~ " " if not entry.no_prefix else "") ~ entry.nr)|trim -%}
+{%- if entry.nr|trim or entry.name -%}
+{{ number }}{% if entry.name %} {{ entry.name }}{% endif %}
+{%- else -%}
+Ohne Bezeichnung
+{%- endif -%}
+{%- endmacro %}
+
+{% macro law_pager(prev_law, next_law, book_prefix) %} {% if prev_law or
+next_law %}
+<nav class="law-pager" aria-label="Normen-Navigation">
+	{% if prev_law %} {% set label = pager_label(prev_law, book_prefix) %}
+	<a
+		class="law-pager-link prev"
+		href="/law/{{ prev_law.id }}"
+		rel="prev"
+		title="{{ label }}">
+		<i class="fa-solid fa-chevron-left"></i>
+		<span class="law-pager-label">{{ label }}</span>
+	</a>
+	{% endif %} {% if next_law %} {% set label = pager_label(next_law,
+	book_prefix) %}
+	<a
+		class="law-pager-link next"
+		href="/law/{{ next_law.id }}"
+		rel="next"
+		title="{{ label }}">
+		<span class="law-pager-label">{{ label }}</span>
+		<i class="fa-solid fa-chevron-right"></i>
+	</a>
+	{% endif %}
+</nav>
+{% endif %} {% endmacro %}

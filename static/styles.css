@@ -1807,3 +1807,52 @@ main > div::-webkit-scrollbar-thumb {
 	color: var(--danger-text);
 	font-size: 0.85rem;
 }
+
+/* Previous / next norm navigation */
+.law-pager {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-bottom: 1.25rem;
+}
+
+.law-pager-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	max-width: 45%;
+	min-width: 0;
+	padding: 0.3rem 0.7rem;
+	border: 1px solid transparent;
+	border-radius: 999px;
+	color: var(--text-muted);
+	font-size: 0.85rem;
+	text-decoration: none;
+	transition:
+		background 0.15s,
+		border-color 0.15s,
+		color 0.15s;
+}
+
+/* Keeps a lone "next" button on the right */
+.law-pager-link.next {
+	margin-left: auto;
+}
+
+.law-pager-link i {
+	flex-shrink: 0;
+	font-size: 0.75rem;
+}
+
+.law-pager-label {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.law-pager-link:hover {
+	background: var(--surface-hover);
+	border-color: var(--border);
+	color: var(--text);
+}
