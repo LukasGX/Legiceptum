@@ -759,7 +759,7 @@ def toggle_bookmark(
                 """,
                 (user_id, law_id)
             )
-            # Ohne Lesezeichen keine Sammlungszugehörigkeit
+            # Without a bookmark there is no collection membership
             db.execute(
                 """
                 DELETE FROM collection_items
@@ -877,7 +877,7 @@ def _book_law_ids(book: str) -> frozenset[str]:
 def law_exists(law_id: str) -> bool:
     book = law_id.split("-", 1)[0]
 
-    # Verhindert Pfad-Tricks wie "../"
+    # Prevents path tricks such as "../"
     if not book.isalnum():
         return False
 
@@ -1039,7 +1039,7 @@ async def add_to_collection(
         if not law_exists(law_id):
             raise HTTPException(status_code=404, detail="Law not found")
 
-        # Eintrag in Sammlung setzt automatisch ein Lesezeichen
+        # Adding to a collection automatically bookmarks the norm
         db.execute(
             """
             INSERT INTO bookmarks (user_id, law_id)

@@ -9,3 +9,5 @@ test_result.*
 *.db
 imported/
 output/
+CLAUDE.md
+.claude

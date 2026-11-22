@@ -404,7 +404,7 @@ if (collectionBtn && collectionPopover) {
 
 			if (box.checked) {
 				state.member_of.push(id);
-				// Eintrag setzt automatisch ein Lesezeichen
+				// Adding to a collection automatically bookmarks the norm
 				bookmarkIcon?.classList.add("fa-solid");
 				bookmarkIcon?.classList.remove("fa-regular");
 			} else {
@@ -439,7 +439,7 @@ if (collectionBtn && collectionPopover) {
 		}
 	});
 
-	// Lesezeichen entfernt -> Mitgliedschaften sind serverseitig gelöscht
+	// Bookmark removed -> memberships were deleted server-side
 	document.addEventListener("bookmark-removed", () => {
 		state.member_of = [];
 		renderPopover();
