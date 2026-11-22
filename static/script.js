@@ -446,6 +446,120 @@ if (collectionBtn && collectionPopover) {
 	});
 }
 
+// display settings (theme and font size)
+const settingsBtn = document.getElementById("settings-btn");
+const settingsPopover = document.getElementById("settings-popover");
+
+if (settingsBtn && settingsPopover) {
+	const root = document.documentElement;
+	const statusEl = settingsPopover.querySelector(".settings-status");
+	const serverState = window.LEGICEPTUM_SETTINGS || {};
+
+	function currentSettings() {
+		return {
+			theme: root.dataset.theme || "auto",
+			font_size: root.dataset.font || "m"
+		};
+	}
+
+	function syncRadios() {
+		const { theme, font_size } = currentSettings();
+
+		settingsPopover.querySelector(
+			`input[name="theme"][value="${theme}"]`
+		).checked = true;
+		settingsPopover.querySelector(
+			`input[name="font"][value="${font_size}"]`
+		).checked = true;
+	}
+
+	function saveLocal({ theme, font_size }) {
+		try {
+			localStorage.setItem("legiceptum-theme", theme);
+			localStorage.setItem("legiceptum-font", font_size);
+		} catch {
+			// Storage can be blocked, the settings then last for this page only
+		}
+	}
+
+	function hasLocalSettings() {
+		try {
+			return (
+				localStorage.getItem("legiceptum-theme") !== null ||
+				localStorage.getItem("legiceptum-font") !== null
+			);
+		} catch {
+			return false;
+		}
+	}
+
+	async function saveRemote(settings) {
+		if (!serverState.loggedIn) return;
+
+		try {
+			const response = await fetch("/settings", {
+				method: "PUT",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify(settings)
+			});
+
+			if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+			serverState.hasServer = true;
+			statusEl.textContent = "";
+		} catch {
+			statusEl.textContent = "Konnte nicht im Konto gespeichert werden.";
+		}
+	}
+
+	function setOpen(open) {
+		settingsPopover.hidden = !open;
+		settingsBtn.setAttribute("aria-expanded", open);
+
+		if (open) {
+			statusEl.textContent = "";
+			syncRadios();
+		}
+	}
+
+	settingsBtn.addEventListener("click", (event) => {
+		event.stopPropagation();
+		setOpen(settingsPopover.hidden);
+	});
+
+	document.addEventListener("click", (event) => {
+		if (!settingsPopover.hidden && !settingsPopover.contains(event.target)) {
+			setOpen(false);
+		}
+	});
+
+	document.addEventListener("keydown", (event) => {
+		if (event.key === "Escape" && !settingsPopover.hidden) {
+			setOpen(false);
+			settingsBtn.focus();
+		}
+	});
+
+	settingsPopover.addEventListener("change", (event) => {
+		const input = event.target;
+		if (!(input instanceof HTMLInputElement)) return;
+
+		if (input.name === "theme") root.dataset.theme = input.value;
+		if (input.name === "font") root.dataset.font = input.value;
+
+		const settings = currentSettings();
+		saveLocal(settings);
+		saveRemote(settings);
+	});
+
+	syncRadios();
+
+	// First visit after login: upload the settings chosen as a guest once
+	if (serverState.loggedIn && !serverState.hasServer && hasLocalSettings()) {
+		saveRemote(currentSettings());
+	}
+}
+
 // global search
 const globSearchForm = document.getElementById("global-search-form");
 const globSearchInput = document.getElementById("global-search-input");

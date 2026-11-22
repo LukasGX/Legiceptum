@@ -1,3 +1,46 @@
+<script>
+	// Apply theme and font size before the first paint to avoid a flash
+	(function () {
+		var THEMES = ["auto", "light", "dark"];
+		var FONTS = ["s", "m", "l", "xl"];
+		var server = {{ {"theme": user.theme, "font_size": user.font_size} | tojson if user and user.theme else "null" }};
+
+		function read(key, allowed) {
+			try {
+				var value = localStorage.getItem(key);
+				return allowed.indexOf(value) !== -1 ? value : null;
+			} catch (error) {
+				return null;
+			}
+		}
+
+		var theme = "auto";
+		var font = "m";
+
+		if (server) {
+			// Account settings win over local ones
+			theme = server.theme;
+			font = server.font_size;
+
+			try {
+				localStorage.setItem("legiceptum-theme", theme);
+				localStorage.setItem("legiceptum-font", font);
+			} catch (error) {}
+		} else {
+			theme = read("legiceptum-theme", THEMES) || theme;
+			font = read("legiceptum-font", FONTS) || font;
+		}
+
+		document.documentElement.dataset.theme = theme;
+		document.documentElement.dataset.font = font;
+
+		window.LEGICEPTUM_SETTINGS = {
+			loggedIn: {{ "true" if user else "false" }},
+			hasServer: server !== null
+		};
+	})();
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link

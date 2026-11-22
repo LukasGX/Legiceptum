@@ -1,0 +1,54 @@
+<div class="settings-wrap">
+	<button
+		type="button"
+		id="settings-btn"
+		class="settings-btn"
+		title="Darstellung"
+		aria-label="Darstellung"
+		aria-haspopup="true"
+		aria-expanded="false">
+		<i class="fa-solid fa-circle-half-stroke"></i>
+	</button>
+
+	<div id="settings-popover" class="settings-popover" hidden>
+		<fieldset class="settings-group">
+			<legend>Darstellung</legend>
+			<label class="settings-option">
+				<input type="radio" name="theme" value="auto" />
+				<span>Automatisch</span>
+			</label>
+			<label class="settings-option">
+				<input type="radio" name="theme" value="light" />
+				<span>Hell</span>
+			</label>
+			<label class="settings-option">
+				<input type="radio" name="theme" value="dark" />
+				<span>Dunkel</span>
+			</label>
+		</fieldset>
+
+		<fieldset class="settings-group">
+			<legend>Schriftgröße</legend>
+			<div class="settings-sizes">
+				<label class="settings-size settings-size-s">
+					<input type="radio" name="font" value="s" />
+					<span>Aa</span>
+				</label>
+				<label class="settings-size settings-size-m">
+					<input type="radio" name="font" value="m" />
+					<span>Aa</span>
+				</label>
+				<label class="settings-size settings-size-l">
+					<input type="radio" name="font" value="l" />
+					<span>Aa</span>
+				</label>
+				<label class="settings-size settings-size-xl">
+					<input type="radio" name="font" value="xl" />
+					<span>Aa</span>
+				</label>
+			</div>
+		</fieldset>
+
+		<span class="settings-status" role="alert"></span>
+	</div>
+</div>

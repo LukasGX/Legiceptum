@@ -132,11 +132,13 @@
 	border-radius: var(--radius);
 	background: var(--surface);
 	transition: 225ms ease;
+	color: var(--text);
 	cursor: pointer;
 }
 
 #load-more:hover {
 	background-color: var(--primary-color);
+	color: var(--on-primary);
 }
 
 #load-more:disabled {

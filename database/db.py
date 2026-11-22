@@ -89,6 +89,19 @@ def initialize_database():
 
             CREATE INDEX IF NOT EXISTS idx_collection_items_law
             ON collection_items(law_id);
+
+            CREATE TABLE IF NOT EXISTS user_settings (
+                user_id INTEGER PRIMARY KEY,
+                theme TEXT NOT NULL DEFAULT 'auto'
+                    CHECK (theme IN ('auto', 'light', 'dark')),
+                font_size TEXT NOT NULL DEFAULT 'm'
+                    CHECK (font_size IN ('s', 'm', 'l', 'xl')),
+                updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+                FOREIGN KEY (user_id)
+                    REFERENCES users(id)
+                    ON DELETE CASCADE
+            );
         """)
 
 

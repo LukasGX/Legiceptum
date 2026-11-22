@@ -1082,6 +1082,30 @@ async def remove_from_collection(
     return {"success": True}
 
 
+class SettingsRequest(BaseModel):
+    theme: Literal["auto", "light", "dark"]
+    font_size: Literal["s", "m", "l", "xl"]
+
+
+@app.put("/settings")
+async def set_settings(
+    data: SettingsRequest,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        db.execute("""
+        INSERT INTO user_settings (user_id, theme, font_size)
+        VALUES (?, ?, ?)
+        ON CONFLICT(user_id)
+        DO UPDATE SET
+            theme = excluded.theme,
+            font_size = excluded.font_size,
+            updated_at = CURRENT_TIMESTAMP;
+        """, (user["id"], data.theme, data.font_size))
+
+    return {"success": True}
+
+
 class NoteSetRequest(BaseModel):
     content: str = Field(max_length=2000)
 

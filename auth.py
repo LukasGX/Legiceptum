@@ -121,9 +121,11 @@ def get_session_user(token: str):
     with get_db() as db:
         session = db.execute(
             """
-            SELECT users.id, users.username, users.email
+            SELECT users.id, users.username, users.email,
+                   user_settings.theme, user_settings.font_size
             FROM sessions
             JOIN users ON users.id = sessions.user_id
+            LEFT JOIN user_settings ON user_settings.user_id = users.id
             WHERE sessions.token_hash = ?
               AND sessions.expires_at > ?
             """,

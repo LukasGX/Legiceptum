@@ -1,4 +1,29 @@
 @media print {
+	/* Always print in the light theme with the default font size */
+	/* Repeated :root raises specificity above the theme selectors */
+	:root:root:root {
+		--bg: #fff7e1;
+		--bg-dark: #f5e8c4;
+		--surface: #ffffff;
+		--surface-hover: #fff4d6;
+		--text: #302b20;
+		--text-muted: #81765f;
+		--border: #e9dfc8;
+		--brand-text: #5d481b;
+		--link: #a47713;
+		--accent-text: #806019;
+		--accent-text-alt: #8b681c;
+		--text-faint: #b5a783;
+		--scrollbar: #d5c69e;
+		--shadow: 0 2px 8px rgba(70, 52, 12, 0.06);
+		--danger-text: #b3261e;
+		--danger-text-strong: #a12c2c;
+		--danger-bg: #fff0f0;
+		--danger-border: #e5aaaa;
+		--law-font-scale: 1;
+		color-scheme: light;
+	}
+
 	aside.nav {
 		display: none !important;
 	}
@@ -16,6 +41,7 @@
 
 	#bookmark-icon,
 	.collection-wrap,
+	.settings-wrap,
 	.modal-backdrop {
 		display: none !important;
 	}
