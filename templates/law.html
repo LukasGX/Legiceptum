@@ -49,6 +49,36 @@
 							<i
 								class="{% if bookmarked %}fa-solid{% else %}fa-regular{% endif %} fa-bookmark"
 								id="bookmark-icon"></i>
+							{% if user %}
+							<div class="collection-wrap">
+								<button
+									type="button"
+									id="collection-btn"
+									class="collection-btn"
+									title="Zu Sammlung hinzufügen"
+									aria-label="Zu Sammlung hinzufügen"
+									aria-haspopup="true"
+									aria-expanded="false">
+									<i class="fa-regular fa-folder-open"></i>
+								</button>
+								<div
+									id="collection-popover"
+									class="collection-popover"
+									hidden>
+									<h3>Sammlungen</h3>
+									<div class="collection-list"></div>
+									<span
+										class="collection-status"
+										role="alert"></span>
+									<button
+										type="button"
+										class="collection-add">
+										<i class="fa-solid fa-plus"></i>
+										Neue Sammlung
+									</button>
+								</div>
+							</div>
+							{% endif %}
 						</div>
 
 						<p class="law-description">{{ book_name }}</p>

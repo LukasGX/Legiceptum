@@ -61,6 +61,34 @@ def initialize_database():
 
             CREATE UNIQUE INDEX IF NOT EXISTS idx_notes_user_law
             ON notes (user_id, law_id);
+
+            CREATE TABLE IF NOT EXISTS collections (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                name TEXT NOT NULL COLLATE NOCASE,
+                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+                FOREIGN KEY (user_id)
+                    REFERENCES users(id)
+                    ON DELETE CASCADE,
+
+                UNIQUE (user_id, name)
+            );
+
+            CREATE TABLE IF NOT EXISTS collection_items (
+                collection_id INTEGER NOT NULL,
+                law_id TEXT NOT NULL,
+                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+                PRIMARY KEY (collection_id, law_id),
+
+                FOREIGN KEY (collection_id)
+                    REFERENCES collections(id)
+                    ON DELETE CASCADE
+            );
+
+            CREATE INDEX IF NOT EXISTS idx_collection_items_law
+            ON collection_items(law_id);
         """)
 
 

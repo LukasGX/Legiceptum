@@ -1319,3 +1319,257 @@ main > div::-webkit-scrollbar-thumb {
 		max-width: 100%;
 	}
 }
+
+/* Collections */
+.law-heading .h1-group {
+	gap: 0.9rem;
+}
+
+.law-heading .h1-group h1 {
+	flex: 1;
+}
+
+.collection-wrap {
+	position: relative;
+}
+
+.collection-btn {
+	background: none;
+	border: none;
+	padding: 0;
+	color: var(--text);
+	cursor: pointer;
+	transition: 225ms ease;
+}
+
+.collection-btn:hover {
+	color: var(--text-muted);
+}
+
+.collection-popover {
+	position: absolute;
+	top: calc(100% + 0.6rem);
+	right: 0;
+	z-index: 50;
+	width: min(18rem, 80vw);
+	padding: 0.9rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	box-shadow: 0 8px 24px rgba(70, 52, 12, 0.15);
+}
+
+.collection-popover[hidden] {
+	display: none;
+}
+
+.collection-popover h3 {
+	margin: 0 0 0.6rem;
+	font-size: 0.95rem;
+}
+
+.collection-list {
+	display: flex;
+	flex-direction: column;
+	max-height: 14rem;
+	overflow-y: auto;
+}
+
+.collection-option {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	padding: 0.4rem 0.3rem;
+	border-radius: 6px;
+	font-size: 0.95rem;
+	cursor: pointer;
+}
+
+.collection-option:hover {
+	background: var(--surface-hover);
+}
+
+.collection-empty {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: 0.9rem;
+}
+
+.collection-status {
+	display: block;
+	min-height: 1.1rem;
+	margin-top: 0.4rem;
+	color: #b3261e;
+	font-size: 0.85rem;
+}
+
+.collection-add {
+	width: 100%;
+	margin-top: 0.3rem;
+	padding: 0.5rem;
+	background: var(--bg);
+	border: 1px dashed var(--border);
+	border-radius: 8px;
+	color: var(--text);
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.collection-add:hover {
+	background: var(--surface-hover);
+	border-color: var(--primary-dark);
+}
+
+.collection-bar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.collection-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.4rem 0.85rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 999px;
+	color: var(--text);
+	font-size: 0.9rem;
+	text-decoration: none;
+	cursor: pointer;
+	transition:
+		background 0.15s,
+		border-color 0.15s;
+}
+
+.collection-chip:hover {
+	background: var(--surface-hover);
+	border-color: var(--primary-dark);
+}
+
+.collection-chip.active {
+	background: var(--primary-color);
+	border-color: var(--primary-dark);
+	font-weight: 600;
+}
+
+.collection-chip-count {
+	color: var(--text-muted);
+	font-size: 0.8rem;
+}
+
+.collection-chip-new {
+	border-style: dashed;
+}
+
+.collection-actions {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.collection-actions button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.4rem 0.8rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	color: var(--text);
+	font-size: 0.85rem;
+	cursor: pointer;
+}
+
+.collection-actions button:hover {
+	background: var(--surface-hover);
+}
+
+.collection-actions button.danger {
+	color: #b3261e;
+}
+
+/* Modal */
+.modal-backdrop {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	display: grid;
+	place-items: center;
+	padding: 1rem;
+	background: rgba(48, 43, 32, 0.45);
+}
+
+.modal {
+	width: min(26rem, 100%);
+	padding: 1.4rem;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	box-shadow: 0 16px 48px rgba(70, 52, 12, 0.25);
+}
+
+.modal h2 {
+	margin: 0 0 0.5rem;
+	font-size: 1.2rem;
+}
+
+.modal p {
+	margin: 0 0 1rem;
+	color: var(--text-muted);
+	line-height: 1.5;
+}
+
+.modal-input {
+	width: 100%;
+	padding: 0.6rem 0.75rem;
+	background: var(--bg);
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	color: var(--text);
+	font-size: 1rem;
+}
+
+.modal-input:focus {
+	outline: 2px solid var(--primary-dark);
+	outline-offset: 1px;
+}
+
+.modal-error {
+	display: block;
+	min-height: 1.2rem;
+	margin-top: 0.35rem;
+	color: #b3261e;
+	font-size: 0.85rem;
+}
+
+.modal-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.6rem;
+	margin-top: 0.8rem;
+}
+
+.modal-actions button {
+	padding: 0.55rem 1.1rem;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--surface);
+	color: var(--text);
+	font-size: 0.95rem;
+	cursor: pointer;
+}
+
+.modal-actions .modal-confirm {
+	background: var(--primary-color);
+	border-color: var(--primary-dark);
+	font-weight: 600;
+}
+
+.modal-actions .modal-confirm.danger {
+	background: #b3261e;
+	border-color: #b3261e;
+	color: #fff;
+}

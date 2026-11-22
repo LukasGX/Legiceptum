@@ -27,6 +27,7 @@ if (searchInput) {
 
 document.addEventListener("keydown", (event) => {
 	if (
+		searchInput &&
 		event.key === "/" &&
 		!["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)
 	) {
@@ -34,7 +35,11 @@ document.addEventListener("keydown", (event) => {
 		searchInput.focus();
 	}
 
-	if (event.key === "Escape" && document.activeElement === searchInput) {
+	if (
+		searchInput &&
+		event.key === "Escape" &&
+		document.activeElement === searchInput
+	) {
 		searchInput.value = "";
 		searchInput.dispatchEvent(new Event("input"));
 		searchInput.blur();
@@ -68,6 +73,8 @@ if (bookmarkIcon) {
 
 		bookmarkIcon.classList.toggle("fa-solid", data.bookmarked);
 		bookmarkIcon.classList.toggle("fa-regular", !data.bookmarked);
+
+		if (!data.bookmarked) document.dispatchEvent(new Event("bookmark-removed"));
 	});
 }
 
@@ -106,6 +113,336 @@ if (notesEl) {
 	notesEl.addEventListener("input", () => {
 		if (charCounter)
 			charCounter.textContent = `${notesEl.value.length} / 2000`;
+	});
+}
+
+// modal (confirm / text input)
+function showModal({
+	title,
+	message = "",
+	confirmLabel = "OK",
+	cancelLabel = "Abbrechen",
+	input = null,
+	danger = false
+}) {
+	return new Promise((resolve) => {
+		const previouslyFocused = document.activeElement;
+		const backdrop = document.createElement("div");
+		backdrop.className = "modal-backdrop";
+		backdrop.innerHTML = `
+			<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+				<h2 id="modal-title">${escapeHTML(title)}</h2>
+				${message ? `<p>${escapeHTML(message)}</p>` : ""}
+				${
+					input
+						? `<input type="text" class="modal-input" maxlength="${input.maxLength ?? 50}"
+							placeholder="${escapeHTML(input.placeholder ?? "")}"
+							value="${escapeHTML(input.value ?? "")}" />
+						   <span class="modal-error" role="alert"></span>`
+						: ""
+				}
+				<div class="modal-actions">
+					<button type="button" class="modal-cancel">${escapeHTML(cancelLabel)}</button>
+					<button type="button" class="modal-confirm ${danger ? "danger" : ""}">${escapeHTML(confirmLabel)}</button>
+				</div>
+			</div>
+		`;
+
+		document.body.appendChild(backdrop);
+
+		const field = backdrop.querySelector(".modal-input");
+		const error = backdrop.querySelector(".modal-error");
+		const confirmBtn = backdrop.querySelector(".modal-confirm");
+		const cancelBtn = backdrop.querySelector(".modal-cancel");
+
+		(field || confirmBtn).focus();
+		field?.select();
+
+		function close(result) {
+			document.removeEventListener("keydown", onKey, true);
+			backdrop.remove();
+			previouslyFocused?.focus?.();
+			resolve(result);
+		}
+
+		function submit() {
+			if (!field) return close(true);
+
+			const value = field.value.trim();
+
+			if (!value) {
+				error.textContent = "Bitte gib einen Namen ein.";
+				return;
+			}
+
+			close(value);
+		}
+
+		function onKey(event) {
+			if (event.key === "Escape") {
+				event.stopPropagation();
+				close(null);
+			} else if (event.key === "Enter" && document.activeElement !== cancelBtn) {
+				event.preventDefault();
+				submit();
+			} else if (event.key === "Tab") {
+				const focusable = [...backdrop.querySelectorAll("input, button")];
+				const first = focusable[0];
+				const last = focusable[focusable.length - 1];
+
+				if (event.shiftKey && document.activeElement === first) {
+					event.preventDefault();
+					last.focus();
+				} else if (!event.shiftKey && document.activeElement === last) {
+					event.preventDefault();
+					first.focus();
+				}
+			}
+		}
+
+		document.addEventListener("keydown", onKey, true);
+		backdrop.addEventListener("mousedown", (event) => {
+			if (event.target === backdrop) close(null);
+		});
+		cancelBtn.addEventListener("click", () => close(null));
+		confirmBtn.addEventListener("click", submit);
+	});
+}
+
+// collections
+async function collectionRequest(url, method, body) {
+	const response = await fetch(url, {
+		method,
+		headers: body ? { "Content-Type": "application/json" } : {},
+		body: body ? JSON.stringify(body) : undefined
+	});
+
+	let data = null;
+	try {
+		data = await response.json();
+	} catch {}
+
+	if (!response.ok) {
+		const message =
+			typeof data?.detail === "string"
+				? data.detail
+				: "Ein Fehler ist aufgetreten";
+		throw new Error(message);
+	}
+
+	return data;
+}
+
+async function promptCollectionName(title, value = "") {
+	return showModal({
+		title,
+		confirmLabel: "Speichern",
+		input: { placeholder: "Name der Sammlung", value, maxLength: 50 }
+	});
+}
+
+// collections: bookmarks page
+const collectionBar = document.getElementById("collection-bar");
+
+if (collectionBar) {
+	const reload = (url) => (window.location.href = url);
+
+	const showError = async (error) =>
+		showModal({
+			title: "Fehler",
+			message: error.message,
+			confirmLabel: "OK",
+			cancelLabel: "Schließen"
+		});
+
+	document
+		.getElementById("collection-new")
+		?.addEventListener("click", async () => {
+			const name = await promptCollectionName("Neue Sammlung");
+			if (!name) return;
+
+			try {
+				const created = await collectionRequest(
+					"/collections",
+					"POST",
+					{ name }
+				);
+				reload(`/bookmarks?collection=${created.id}`);
+			} catch (error) {
+				showError(error);
+			}
+		});
+
+	document
+		.getElementById("collection-rename")
+		?.addEventListener("click", async (event) => {
+			const { id, name } = event.currentTarget.dataset;
+			const newName = await promptCollectionName(
+				"Sammlung umbenennen",
+				name
+			);
+			if (!newName || newName === name) return;
+
+			try {
+				await collectionRequest(`/collections/${id}`, "PATCH", {
+					name: newName
+				});
+				reload(`/bookmarks?collection=${id}`);
+			} catch (error) {
+				showError(error);
+			}
+		});
+
+	document
+		.getElementById("collection-delete")
+		?.addEventListener("click", async (event) => {
+			const { id, name } = event.currentTarget.dataset;
+			const ok = await showModal({
+				title: "Sammlung löschen?",
+				message: `Die Sammlung „${name}“ wird gelöscht. Deine Lesezeichen bleiben erhalten.`,
+				confirmLabel: "Löschen",
+				danger: true
+			});
+			if (!ok) return;
+
+			try {
+				await collectionRequest(`/collections/${id}`, "DELETE");
+				reload("/bookmarks");
+			} catch (error) {
+				showError(error);
+			}
+		});
+}
+
+// collections: law page popover
+const collectionBtn = document.getElementById("collection-btn");
+const collectionPopover = document.getElementById("collection-popover");
+
+if (collectionBtn && collectionPopover) {
+	const listEl = collectionPopover.querySelector(".collection-list");
+	const statusEl = collectionPopover.querySelector(".collection-status");
+	const newBtn = collectionPopover.querySelector(".collection-add");
+
+	let state = { collections: [], member_of: [] };
+
+	function setStatus(text) {
+		statusEl.textContent = text || "";
+	}
+
+	function renderPopover() {
+		if (state.collections.length === 0) {
+			listEl.innerHTML = `<p class="collection-empty">Noch keine Sammlungen.</p>`;
+			return;
+		}
+
+		listEl.innerHTML = state.collections
+			.map(
+				(c) => `
+				<label class="collection-option">
+					<input type="checkbox" value="${c.id}"
+						${state.member_of.includes(c.id) ? "checked" : ""} />
+					<span>${escapeHTML(c.name)}</span>
+				</label>`
+			)
+			.join("");
+	}
+
+	async function loadState() {
+		try {
+			state = await collectionRequest(
+				`/collections/for-law/${LAW_ID}`,
+				"GET"
+			);
+			renderPopover();
+		} catch (error) {
+			setStatus(error.message);
+		}
+	}
+
+	function setOpen(open) {
+		collectionPopover.hidden = !open;
+		collectionBtn.setAttribute("aria-expanded", open);
+		if (open) {
+			setStatus("");
+			loadState();
+		}
+	}
+
+	collectionBtn.addEventListener("click", (event) => {
+		event.stopPropagation();
+		setOpen(collectionPopover.hidden);
+	});
+
+	document.addEventListener("click", (event) => {
+		if (
+			!collectionPopover.hidden &&
+			!collectionPopover.contains(event.target) &&
+			!document.querySelector(".modal-backdrop")
+		) {
+			setOpen(false);
+		}
+	});
+
+	document.addEventListener("keydown", (event) => {
+		if (event.key === "Escape" && !collectionPopover.hidden) {
+			setOpen(false);
+			collectionBtn.focus();
+		}
+	});
+
+	listEl.addEventListener("change", async (event) => {
+		const box = event.target;
+		if (!(box instanceof HTMLInputElement)) return;
+
+		const id = Number(box.value);
+
+		try {
+			await collectionRequest(
+				`/collections/${id}/items/${LAW_ID}`,
+				box.checked ? "PUT" : "DELETE"
+			);
+
+			if (box.checked) {
+				state.member_of.push(id);
+				// Eintrag setzt automatisch ein Lesezeichen
+				bookmarkIcon?.classList.add("fa-solid");
+				bookmarkIcon?.classList.remove("fa-regular");
+			} else {
+				state.member_of = state.member_of.filter((x) => x !== id);
+			}
+			setStatus("");
+		} catch (error) {
+			box.checked = !box.checked;
+			setStatus(error.message);
+		}
+	});
+
+	newBtn.addEventListener("click", async () => {
+		const name = await promptCollectionName("Neue Sammlung");
+		if (!name) return;
+
+		try {
+			const created = await collectionRequest(
+				"/collections",
+				"POST",
+				{ name }
+			);
+			await collectionRequest(
+				`/collections/${created.id}/items/${LAW_ID}`,
+				"PUT"
+			);
+			bookmarkIcon?.classList.add("fa-solid");
+			bookmarkIcon?.classList.remove("fa-regular");
+			await loadState();
+		} catch (error) {
+			setStatus(error.message);
+		}
+	});
+
+	// Lesezeichen entfernt -> Mitgliedschaften sind serverseitig gelöscht
+	document.addEventListener("bookmark-removed", () => {
+		state.member_of = [];
+		renderPopover();
 	});
 }
 
@@ -339,28 +676,30 @@ function loadMoreResults() {
 	performSearch(currentPage + 1, true);
 }
 
-globSearchForm.addEventListener("submit", (event) => {
-	event.preventDefault();
+if (globSearchForm && globSearchInput && globSearchResults) {
+	globSearchForm.addEventListener("submit", (event) => {
+		event.preventDefault();
 
-	currentQuery = globSearchInput.value.trim();
+		currentQuery = globSearchInput.value.trim();
 
-	currentScopes = Array.from(
-		globSearchForm.querySelectorAll('input[name="scope"]:checked')
-	).map((input) => input.value);
+		currentScopes = Array.from(
+			globSearchForm.querySelectorAll('input[name="scope"]:checked')
+		).map((input) => input.value);
 
-	if (!currentQuery) return;
+		if (!currentQuery) return;
 
-	if (currentScopes.length === 0) {
-		globSearchResults.innerHTML = `
-            <p class="search-error">
-                Bitte wähle mindestens einen Suchbereich aus.
-            </p>
-        `;
-		return;
-	}
+		if (currentScopes.length === 0) {
+			globSearchResults.innerHTML = `
+	            <p class="search-error">
+	                Bitte wähle mindestens einen Suchbereich aus.
+	            </p>
+	        `;
+			return;
+		}
 
-	currentPage = 1;
-	hasMore = false;
+		currentPage = 1;
+		hasMore = false;
 
-	performSearch(1);
-});
+		performSearch(1);
+	});
+}

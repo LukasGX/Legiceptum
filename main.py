@@ -1,7 +1,9 @@
 from contextlib import asynccontextmanager
 from datetime import datetime
+from functools import lru_cache
 import json
 import os
+import sqlite3
 from typing import Literal
 
 from dotenv import load_dotenv
@@ -757,6 +759,17 @@ def toggle_bookmark(
                 """,
                 (user_id, law_id)
             )
+            # Ohne Lesezeichen keine Sammlungszugehörigkeit
+            db.execute(
+                """
+                DELETE FROM collection_items
+                WHERE law_id = ?
+                AND collection_id IN (
+                    SELECT id FROM collections WHERE user_id = ?
+                )
+                """,
+                (law_id, user_id)
+            )
             db.commit()
 
             return {"bookmarked": False}
@@ -775,17 +788,33 @@ def toggle_bookmark(
 @app.get("/bookmarks")
 async def bookmarks(
     request: Request,
+    collection: int | None = None,
     user=Depends(get_current_user)
 ):
     with get_db() as db:
-        rows = db.execute(
-            """
-            SELECT law_id FROM bookmarks
-            WHERE user_id = ?
-            ORDER BY created_at DESC
-            """,
-            (user["id"],)
-        ).fetchall()
+        if collection is not None:
+            require_owned_collection(db, collection, user["id"])
+
+            rows = db.execute(
+                """
+                SELECT b.law_id FROM bookmarks b
+                JOIN collection_items ci ON ci.law_id = b.law_id
+                WHERE b.user_id = ? AND ci.collection_id = ?
+                ORDER BY b.created_at DESC
+                """,
+                (user["id"], collection)
+            ).fetchall()
+        else:
+            rows = db.execute(
+                """
+                SELECT law_id FROM bookmarks
+                WHERE user_id = ?
+                ORDER BY created_at DESC
+                """,
+                (user["id"],)
+            ).fetchall()
+
+        collections = fetch_collections(db, user["id"])
 
     bookmarked_ids = {row["law_id"] for row in rows}
 
@@ -814,9 +843,244 @@ async def bookmarks(
             "user": user,
             "laws": all_books(),
             "active_book": "bookmarks",
-            "bookmarks": results
+            "bookmarks": results,
+            "collections": collections,
+            "active_collection": collection,
+            "max_collections": MAX_COLLECTIONS
         }
     )
+
+# ==================================================
+# Collections
+# ==================================================
+
+MAX_COLLECTIONS = 10
+
+
+class CollectionRequest(BaseModel):
+    name: str = Field(min_length=1, max_length=50)
+
+
+@lru_cache(maxsize=None)
+def _book_law_ids(book: str) -> frozenset[str]:
+    file = Path(LAWS_BASE_DIR, book + ".json")
+
+    if not file.is_file():
+        return frozenset()
+
+    with open(file, "r", encoding="utf-8") as f:
+        content = json.load(f)
+
+    return frozenset(law["id"] for law in content["laws"])
+
+
+def law_exists(law_id: str) -> bool:
+    book = law_id.split("-", 1)[0]
+
+    # Verhindert Pfad-Tricks wie "../"
+    if not book.isalnum():
+        return False
+
+    return law_id in _book_law_ids(book)
+
+
+def require_owned_collection(db, collection_id: int, user_id: int):
+    row = db.execute(
+        "SELECT id, user_id FROM collections WHERE id = ?",
+        (collection_id,)
+    ).fetchone()
+
+    if row is None:
+        raise HTTPException(status_code=404, detail="Not found")
+
+    if row["user_id"] != user_id:
+        raise HTTPException(status_code=403, detail="Forbidden")
+
+    return row
+
+
+def fetch_collections(db, user_id: int) -> list[dict]:
+    rows = db.execute(
+        """
+        SELECT c.id, c.name, COUNT(b.id) AS count
+        FROM collections c
+        LEFT JOIN collection_items ci ON ci.collection_id = c.id
+        LEFT JOIN bookmarks b
+            ON b.law_id = ci.law_id AND b.user_id = c.user_id
+        WHERE c.user_id = ?
+        GROUP BY c.id
+        ORDER BY c.name COLLATE NOCASE
+        """,
+        (user_id,)
+    ).fetchall()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/collections")
+async def list_collections(user=Depends(get_current_user)):
+    with get_db() as db:
+        return {"collections": fetch_collections(db, user["id"])}
+
+
+@app.post("/collections")
+async def create_collection(
+    data: CollectionRequest,
+    user=Depends(get_current_user)
+):
+    name = data.name.strip()
+
+    if not name:
+        raise HTTPException(status_code=422, detail="Name required")
+
+    with get_db() as db:
+        total = db.execute(
+            "SELECT COUNT(*) FROM collections WHERE user_id = ?",
+            (user["id"],)
+        ).fetchone()[0]
+
+        if total >= MAX_COLLECTIONS:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Maximal {MAX_COLLECTIONS} Sammlungen erlaubt"
+            )
+
+        try:
+            cursor = db.execute(
+                "INSERT INTO collections (user_id, name) VALUES (?, ?)",
+                (user["id"], name)
+            )
+        except sqlite3.IntegrityError:
+            raise HTTPException(
+                status_code=409,
+                detail="Eine Sammlung mit diesem Namen existiert bereits"
+            )
+
+        return {"id": cursor.lastrowid, "name": name, "count": 0}
+
+
+@app.patch("/collections/{collection_id}")
+async def rename_collection(
+    collection_id: int,
+    data: CollectionRequest,
+    user=Depends(get_current_user)
+):
+    name = data.name.strip()
+
+    if not name:
+        raise HTTPException(status_code=422, detail="Name required")
+
+    with get_db() as db:
+        require_owned_collection(db, collection_id, user["id"])
+
+        try:
+            db.execute(
+                "UPDATE collections SET name = ? WHERE id = ?",
+                (name, collection_id)
+            )
+        except sqlite3.IntegrityError:
+            raise HTTPException(
+                status_code=409,
+                detail="Eine Sammlung mit diesem Namen existiert bereits"
+            )
+
+    return {"id": collection_id, "name": name}
+
+
+@app.delete("/collections/{collection_id}")
+async def delete_collection(
+    collection_id: int,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        require_owned_collection(db, collection_id, user["id"])
+
+        db.execute(
+            "DELETE FROM collections WHERE id = ?",
+            (collection_id,)
+        )
+
+    return {"success": True}
+
+
+@app.get("/collections/for-law/{law_id}")
+async def collections_for_law(
+    law_id: str,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        collections = fetch_collections(db, user["id"])
+
+        rows = db.execute(
+            """
+            SELECT ci.collection_id
+            FROM collection_items ci
+            JOIN collections c ON c.id = ci.collection_id
+            WHERE c.user_id = ? AND ci.law_id = ?
+            """,
+            (user["id"], law_id)
+        ).fetchall()
+
+    return {
+        "collections": collections,
+        "member_of": [row["collection_id"] for row in rows]
+    }
+
+
+@app.put("/collections/{collection_id}/items/{law_id}")
+async def add_to_collection(
+    collection_id: int,
+    law_id: str,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        require_owned_collection(db, collection_id, user["id"])
+
+        if not law_exists(law_id):
+            raise HTTPException(status_code=404, detail="Law not found")
+
+        # Eintrag in Sammlung setzt automatisch ein Lesezeichen
+        db.execute(
+            """
+            INSERT INTO bookmarks (user_id, law_id)
+            SELECT ?, ?
+            WHERE NOT EXISTS (
+                SELECT 1 FROM bookmarks WHERE user_id = ? AND law_id = ?
+            )
+            """,
+            (user["id"], law_id, user["id"], law_id)
+        )
+
+        db.execute(
+            """
+            INSERT OR IGNORE INTO collection_items (collection_id, law_id)
+            VALUES (?, ?)
+            """,
+            (collection_id, law_id)
+        )
+
+    return {"success": True, "bookmarked": True}
+
+
+@app.delete("/collections/{collection_id}/items/{law_id}")
+async def remove_from_collection(
+    collection_id: int,
+    law_id: str,
+    user=Depends(get_current_user)
+):
+    with get_db() as db:
+        require_owned_collection(db, collection_id, user["id"])
+
+        db.execute(
+            """
+            DELETE FROM collection_items
+            WHERE collection_id = ? AND law_id = ?
+            """,
+            (collection_id, law_id)
+        )
+
+    return {"success": True}
+
 
 class NoteSetRequest(BaseModel):
     content: str = Field(max_length=2000)

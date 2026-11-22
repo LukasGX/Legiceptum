@@ -43,7 +43,50 @@
 					</div>
 				</header>
 
-				{% if bookmarks %}
+				<div class="collection-bar" id="collection-bar">
+					<a
+						href="/bookmarks"
+						class="collection-chip {% if not active_collection %}active{% endif %}">
+						Alle
+					</a>
+					{% for c in collections %}
+					<a
+						href="/bookmarks?collection={{ c.id }}"
+						class="collection-chip {% if c.id == active_collection %}active{% endif %}">
+						<i class="fa-regular fa-folder"></i>
+						{{ c.name }}
+						<span class="collection-chip-count">{{ c.count }}</span>
+					</a>
+					{% endfor %} {% if collections|length < max_collections %}
+					<button
+						type="button"
+						id="collection-new"
+						class="collection-chip collection-chip-new">
+						<i class="fa-solid fa-plus"></i> Neue Sammlung
+					</button>
+					{% endif %}
+				</div>
+
+				{% if active_collection %} {% for c in collections if c.id ==
+				active_collection %}
+				<div class="collection-actions">
+					<button
+						type="button"
+						id="collection-rename"
+						data-id="{{ c.id }}"
+						data-name="{{ c.name }}">
+						<i class="fa-solid fa-pen"></i> Umbenennen
+					</button>
+					<button
+						type="button"
+						id="collection-delete"
+						class="danger"
+						data-id="{{ c.id }}"
+						data-name="{{ c.name }}">
+						<i class="fa-solid fa-trash"></i> Löschen
+					</button>
+				</div>
+				{% endfor %} {% endif %} {% if bookmarks %}
 				<div class="bookmark-list">
 					{% for bookmark in bookmarks %}
 					<button
@@ -79,11 +122,19 @@
 						<i class="fa-regular fa-bookmark"></i>
 					</div>
 
+					{% if active_collection %}
+					<h2>Diese Sammlung ist leer</h2>
+					<p>
+						Füge Normen über das Ordner-Symbol auf der jeweiligen
+						Seite hinzu.
+					</p>
+					{% else %}
 					<h2>Noch keine Lesezeichen</h2>
 					<p>
 						Speichere Paragraphen und Artikel, um sie hier jederzeit
 						wiederzufinden.
 					</p>
+					{% endif %}
 				</div>
 				{% endif %}
 			</div>
