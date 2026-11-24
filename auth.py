@@ -14,6 +14,7 @@ from database.db import get_db
 password_hasher = PasswordHasher()
 
 SESSION_DURATION = timedelta(days=7)
+CONFIRMATION_DURATION = timedelta(hours=24)
 MIN_PASSWORD_LENGTH = 12
 MAX_EMAIL_LENGTH = 254
 MAX_PASSWORD_LENGTH = 1024
@@ -43,11 +44,13 @@ def hash_token(token: str) -> str:
     return hashlib.sha256(token.encode("utf-8")).hexdigest()
 
 
-def register_user(username: str, email: str, password: str) -> int | None:
-    """Create an account. Returns None if the email is already registered.
+def register_user(username: str, email: str, password: str) -> str | None:
+    """Store a pending registration and return its confirmation token.
 
-    A taken username is reported openly, a taken email is not, so callers
-    must answer both outcomes identically for the email case.
+    Returns None if the email already belongs to an account. A taken username
+    is reported openly, a taken email is not, so callers must answer both
+    outcomes identically for the email case. No user row is created before
+    the confirmation link is used.
     """
     username = username.strip()
     email = email.strip().lower()
@@ -73,36 +76,128 @@ def register_user(username: str, email: str, password: str) -> int | None:
     # Always hash, so a taken email costs the same time as a new account
     password_hash = hash_password(password)
 
+    token = secrets.token_urlsafe(32)
+
     try:
         with get_db() as db:
-            if _exists(db, "username", username):
-                raise ValueError(USERNAME_TAKEN_MESSAGE)
+            _delete_expired_pending(db)
 
-            if _exists(db, "email", email):
+            if _exists(db, "users", "email", email):
                 return None
 
-            cursor = db.execute(
-                """
-                INSERT INTO users (username, email, password_hash)
-                VALUES (?, ?, ?)
-                """,
-                (username, email, password_hash)
+            # A newer attempt for the same email replaces the older one
+            db.execute(
+                "DELETE FROM pending_registrations WHERE email = ? COLLATE NOCASE",
+                (email,)
             )
 
-            return cursor.lastrowid
+            if (_exists(db, "users", "username", username)
+                    or _exists(db, "pending_registrations", "username", username)):
+                raise ValueError(USERNAME_TAKEN_MESSAGE)
+
+            db.execute(
+                """
+                INSERT INTO pending_registrations
+                    (username, email, password_hash, token_hash, expires_at)
+                VALUES (?, ?, ?, ?, ?)
+                """,
+                (username, email, password_hash, hash_token(token),
+                 _confirmation_expiry())
+            )
+
+            return token
 
     except sqlite3.IntegrityError as exc:
         # Lost a race between the check and the insert
-        if "users.username" in str(exc):
+        if "username" in str(exc):
             raise ValueError(USERNAME_TAKEN_MESSAGE) from exc
-        if "users.email" in str(exc):
+        if "email" in str(exc):
             return None
         raise
 
 
-def _exists(db, column: str, value: str) -> bool:
+def confirm_registration(token: str) -> bool:
+    """Turn a pending registration into an account. False if the token is invalid."""
+    if not token:
+        return False
+
+    now = datetime.now(timezone.utc).isoformat()
+
+    try:
+        with get_db() as db:
+            pending = db.execute(
+                """
+                SELECT id, username, email, password_hash
+                FROM pending_registrations
+                WHERE token_hash = ? AND expires_at > ?
+                """,
+                (hash_token(token), now)
+            ).fetchone()
+
+            if pending is None:
+                return False
+
+            db.execute(
+                """
+                INSERT INTO users (username, email, password_hash)
+                VALUES (?, ?, ?)
+                """,
+                (pending["username"], pending["email"], pending["password_hash"])
+            )
+            db.execute(
+                "DELETE FROM pending_registrations WHERE id = ?",
+                (pending["id"],)
+            )
+
+            return True
+
+    except sqlite3.IntegrityError:
+        # The username or email was taken by a confirmed account meanwhile
+        return False
+
+
+def renew_pending_registration(email: str) -> tuple[str, str] | None:
+    """Issue a fresh token for a pending registration.
+
+    Returns (token, email) or None if no registration is pending for the email.
+    """
+    email = email.strip().lower()
+    token = secrets.token_urlsafe(32)
+
+    with get_db() as db:
+        _delete_expired_pending(db)
+
+        cursor = db.execute(
+            """
+            UPDATE pending_registrations
+            SET token_hash = ?, expires_at = ?
+            WHERE email = ? COLLATE NOCASE
+            """,
+            (hash_token(token), _confirmation_expiry(), email)
+        )
+
+        if cursor.rowcount == 0:
+            return None
+
+    return token, email
+
+
+def _confirmation_expiry() -> str:
+    return (datetime.now(timezone.utc) + CONFIRMATION_DURATION).isoformat()
+
+
+def _delete_expired_pending(db):
+    now = datetime.now(timezone.utc).isoformat()
+    db.execute(
+        "DELETE FROM pending_registrations WHERE expires_at <= ?",
+        (now,)
+    )
+
+
+def _exists(db, table: str, column: str, value: str) -> bool:
+    # table and column are internal constants, never user input
     row = db.execute(
-        f"SELECT 1 FROM users WHERE {column} = ? COLLATE NOCASE",
+        f"SELECT 1 FROM {table} WHERE {column} = ? COLLATE NOCASE",
         (value,)
     ).fetchone()
     return row is not None

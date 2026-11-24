@@ -1,0 +1,7 @@
+Hallo,
+
+du hast ein Konto bei Legiceptum erstellt. Bestätige deine E-Mail-Adresse über diesen Link (24 Stunden gültig):
+
+{{ link }}
+
+Wenn du dich nicht registriert hast, kannst du diese E-Mail ignorieren.

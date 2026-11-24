@@ -8,3 +8,4 @@ limiter = Limiter(key_func=get_remote_address)
 
 LOGIN_LIMIT = "5/minute;30/hour"
 REGISTER_LIMIT = "5/hour"
+RESEND_LIMIT = "5/hour"

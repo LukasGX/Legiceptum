@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#fff7e1" />
+
+		<title>Legiceptum - E-Mail bestätigen</title>
+
+		{% include 'include/imports.html' %}
+	</head>
+
+	<body>
+		<div class="head">
+			<p>Legiceptum</p>
+
+			{% include 'include/settings_menu.html' %}
+
+			<button
+				class="nav-toggle"
+				id="nav-toggle"
+				aria-label="Gesetzbuch-Navigation öffnen"
+				aria-expanded="false">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</div>
+
+		<main>
+			<aside class="nav">
+				<h2>Navigation</h2>
+				<div id="law-books">
+					{% from "include/navigation.html" import law_navigation %}
+					{{ law_navigation(laws, active_book, user) }}
+				</div>
+			</aside>
+
+			<div id="content" class="auth-page">
+				<div class="auth-container">
+					<section class="auth-card">
+						<div class="auth-icon">
+							<i class="fa-solid fa-envelope-circle-check"></i>
+						</div>
+
+						{% if confirmed %}
+						<h1>Adresse bestätigt</h1>
+						<p class="auth-description">
+							Dein Konto ist jetzt aktiv. Du kannst dich anmelden.
+						</p>
+						<p class="auth-footer">
+							<a href="/login">Zur Anmeldung</a>
+						</p>
+						{% else %}
+						<h1>Link ungültig</h1>
+						<p class="auth-description">
+							Dieser Bestätigungslink ist ungültig oder abgelaufen.
+						</p>
+						<p class="auth-footer">
+							<a href="/resend-confirmation">Neuen Link anfordern</a>
+						</p>
+						{% endif %}
+					</section>
+				</div>
+			</div>
+		</main>
+
+		<script>
+			const activeBook = "home";
+		</script>
+		<script src="/static/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,7 @@
+Hallo,
+
+jemand hat versucht, mit dieser E-Mail-Adresse ein Konto bei Legiceptum zu erstellen. Es existiert aber bereits ein Konto.
+
+Du kannst dich hier anmelden: {{ login_url }}
+
+Wenn du das nicht warst, kannst du diese E-Mail ignorieren.

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Du hast bereits ein Konto{% endblock %}
+{% block preheader %}Zu dieser E-Mail-Adresse existiert bereits ein Legiceptum-Konto.{% endblock %}
+
+{% block content %}
+<h1 style="margin:0 0 16px 0; font-family:Georgia, 'Times New Roman', serif; font-size:24px; line-height:1.3; color:#5d481b;">
+	Du hast bereits ein Konto
+</h1>
+
+<p style="margin:0 0 8px 0;">
+	Hallo, jemand hat versucht, mit dieser E-Mail-Adresse ein Konto bei
+	Legiceptum zu erstellen. Es existiert aber bereits ein Konto dazu.
+</p>
+
+{% with url=login_url, label="Zur Anmeldung" %}{% include "_button.html" %}{% endwith %}
+{% endblock %}
+
+{% block footer %}
+Wenn du das nicht warst, kannst du diese E-Mail ignorieren.
+{% endblock %}

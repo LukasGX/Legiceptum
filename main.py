@@ -7,7 +7,7 @@ import sqlite3
 from typing import Literal
 
 from dotenv import load_dotenv
-from fastapi import Depends, FastAPI, Form
+from fastapi import BackgroundTasks, Depends, FastAPI, Form
 from fastapi.params import Query
 from fastapi.exception_handlers import (
     http_exception_handler,
@@ -26,10 +26,18 @@ from pathlib import Path
 from slowapi.errors import RateLimitExceeded
 from slowapi.middleware import SlowAPIMiddleware
 
-from auth import authenticate_user, create_session, register_user, revoke_session
+from auth import (
+    authenticate_user,
+    confirm_registration,
+    create_session,
+    register_user,
+    renew_pending_registration,
+    revoke_session,
+)
 from database.db import get_db, initialize_database
 from dependencies import get_current_user, get_optional_user, get_user
-from rate_limit import LOGIN_LIMIT, REGISTER_LIMIT, limiter
+from mailer import send_already_registered_mail, send_confirmation_mail
+from rate_limit import LOGIN_LIMIT, REGISTER_LIMIT, RESEND_LIMIT, limiter
 from security import require_same_origin
 
 load_dotenv()
@@ -576,6 +584,7 @@ async def search_all_titles(data: GlobalTitleSearchRequest):
 @limiter.limit(REGISTER_LIMIT)
 async def register(
     request: Request,
+    background_tasks: BackgroundTasks,
     username: str = Form(...),
     email: str = Form(...),
     password: str = Form(...),
@@ -591,7 +600,7 @@ async def register(
         )
 
     try:
-        register_user(username, email, password)
+        token = register_user(username, email, password)
     except ValueError as exc:
         return templates.TemplateResponse(
             request=request,
@@ -600,19 +609,60 @@ async def register(
             status_code=400
         )
 
-    # Same answer whether the account was created or the email already exists.
-    # TODO: send a real confirmation email once a mail provider is set up.
+    # Mail runs in the background and the answer is the same whether the
+    # address is new or already registered, so nothing about it leaks.
+    normalized_email = email.strip().lower()
+    if token is None:
+        background_tasks.add_task(send_already_registered_mail, normalized_email)
+    else:
+        background_tasks.add_task(send_confirmation_mail, normalized_email, token)
+
+    return _auth_page(request, "register.html", registered=True)
+
+
+def _auth_page(request: Request, template: str, **extra):
+    """Render an account page with the shared navigation context."""
     return templates.TemplateResponse(
         request=request,
-        name="register.html",
+        name=template,
         context={
             "user": get_user(request),
             "laws": all_books(),
             "active_book": "account",
             "error": None,
-            "registered": True
+            **extra
         }
     )
+
+
+@app.get("/confirm")
+async def confirm_page(request: Request, token: str = Query("")):
+    return _auth_page(
+        request, "confirm.html", confirmed=confirm_registration(token)
+    )
+
+
+@app.get("/resend-confirmation")
+async def resend_confirmation_page(request: Request):
+    return _auth_page(request, "resend_confirmation.html")
+
+
+@app.post("/resend-confirmation")
+@limiter.limit(RESEND_LIMIT)
+async def resend_confirmation(
+    request: Request,
+    background_tasks: BackgroundTasks,
+    email: str = Form(...),
+    _: None = Depends(require_same_origin)
+):
+    renewed = renew_pending_registration(email)
+
+    # Same answer whether a registration is pending or not
+    if renewed is not None:
+        token, normalized_email = renewed
+        background_tasks.add_task(send_confirmation_mail, normalized_email, token)
+
+    return _auth_page(request, "resend_confirmation.html", sent=True)
 
 
 @app.post("/login")
