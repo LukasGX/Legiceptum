@@ -1,12 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Legiceptum - {{ book.abbr }}</title>
+
+		<title>{{ book.name }} ({{ book.abbr }}) - Legiceptum</title>
+
+		<meta
+			name="description"
+			content="Das {{ book.name }} ({{ book.abbr }}) auf Legiceptum: Gesetzestexte und einzelne Vorschriften übersichtlich lesen und durchsuchen." />
+
+		<meta name="robots" content="index, follow" />
+
+		<link
+			rel="canonical"
+			href="https://legiceptum.de{{ request.url.path }}" />
+
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Legiceptum" />
+		<meta
+			property="og:title"
+			content="{{ book.name }} ({{ book.abbr }}) - Legiceptum" />
+		<meta
+			property="og:description"
+			content="Das {{ book.name }} ({{ book.abbr }}) auf Legiceptum: Gesetzestexte und einzelne Vorschriften übersichtlich lesen und durchsuchen." />
+		<meta
+			property="og:url"
+			content="https://legiceptum.de{{ request.url.path }}" />
+		<meta property="og:locale" content="de_DE" />
+
+		<meta name="twitter:card" content="summary" />
+		<meta
+			name="twitter:title"
+			content="{{ book.name }} ({{ book.abbr }}) - Legiceptum" />
+		<meta
+			name="twitter:description"
+			content="Gesetzestexte und Vorschriften aus dem {{ book.name }} übersichtlich lesen." />
 
 		{% include 'include/imports.html' %}
 	</head>
+
 	<body>
 		<div class="head">
 			<p>Legiceptum</p>

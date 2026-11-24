@@ -3,7 +3,41 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Legiceptum - {{ book_abbr }} {{ law.nr }}</title>
+
+		<title>
+			{{ book_prefix }}{% if not law.no_prefix %} {% endif %}{{ law.nr }}
+			{{ book_abbr }}{% if law.name %} - {{ law.name }}{% endif %} |
+			Legiceptum
+		</title>
+
+		<meta
+			name="description"
+			content="{{ book_prefix }}{% if not law.no_prefix %} {% endif %}{{ law.nr }}{% if law.name %} {{ law.name }}{% endif %} ({{ book_abbr }}): Gesetzestext und Vorschrift im {{ book_name }} auf Legiceptum." />
+
+		<meta name="robots" content="index, follow" />
+
+		<link rel="canonical" href="https://legiceptum.de/law/{{ law.id }}" />
+
+		<meta property="og:type" content="article" />
+		<meta property="og:site_name" content="Legiceptum" />
+		<meta
+			property="og:title"
+			content="{{ book_prefix }}{% if not law.no_prefix %} {% endif %}{{ law.nr }} {{ book_abbr }}{% if law.name %} - {{ law.name }}{% endif %} | Legiceptum" />
+		<meta
+			property="og:description"
+			content="{{ book_prefix }}{% if not law.no_prefix %} {% endif %}{{ law.nr }}{% if law.name %} {{ law.name }}{% endif %} ({{ book_abbr }}): Gesetzestext und Vorschrift im {{ book_name }}." />
+		<meta
+			property="og:url"
+			content="https://legiceptum.de/law/{{ law.id }}" />
+		<meta property="og:locale" content="de_DE" />
+
+		<meta name="twitter:card" content="summary" />
+		<meta
+			name="twitter:title"
+			content="{{ book_prefix }}{% if not law.no_prefix %} {% endif %}{{ law.nr }} {{ book_abbr }}{% if law.name %} - {{ law.name }}{% endif %} | Legiceptum" />
+		<meta
+			name="twitter:description"
+			content="Gesetzestext und Vorschrift im {{ book_name }} auf Legiceptum." />
 
 		{% include 'include/imports.html' %}
 	</head>
