@@ -5,6 +5,8 @@ import json
 import os
 import sqlite3
 from typing import Literal
+from xml.etree.ElementTree import Element, SubElement, tostring
+from urllib.parse import quote
 
 from dotenv import load_dotenv
 from fastapi import BackgroundTasks, Depends, FastAPI, Form
@@ -13,7 +15,7 @@ from fastapi.exception_handlers import (
     http_exception_handler,
     request_validation_exception_handler
 )
-from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, PlainTextResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.exceptions import HTTPException, RequestValidationError
@@ -332,6 +334,50 @@ async def index(request: Request):
             "active_book": "home"
         }
     )
+
+@app.get("/robots.txt", include_in_schema=False)
+async def robots():
+    with open("static/robots.txt", "r") as f:
+        content = f.read()
+
+    return PlainTextResponse(content)
+
+@app.get("/sitemap.xml", include_in_schema=False)
+async def sitemap():
+    urlset = Element(
+        "urlset",
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    )
+
+    def add_url(path: str, lastmod: str | None = None):
+        url = SubElement(urlset, "url")
+        SubElement(url, "loc").text = f"https://legiceptum.de{path}"
+        if lastmod:
+            SubElement(url, "lastmod").text = lastmod
+
+    add_url("/")
+
+    for file in Path(LAWS_BASE_DIR).rglob("*.json"):
+        if file.name.endswith(".link.json"):
+            continue
+
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                book = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        updated = book.get("updated")
+
+        add_url(f"/book/{quote(file.stem, safe='')}", updated)
+
+        for law in book.get("laws", []):
+            law_id = law.get("id")
+            if law_id:
+                add_url(f"/law/{quote(law_id, safe='')}", updated)
+
+    xml = tostring(urlset, encoding="utf-8", xml_declaration=True)
+    return Response(content=xml, media_type="application/xml")
 
 @app.get("/book/{book}")
 async def book(
